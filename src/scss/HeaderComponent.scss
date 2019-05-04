@@ -1,0 +1,11 @@
+$dark-grey: #8899ab;
+
+.header {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    border-bottom: 1px solid $dark-grey;
+  }
