@@ -1,11 +1,18 @@
 $dark-grey: #8899ab;
 
 .header {
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    border-bottom: 1px solid $dark-grey;
-  }
+  min-height: 10vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  border-bottom: 2px solid $dark-grey;
+}
+
+.favicon {
+  height: 40px;
+  position: absolute;
+  bottom: -3px;
+}
