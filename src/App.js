@@ -7,6 +7,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <div className="text-block">
+          <h1>CAROLINA LI</h1>
+          <p>Hi! I study computer science at uWaterloo and art in my free time.</p>
+          <p>Welcome to my portfolio.</p>
+        </div>
       </div>
     );
   }

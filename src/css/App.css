@@ -3,3 +3,9 @@
 
 body {
   font-family: 'Signika', sans-serif; }
+
+.text-block {
+  margin-top: 6rem; }
+
+p {
+  font-weight: 300; }
