@@ -13,6 +13,17 @@ class App extends Component {
             Hi! I study computer science at uWaterloo and art in my free time.
           </p>
           <p>Welcome to my portfolio.</p>
+          <div className="social-media block">
+            <a href="https://www.instagram.com/caro.linarts/">
+              <img src={require('./images/instagram.svg')} alt="instagram" />
+            </a>
+            <a href="https://www.linkedin.com/in/carolinaaokeli/">
+              <img src={require('./images/linkedin.svg')} alt="linkedin" />
+            </a>
+            <a href="https://github.com/CarolinaLi/">
+              <img src={require('./images/github.svg')} alt="github" />
+            </a>
+          </div>
         </div>
         <div className="container-fluid block">
           <div className="row no-gutters">
