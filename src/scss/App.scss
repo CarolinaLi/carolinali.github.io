@@ -1,5 +1,3 @@
-$dark-grey: #8899ab;
-
 .App {
   text-align: center;
 }
@@ -15,34 +13,4 @@ p {
 
 .block {
   margin-top: 6rem;
-}
-
-.intro {
-  margin: 8rem;
-}
-
-.social-media {
-  img {
-    height: 1.5rem;
-    margin: 0rem 3rem;
-  }
-}
-
-.paragraph {
-  margin: 12rem;
-}
-
-.big-picture {
-  width: 100%;
-}
-
-.footer {
-  margin-top: 20vh;
-  padding: 5rem;
-  color: #fff;
-  background: $dark-grey;
-  
-  p {
-    font-size: 1.5rem;
-  }
 }
