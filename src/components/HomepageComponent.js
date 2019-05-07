@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Header from './HeaderComponent';
+import UnderConstruction from './UnderConstruction';
 import '../css/HomepageComponent.css';
 
 export default class HompageComponent extends Component {
   render() {
     return (
-        <>
+      <>
+        <Header />
         <div className="block">
           <h1>CAROLINA LI</h1>
           <p className="intro">
@@ -23,90 +27,100 @@ export default class HompageComponent extends Component {
             </a>
           </div>
         </div>
-      <div className="container-fluid block">
-        <div className="row no-gutters">
-          <div className="col-sm-4">
-            <img src={require('../images/green.png')} alt="dev" />
-          </div>
-          <div className="col-sm-4">
-            <img src={require('../images/blue.png')} alt="ux" />
-          </div>
-          <div className="col-sm-4">
-            <img src={require('../images/red.png')} alt="art" />
+        <div className="container-fluid block">
+          <div className="row no-gutters">
+            
+              <div className="col-sm-4">
+                <Link to="/dev">
+                  <img src={require('../images/green.png')} alt="dev" />
+                </Link>
+              </div>
+              <div className="col-sm-4">
+                <Link to="/ux">
+                  <img src={require('../images/blue.png')} alt="ux" />
+                </Link>
+              </div>
+              <div className="col-sm-4">
+                <Link to="/art">
+                  <img src={require('../images/red.png')} alt="art" />
+                </Link>
+              </div>
+              <Route path = "/dev" component = {UnderConstruction} />
+              <Route path = "/art" component = {UnderConstruction} />
+            
           </div>
         </div>
-      </div>
-      <div className="block">
-        <p className="paragraph">
+        <div className="block">
+          <p className="paragraph">
           I work mainly in frontend development because I love the visual
           aspect. I’m currently exploring user experience design. My goal is to
           create delightful experiences for people while solving meaningful
           problems.
-        </p>
-      </div>
-      <div className="block">
-        <img
-          className="big-picture"
-          src={require('../images/PortfolioToronto.jpg')}
-        />
-      </div>
-      <div className="container block">
-        <h2>Skills</h2>
-        <div className="row mt-5">
-          <div className="col-sm-4">
-            <p>
+          </p>
+        </div>
+        <div className="block">
+          <img
+            className="big-picture"
+            src={require('../images/PortfolioToronto.jpg')}
+          />
+        </div>
+        <div className="container block">
+          <h2>Skills</h2>
+          <div className="row mt-5">
+            <div className="col-sm-4">
+              <p>
               Typescript
-              <br />
+                <br />
               Javascript
-              <br />
+                <br />
               C++
-              <br />C<br />
+                <br />C<br />
               C#
-              <br />
+                <br />
               HTML
-              <br />
+                <br />
               CSS
-            </p>
-          </div>
-          <div className="col-sm-4">
-            <p>
+              </p>
+            </div>
+            <div className="col-sm-4">
+              <p>
               React
-              <br />
+                <br />
               Redux
-              <br />
+                <br />
               Saga
-              <br />
+                <br />
               Bootstrap
-              <br />
+                <br />
               Powershell
-              <br />
+                <br />
               Racket
-              <br />
+                <br />
               Agile
-            </p>
-          </div>
-          <div className="col-sm-4">
-            <p>
+              </p>
+            </div>
+            <div className="col-sm-4">
+              <p>
               Wireframing
-              <br />
+                <br />
               Prototyping
-              <br />
+                <br />
               Sketch
-              <br />
-              <br />
+                <br />
+                <br />
               Watercolour
-              <br />
+                <br />
               Digital Painting
-              <br />
+                <br />
               Photoshop
-            </p>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="container-fluid footer">
-        <h2>Let’s talk</h2>
-        <p>ca2li@edu.uwaterloo.ca</p>
-      </div>
+        <div className="container-fluid footer">
+          <h2>Let’s talk</h2>
+          <p>ca2li@edu.uwaterloo.ca</p>
+        </div>
       </>
     );
   }

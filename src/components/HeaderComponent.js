@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import favicon from './HeaderFavicon.svg';
+import '../css/Global.css';
 import '../css/HeaderComponent.css';
 
 export default class HeaderComponent extends Component {
