@@ -1,4 +1,4 @@
 # carolinali.github.io
 ## Portfolio
 
-This is the source code for my portfolio website. The master branch is for deployment, go to the src branch to see the actual code.
+This is the source code for my portfolio website. The master branch is for deployment; see the code on the src branch.
