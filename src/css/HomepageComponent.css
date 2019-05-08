@@ -5,6 +5,14 @@
   height: 1.5rem;
   margin: 0rem 3rem; }
 
+.projects {
+  padding: 0;
+  overflow: hidden; }
+
+.project img {
+  width: 33.34vw;
+  margin-left: -10px; }
+
 .paragraph {
   margin: 12rem; }
 

@@ -12,7 +12,7 @@ export default class HompageComponent extends Component {
           <h1>CAROLINA LI</h1>
           <p className="intro">
           Hi! I study computer science at uWaterloo and art in my free time.
-            <br /> Welcome to my portfolio.
+            <br /> Take a look at my projects below.
           </p>
           <div className="social-media block">
             <a href="https://www.instagram.com/caro.linarts/">
@@ -26,21 +26,21 @@ export default class HompageComponent extends Component {
             </a>
           </div>
         </div>
-        <div className="container-fluid block">
+        <div className="container-fluid block projects">
           <div className="row no-gutters">          
-            <div className="col-sm-4">
+            <div className="col-sm-4 project">
               <Link to="/dev">
-                <img src={require('../images/green.png')} alt="dev" />
+                <img src={require('../images/green-2.png')} alt="dev" />
               </Link>
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 project">
               <Link to="/ux">
-                <img src={require('../images/blue.png')} alt="ux" />
+                <img src={require('../images/blue-2.png')} alt="ux" />
               </Link>
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 project">
               <Link to="/art">
-                <img src={require('../images/red.png')} alt="art" />
+                <img src={require('../images/red-2.png')} alt="art" />
               </Link>
             </div>
           </div>
