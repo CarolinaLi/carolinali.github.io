@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Header from './HeaderComponent';
-import UnderConstruction from './UnderConstruction';
 import '../css/HomepageComponent.css';
 
 export default class HompageComponent extends Component {
@@ -28,26 +27,22 @@ export default class HompageComponent extends Component {
           </div>
         </div>
         <div className="container-fluid block">
-          <div className="row no-gutters">
-            
-              <div className="col-sm-4">
-                <Link to="/dev">
-                  <img src={require('../images/green.png')} alt="dev" />
-                </Link>
-              </div>
-              <div className="col-sm-4">
-                <Link to="/ux">
-                  <img src={require('../images/blue.png')} alt="ux" />
-                </Link>
-              </div>
-              <div className="col-sm-4">
-                <Link to="/art">
-                  <img src={require('../images/red.png')} alt="art" />
-                </Link>
-              </div>
-              <Route path = "/dev" component = {UnderConstruction} />
-              <Route path = "/art" component = {UnderConstruction} />
-            
+          <div className="row no-gutters">          
+            <div className="col-sm-4">
+              <Link to="/dev">
+                <img src={require('../images/green.png')} alt="dev" />
+              </Link>
+            </div>
+            <div className="col-sm-4">
+              <Link to="/ux">
+                <img src={require('../images/blue.png')} alt="ux" />
+              </Link>
+            </div>
+            <div className="col-sm-4">
+              <Link to="/art">
+                <img src={require('../images/red.png')} alt="art" />
+              </Link>
+            </div>
           </div>
         </div>
         <div className="block">

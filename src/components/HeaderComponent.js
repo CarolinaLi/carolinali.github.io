@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import favicon from './HeaderFavicon.svg';
 import '../css/Global.css';
 import '../css/HeaderComponent.css';
@@ -11,7 +12,9 @@ export default class HeaderComponent extends Component {
           <a>Résumé</a>
           <a href='https://society6.com/linarts'>Shop</a>
         </div>
-        <img className="favicon" src={favicon} alt="Favicon" />
+        <Link to="/">
+          <img className="favicon" src={favicon} alt="Favicon" />
+        </Link>
       </header>
     );
   }
