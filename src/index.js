@@ -10,8 +10,7 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route path = "/" exact component = {Homepage} />
-      <Route path = "/dev" component = {UnderConstruction} />
-      <Route path = "/art" component = {UnderConstruction} />
+      <Route path = "/ux" component = {UnderConstruction} />
     </Switch>
   </Router>, document.getElementById('root')
 );

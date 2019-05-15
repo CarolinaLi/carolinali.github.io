@@ -9,8 +9,8 @@ export default class HeaderComponent extends Component {
     return (
       <header className="header">
         <div className="left-links">
-          <a>Résumé</a>
-          <a href='https://society6.com/linarts'>Shop</a>
+          {/* <a>Résumé</a>
+          <a href='https://society6.com/linarts'>Shop</a> */}
         </div>
         <Link to="/">
           <img className="favicon" src={favicon} alt="Favicon" />

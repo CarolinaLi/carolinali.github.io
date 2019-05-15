@@ -7,7 +7,7 @@ export default class UnderConstructionComponent extends Component {
     return (
       <>
         <Header />
-        <h1 className="block">This page is under construction</h1>
+        <h1 className="block">Working on this page right now!</h1>
       </>
     );
   }

@@ -11,7 +11,7 @@ export default class HompageComponent extends Component {
         <div className="block">
           <h1>CAROLINA LI</h1>
           <p className="intro">
-          Hi! I study computer science at uWaterloo and art in my free time.
+          Hi! I code and create designs. I strive for simplicity and elegance in both.
             <br /> Take a look at my projects below.
           </p>
           <div className="social-media block">
@@ -29,9 +29,9 @@ export default class HompageComponent extends Component {
         <div className="container-fluid block projects">
           <div className="row no-gutters">          
             <div className="col-sm-4 project">
-              <Link to="/dev">
+              <a href="https://github.com/CarolinaLi/">
                 <img src={require('../images/green-2.png')} alt="dev" />
-              </Link>
+              </a>
             </div>
             <div className="col-sm-4 project">
               <Link to="/ux">
@@ -39,9 +39,9 @@ export default class HompageComponent extends Component {
               </Link>
             </div>
             <div className="col-sm-4 project">
-              <Link to="/art">
+              <a href="https://society6.com/linarts/collection/gallery">
                 <img src={require('../images/red-2.png')} alt="art" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
