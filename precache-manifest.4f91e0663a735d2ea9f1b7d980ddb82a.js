@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/linkedin.45585c89.svg"
   },
   {
-    "revision": "bd383ff9c3c474f3ccdb",
+    "revision": "29e927a7e8c4fecf0bc8",
     "url": "/static/css/main.e9d221d0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "5acfd6bc805323b4692a",
-    "url": "/static/js/2.4489689b.chunk.js"
+    "revision": "12a0f4b8c985a587a13c",
+    "url": "/static/js/2.4a176d00.chunk.js"
   },
   {
     "revision": "a8e6b012412eef3f693162a54a34cc02",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/instagram.4ef82e3b.svg"
   },
   {
-    "revision": "bd383ff9c3c474f3ccdb",
-    "url": "/static/js/main.f569eadf.chunk.js"
+    "revision": "29e927a7e8c4fecf0bc8",
+    "url": "/static/js/main.75d94472.chunk.js"
   },
   {
     "revision": "cf0b23042db2fda8dc6b0a0c0bd16d01",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/PortfolioToronto.210a3a63.jpg"
   },
   {
-    "revision": "947bc445a47fb15463e6820190212db0",
+    "revision": "9729ebe50bd0e27f73363cd8498d1f56",
     "url": "/index.html"
   }
 ];
