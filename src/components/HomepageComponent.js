@@ -11,7 +11,8 @@ export default class HompageComponent extends Component {
         <div className="block">
           <h1>CAROLINA LI</h1>
           <p className="intro">
-          Hi! I code and create designs. I strive for simplicity and elegance in both.
+            Hi! I code and create designs. I strive for simplicity and elegance
+            in both.
             <br /> Take a look at my projects below.
           </p>
           <div className="social-media block">
@@ -27,7 +28,7 @@ export default class HompageComponent extends Component {
           </div>
         </div>
         <div className="container-fluid block projects">
-          <div className="row no-gutters">          
+          <div className="row no-gutters">
             <div className="col-sm-4 project">
               <a href="https://github.com/CarolinaLi/">
                 <img src={require('../images/green-2.png')} alt="dev" />
@@ -47,10 +48,10 @@ export default class HompageComponent extends Component {
         </div>
         <div className="block">
           <p className="paragraph">
-          I work mainly in frontend development because I love the visual
-          aspect. I’m currently exploring user experience design. My goal is to
-          create delightful experiences for people while solving meaningful
-          problems.
+            Most of my dev experience is in frontend, because I love the visual
+            aspect. I’m currently searching for user experience design roles. My
+            goal is to create delightful experiences for people while solving
+            important problems.
           </p>
         </div>
         <div className="block">
@@ -64,50 +65,50 @@ export default class HompageComponent extends Component {
           <div className="row mt-5">
             <div className="col-sm-4">
               <p>
-              Typescript
+                Typescript
                 <br />
-              Javascript
+                Javascript
                 <br />
-              C++
+                C++
                 <br />C<br />
-              C#
+                C#
                 <br />
-              HTML
+                HTML
                 <br />
-              CSS
+                CSS
               </p>
             </div>
             <div className="col-sm-4">
               <p>
-              React
+                React
                 <br />
-              Redux
+                Redux
                 <br />
-              Saga
+                Saga
                 <br />
-              Bootstrap
+                Bootstrap
                 <br />
-              Powershell
+                Powershell
                 <br />
-              Racket
+                Racket
                 <br />
-              Agile
+                Agile
               </p>
             </div>
             <div className="col-sm-4">
               <p>
-              Wireframing
+                Wireframing
                 <br />
-              Prototyping
+                Prototyping
                 <br />
-              Sketch
+                Sketch
                 <br />
                 <br />
-              Watercolour
+                Watercolour
                 <br />
-              Digital Painting
+                Digital Painting
                 <br />
-              Photoshop
+                Photoshop
               </p>
             </div>
           </div>
