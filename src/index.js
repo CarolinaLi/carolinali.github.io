@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';
 import Homepage from './components/HomepageComponent';
-import UnderConstruction from './components/UnderConstruction';
+import UXPage from './components/UXPageComponent';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Router>
     <Switch>
       <Route path = "/" exact component = {Homepage} />
-      <Route path = "/ux" component = {UnderConstruction} />
+      <Route path = "/ux" component = {UXPage} />
     </Switch>
   </Router>, document.getElementById('root')
 );

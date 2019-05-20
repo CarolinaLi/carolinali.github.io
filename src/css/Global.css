@@ -2,9 +2,18 @@ body {
   text-align: center;
   font-family: 'Signika', sans-serif; }
 
+h1, h2 {
+  color: #8899ab; }
+
 p {
   font-size: 2rem;
   font-weight: 300; }
 
 .block {
   margin-top: 6rem; }
+
+.title {
+  font-size: 6rem; }
+
+.light {
+  font-weight: 300; }
