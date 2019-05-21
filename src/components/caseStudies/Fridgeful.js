@@ -5,6 +5,7 @@ import FooterComponent from '../FooterComponent';
 
 export default class FridgefulComponent extends Component {
   render() {
+    window.scrollTo(0,0);
     return (
       <>
         <h1 className="block">Fridgeful</h1>
