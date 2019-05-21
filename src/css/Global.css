@@ -25,4 +25,4 @@ p {
   margin: 12rem; }
 
 .big-picture {
-  width: 100%; }
+  max-width: 100%; }

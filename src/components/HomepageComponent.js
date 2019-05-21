@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './HeaderComponent';
 import '../css/HomepageComponent.css';
+import FooterComponent from './FooterComponent';
 
 export default class HompageComponent extends Component {
   render() {
@@ -113,10 +114,7 @@ export default class HompageComponent extends Component {
             </div>
           </div>
         </div>
-        <div className="container-fluid footer">
-          <h2>Let’s talk</h2>
-          <p>ca2li@edu.uwaterloo.ca</p>
-        </div>
+        <FooterComponent />
       </>
     );
   }
