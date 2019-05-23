@@ -9,14 +9,14 @@ export default class FridgefulComponent extends Component {
     return (
       <>
         <h1 className="block">Fridgeful</h1>
-        <h2 className="light">Shopify Design Challenge</h2>
+        <h2 className="light">UX Design Challenge</h2>
         <img
           className="block big-picture"
           src={require('../../images/FridgefulHeader.png')}
           alt="phone UI"
         />
         <p className="paragraph">
-          As a part of the Shopify application process, I had to build an
+          As a part of a UX application process, I had to build an
           experience that solves the food waste problem. I’ll take you through
           the whole process of how I made the app, from inception to the high
           fidelity mockups.

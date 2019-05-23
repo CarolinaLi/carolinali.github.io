@@ -50,9 +50,9 @@ export default class HompageComponent extends Component {
         <div className="block">
           <p className="paragraph">
             Most of my dev experience is in frontend, because I love the visual
-            aspect. I’m currently searching for user experience design roles. My
-            goal is to create delightful experiences for people while solving
-            important problems.
+            aspect. I’m currently exploring user experience and product design
+            roles. My goal is to create delightful experiences for people while
+            solving important problems.
           </p>
         </div>
         <div className="block">
