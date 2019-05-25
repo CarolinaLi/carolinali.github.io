@@ -14,7 +14,7 @@ export default class HompageComponent extends Component {
           <p className="intro">
             Hi! I code and create designs. I strive for simplicity and elegance
             in both.
-            <br /> Take a look at my projects below.
+            <br /> Click to take a look at my projects below.
           </p>
           <div className="social-media block">
             <a href="https://www.instagram.com/caro.linarts/">
