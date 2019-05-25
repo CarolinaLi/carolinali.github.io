@@ -1,47 +1,59 @@
 self.__precacheManifest = [
   {
-    "revision": "6120ef0a6603828049d331753832b626",
-    "url": "/static/media/red-2.6120ef0a.png"
+    "revision": "45585c8968c842af1b68434edd8a1f62",
+    "url": "/static/media/linkedin.45585c89.svg"
   },
   {
-    "revision": "95383bd622833844b831",
-    "url": "/static/css/main.b089dfec.chunk.css"
+    "revision": "b988a353be61bfa72563",
+    "url": "/static/css/main.fb8c5e0c.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "26dde9f7bb185698e74f",
-    "url": "/static/js/2.6a26bb4d.chunk.js"
+    "revision": "62026b89523b45d26622",
+    "url": "/static/js/2.61a4e104.chunk.js"
+  },
+  {
+    "revision": "8213fb5e52d678feb93ffb7688377bc8",
+    "url": "/static/media/dev.8213fb5e.png"
+  },
+  {
+    "revision": "caaabc171b2df7a5f819fd8ac0346412",
+    "url": "/static/media/ux.caaabc17.png"
+  },
+  {
+    "revision": "6120ef0a6603828049d331753832b626",
+    "url": "/static/media/art.6120ef0a.png"
   },
   {
     "revision": "a8e6b012412eef3f693162a54a34cc02",
     "url": "/static/media/HeaderFavicon.a8e6b012.svg"
   },
   {
+    "revision": "8c811aeee766da2700e2bdfa59ae0316",
+    "url": "/static/media/dev-hover.8c811aee.png"
+  },
+  {
+    "revision": "ca8ec4ff5260a65a1bf1fbeccc30405b",
+    "url": "/static/media/ux-hover.ca8ec4ff.png"
+  },
+  {
+    "revision": "ac020715fde2566508c65bbb255c1c12",
+    "url": "/static/media/art-hover.ac020715.png"
+  },
+  {
     "revision": "4ef82e3b90a410adf08aaf8eea887cde",
     "url": "/static/media/instagram.4ef82e3b.svg"
   },
   {
-    "revision": "45585c8968c842af1b68434edd8a1f62",
-    "url": "/static/media/linkedin.45585c89.svg"
+    "revision": "b988a353be61bfa72563",
+    "url": "/static/js/main.9d722214.chunk.js"
   },
   {
     "revision": "cf0b23042db2fda8dc6b0a0c0bd16d01",
     "url": "/static/media/github.cf0b2304.svg"
-  },
-  {
-    "revision": "8213fb5e52d678feb93ffb7688377bc8",
-    "url": "/static/media/green-2.8213fb5e.png"
-  },
-  {
-    "revision": "caaabc171b2df7a5f819fd8ac0346412",
-    "url": "/static/media/blue-2.caaabc17.png"
-  },
-  {
-    "revision": "95383bd622833844b831",
-    "url": "/static/js/main.46cdb190.chunk.js"
   },
   {
     "revision": "210a3a631e4e4389954f6b8bc33365b4",
@@ -80,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/FridgefulMockups.dc333dca.png"
   },
   {
-    "revision": "93f04cc31c7cbac6c763247a51072ed8",
+    "revision": "7aaec0dcd159d687d9bfbb293e965665",
     "url": "/index.html"
   }
 ];
