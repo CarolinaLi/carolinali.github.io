@@ -1,10 +1,37 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Header from './HeaderComponent';
 import '../css/HomepageComponent.css';
 import FooterComponent from './FooterComponent';
 
+
+
 export default class HompageComponent extends Component {
+  // TO-DO: generalize this
+  hoverDev() {
+    var img = document.getElementById('dev');
+    img.src = require('../images/dev-hover.png');
+  }
+  unhoverDev() {
+    var img = document.getElementById('dev');
+    img.src = require('../images/dev.png');
+  }
+  hoverUx() {
+    var img = document.getElementById('ux');
+    img.src = require('../images/ux-hover.png');
+  }
+  unhoverUx() {
+    var img = document.getElementById('ux');
+    img.src = require('../images/ux.png');
+  }
+  hoverArt() {
+    var img = document.getElementById('art');
+    img.src = require('../images/art-hover.png');
+  }
+  unhoverArt() {
+    var img = document.getElementById('art');
+    img.src = require('../images/art.png');
+  }
   render() {
     return (
       <>
@@ -30,19 +57,19 @@ export default class HompageComponent extends Component {
         </div>
         <div className="container-fluid block projects">
           <div className="row no-gutters">
-            <div className="col-sm-4 project">
+            <div className="col-sm-4 project dev">
               <a href="https://github.com/CarolinaLi/">
-                <img src={require('../images/green-2.png')} alt="dev" />
+                <img src={require('../images/dev.png')} alt="dev" id="dev" onMouseOver={this.hoverDev} onMouseOut={this.unhoverDev} />
               </a>
             </div>
-            <div className="col-sm-4 project">
-              <Link to="/ux">
-                <img src={require('../images/blue-2.png')} alt="ux" />
-              </Link>
+            <div className="col-sm-4 project ux">
+              <NavLink to="/ux">
+                <img src={require('../images/ux.png')} alt="ux" id="ux" onMouseOver={this.hoverUx} onMouseOut={this.unhoverUx} />
+              </NavLink>
             </div>
-            <div className="col-sm-4 project">
+            <div className="col-sm-4 project art">
               <a href="https://society6.com/linarts/collection/gallery">
-                <img src={require('../images/red-2.png')} alt="art" />
+                <img src={require('../images/art.png')} alt="art" id="art" onMouseOver={this.hoverArt} onMouseOut={this.unhoverArt}/>
               </a>
             </div>
           </div>
@@ -59,6 +86,7 @@ export default class HompageComponent extends Component {
           <img
             className="big-picture"
             src={require('../images/PortfolioToronto.jpg')}
+            alt="profile"
           />
         </div>
         <div className="container block">
