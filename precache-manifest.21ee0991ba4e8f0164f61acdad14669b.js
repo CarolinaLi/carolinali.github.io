@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/linkedin.45585c89.svg"
   },
   {
-    "revision": "b988a353be61bfa72563",
+    "revision": "4080dcc0cede7eab140a",
     "url": "/static/css/main.fb8c5e0c.chunk.css"
   },
   {
@@ -32,24 +32,24 @@ self.__precacheManifest = [
     "url": "/static/media/HeaderFavicon.a8e6b012.svg"
   },
   {
-    "revision": "8c811aeee766da2700e2bdfa59ae0316",
-    "url": "/static/media/dev-hover.8c811aee.png"
+    "revision": "11af874b3c222678b0bd7436ec48d1dd",
+    "url": "/static/media/dev-hover.11af874b.png"
   },
   {
-    "revision": "ca8ec4ff5260a65a1bf1fbeccc30405b",
-    "url": "/static/media/ux-hover.ca8ec4ff.png"
+    "revision": "c0b6f7e272a1fb339604d2414a6d6794",
+    "url": "/static/media/ux-hover.c0b6f7e2.png"
   },
   {
-    "revision": "ac020715fde2566508c65bbb255c1c12",
-    "url": "/static/media/art-hover.ac020715.png"
+    "revision": "91f998c443bd32971b898f7c7c48814c",
+    "url": "/static/media/art-hover.91f998c4.png"
   },
   {
     "revision": "4ef82e3b90a410adf08aaf8eea887cde",
     "url": "/static/media/instagram.4ef82e3b.svg"
   },
   {
-    "revision": "b988a353be61bfa72563",
-    "url": "/static/js/main.9d722214.chunk.js"
+    "revision": "4080dcc0cede7eab140a",
+    "url": "/static/js/main.26140954.chunk.js"
   },
   {
     "revision": "cf0b23042db2fda8dc6b0a0c0bd16d01",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/FridgefulMockups.dc333dca.png"
   },
   {
-    "revision": "7aaec0dcd159d687d9bfbb293e965665",
+    "revision": "e551f8400917a7c065344287f60d32fa",
     "url": "/index.html"
   }
 ];
