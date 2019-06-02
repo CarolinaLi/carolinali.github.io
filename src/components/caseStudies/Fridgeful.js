@@ -5,7 +5,7 @@ import FooterComponent from '../FooterComponent';
 
 export default class FridgefulComponent extends Component {
   render() {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
     return (
       <>
         <h1 className="block">Fridgeful</h1>
@@ -16,10 +16,10 @@ export default class FridgefulComponent extends Component {
           alt="phone UI"
         />
         <p className="paragraph">
-          As a part of a UX application process, I had to build an
-          experience that solves the food waste problem. I’ll take you through
-          the whole process of how I made the app, from inception to the high
-          fidelity mockups.
+          As a part of a UX application process, I had to build an experience
+          that solves the food waste problem. I’ll take you through the whole
+          process of how I made the app, from inception to the high fidelity
+          mockups.
         </p>
         <div className="paragraph">
           <h3>THE PROMPT</h3>
@@ -211,11 +211,10 @@ export default class FridgefulComponent extends Component {
             I used a lot of assumptions in my decision making, the biggest being
             that enough people would be willing to put in all the extra effort
             to save food and build the community. The next step would be
-            validating these assumptions and figuring out what needs to be
-            tweaked.
+            validating these assumptions, doing user testing, and figuring out
+            what needs to be tweaked.
             <br />
-            <br />
-            I hope this case study gave you an idea of how I tackle
+            <br />I hope this case study gave you an idea of how I tackle
             projects. Thanks for reading!
           </p>
         </div>

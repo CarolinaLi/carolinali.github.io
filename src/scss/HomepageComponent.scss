@@ -1,13 +1,13 @@
 $dark-grey: #8899ab;
 
 .intro {
-    margin: 8rem;
+    margin: 3rem;
   }
   
   .social-media {
     img {
       height: 1.5rem;
-      margin: 0rem 3rem;
+      margin: 0rem 2rem;
     }
   }
 
@@ -32,4 +32,23 @@ $dark-grey: #8899ab;
     p {
       font-size: 1.5rem;
     }
-}
+  }
+
+  @media screen and (min-width: 576px) {
+    .social-media {
+      img {
+        height: 1.5rem;
+        margin: 0rem 3rem;
+      }
+    }
+    
+    .intro {
+      margin: 5rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .intro {
+      margin: 8rem;
+    }
+  }
