@@ -1,2 +1,20 @@
+.footer {
+  margin-top: 20vh;
+  padding: 15vw 3vw;
+  color: #fff;
+  background: #8899ab; }
+
 .footerh2 {
-  color: #fff; }
+  color: #fff;
+  font-size: 1.5rem; }
+
+p {
+  font-size: 1.2rem; }
+
+@media screen and (min-width: 576px) {
+  .footer {
+    padding: 5rem; }
+  .footerh2 {
+    font-size: 2rem; }
+  p {
+    font-size: 1.5rem; } }
