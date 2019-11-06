@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/linkedin.45585c89.svg"
   },
   {
-    "revision": "39876c157a438b3c68c1",
-    "url": "/static/css/main.880a99d7.chunk.css"
+    "revision": "619e4f0ef51fbbb578b2",
+    "url": "/static/css/main.3b69363b.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/static/js/2.61a4e104.chunk.js"
   },
   {
-    "revision": "8213fb5e52d678feb93ffb7688377bc8",
-    "url": "/static/media/dev.8213fb5e.png"
+    "revision": "a842e8e7da021e9bacd68da8fd58521b",
+    "url": "/static/media/crown.a842e8e7.jpg"
   },
   {
-    "revision": "caaabc171b2df7a5f819fd8ac0346412",
-    "url": "/static/media/ux.caaabc17.png"
+    "revision": "3e2f932869fc5d023ba493f5fd40d9f9",
+    "url": "/static/media/fridgeful.3e2f9328.jpg"
   },
   {
-    "revision": "6120ef0a6603828049d331753832b626",
-    "url": "/static/media/art.6120ef0a.png"
+    "revision": "b08feb630e6c0ff7e0dba0baf9fd6f5d",
+    "url": "/static/media/new-art.b08feb63.jpg"
   },
   {
     "revision": "a8e6b012412eef3f693162a54a34cc02",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/static/media/instagram.4ef82e3b.svg"
   },
   {
-    "revision": "39876c157a438b3c68c1",
-    "url": "/static/js/main.fa99d65d.chunk.js"
+    "revision": "619e4f0ef51fbbb578b2",
+    "url": "/static/js/main.8363a4a6.chunk.js"
   },
   {
     "revision": "cf0b23042db2fda8dc6b0a0c0bd16d01",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/FridgefulMockups.dc333dca.png"
   },
   {
-    "revision": "ac551c48d6dcace73518ea11b4785708",
+    "revision": "0ee0af3f05cde7c578b1f59ca086ac29",
     "url": "/index.html"
   }
 ];
