@@ -10,7 +10,7 @@ export default class HompageComponent extends Component {
   // TO-DO: generalize this
   hoverCrown() {
     var img = document.getElementById('crown');
-    img.src = require('../images/dev-hover.png');
+    img.src = require('../images/crown-hover.jpg');
   }
   unhoverCrown() {
     var img = document.getElementById('crown');
@@ -18,7 +18,7 @@ export default class HompageComponent extends Component {
   }
   hoverUx() {
     var img = document.getElementById('fridgeful');
-    img.src = require('../images/fridgeful-hover.png');
+    img.src = require('../images/fridgeful-hover.jpg');
   }
   unhoverUx() {
     var img = document.getElementById('fridgeful');
@@ -26,7 +26,7 @@ export default class HompageComponent extends Component {
   }
   hoverArt() {
     var img = document.getElementById('art');
-    img.src = require('../images/art-hover.png');
+    img.src = require('../images/new-art-hover.jpg');
   }
   unhoverArt() {
     var img = document.getElementById('art');
