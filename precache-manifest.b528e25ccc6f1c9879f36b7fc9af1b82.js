@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/instagram.4ef82e3b.svg"
   },
   {
-    "revision": "f3fb547759b616ead2ad",
+    "revision": "e67ba2d9875f6e9f9c23",
     "url": "/static/css/main.cd6fbe5b.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/new-art-hover.47dc92e1.jpg"
   },
   {
-    "revision": "f3fb547759b616ead2ad",
-    "url": "/static/js/main.74e502e5.chunk.js"
+    "revision": "e67ba2d9875f6e9f9c23",
+    "url": "/static/js/main.acf196d6.chunk.js"
   },
   {
     "revision": "45585c8968c842af1b68434edd8a1f62",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/FridgefulMockups.dc333dca.png"
   },
   {
-    "revision": "9624d8d1984f9eb831261c5198d39b78",
+    "revision": "be74bb5ed51f34e62089bd0a3698d2d6",
     "url": "/index.html"
   }
 ];
