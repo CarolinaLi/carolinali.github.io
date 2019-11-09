@@ -1,10 +1,11 @@
 $dark-grey: #8899ab;
+$teal: #6CACAA;
 
 .footer {
   margin-top: 20vh;
   padding: 15vw 3vw;
   color: #fff;
-  background: $dark-grey;
+  background: $teal;
 }
 
 .footerh2 {
@@ -18,12 +19,14 @@ p {
 
 @media screen and (min-width: 576px) {
   .footer {
-    padding: 5rem;
+    padding: 1rem;
   }
-  .footerh2 {
-    font-size: 2rem;
+  .footer-text {
+    font-size: 1rem;
+    font-weight: 700;
   }
   p {
     font-size: 1.5rem;
+    margin-bottom: 0rem;
   }
 }

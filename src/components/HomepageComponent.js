@@ -10,7 +10,7 @@ export default class HompageComponent extends Component {
   // TO-DO: generalize this
   hoverCrown() {
     var img = document.getElementById('crown');
-    img.src = require('../images/crown-hover.jpg');
+    img.src = require('../images/crown-coming-soon.jpg');
   }
   unhoverCrown() {
     var img = document.getElementById('crown');
@@ -70,74 +70,6 @@ export default class HompageComponent extends Component {
               <NavLink to="/ux">
                 <img src={require('../images/fridgeful.jpg')} alt="project-fridgeful" id="fridgeful" onMouseOver={this.hoverUx} onMouseOut={this.unhoverUx} />
               </NavLink>
-            </div>
-          </div>
-        </div>
-        <div className="block">
-          <p className="paragraph">
-            Most of my dev experience is in frontend, because I love the visual
-            aspect. I’m currently exploring user experience and product design
-            roles. My goal is to create delightful experiences for people while
-            solving important problems.
-          </p>
-        </div>
-        <div className="block">
-          <img
-            className="big-picture"
-            src={require('../images/PortfolioToronto.jpg')}
-            alt="profile"
-          />
-        </div>
-        <div className="container block">
-          <h2>Skills</h2>
-          <div className="row mt-5">
-            <div className="col-4">
-              <p>
-                Typescript
-                <br />
-                Javascript
-                <br />
-                C++
-                <br />C<br />
-                C#
-                <br />
-                HTML
-                <br />
-                CSS
-              </p>
-            </div>
-            <div className="col-4">
-              <p>
-                React
-                <br />
-                Redux
-                <br />
-                Saga
-                <br />
-                Bootstrap
-                <br />
-                Powershell
-                <br />
-                Racket
-                <br />
-                Agile
-              </p>
-            </div>
-            <div className="col-4">
-              <p>
-                Wireframing
-                <br />
-                Prototyping
-                <br />
-                Sketch
-                <br />
-                <br />
-                Watercolour
-                <br />
-                Digital Painting
-                <br />
-                Photoshop
-              </p>
             </div>
           </div>
         </div>
