@@ -8,7 +8,6 @@ export default class UXPageComponent extends Component {
     return (
       <>
         <Header />
-        <h1 className="block title">UX PROJECTS</h1>
         <FridgefulComponent />
       </>
     );
