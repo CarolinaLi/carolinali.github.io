@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "45585c8968c842af1b68434edd8a1f62",
-    "url": "/static/media/linkedin.45585c89.svg"
+    "revision": "4ef82e3b90a410adf08aaf8eea887cde",
+    "url": "/static/media/instagram.4ef82e3b.svg"
   },
   {
-    "revision": "619e4f0ef51fbbb578b2",
-    "url": "/static/css/main.3b69363b.chunk.css"
+    "revision": "f3fb547759b616ead2ad",
+    "url": "/static/css/main.cd6fbe5b.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -32,32 +32,28 @@ self.__precacheManifest = [
     "url": "/static/media/HeaderFavicon.a8e6b012.svg"
   },
   {
-    "revision": "d1a4f6711b37d6e69ae5e0097cedd1f5",
-    "url": "/static/media/dev-hover.d1a4f671.png"
+    "revision": "c9e183e930575887938065858e3ab52a",
+    "url": "/static/media/crown-coming-soon.c9e183e9.jpg"
   },
   {
-    "revision": "63d05dc058e71c80b6097f9eae7c85a0",
-    "url": "/static/media/ux-hover.63d05dc0.png"
+    "revision": "05656c38a8ee732a3da5eddc5cdaf8f2",
+    "url": "/static/media/fridgeful-hover.05656c38.jpg"
   },
   {
-    "revision": "a5fc0a83ab326e02941ac87c65441909",
-    "url": "/static/media/art-hover.a5fc0a83.png"
+    "revision": "47dc92e1df1bd4307addaa314d62d2f1",
+    "url": "/static/media/new-art-hover.47dc92e1.jpg"
   },
   {
-    "revision": "4ef82e3b90a410adf08aaf8eea887cde",
-    "url": "/static/media/instagram.4ef82e3b.svg"
+    "revision": "f3fb547759b616ead2ad",
+    "url": "/static/js/main.74e502e5.chunk.js"
   },
   {
-    "revision": "619e4f0ef51fbbb578b2",
-    "url": "/static/js/main.8363a4a6.chunk.js"
+    "revision": "45585c8968c842af1b68434edd8a1f62",
+    "url": "/static/media/linkedin.45585c89.svg"
   },
   {
     "revision": "cf0b23042db2fda8dc6b0a0c0bd16d01",
     "url": "/static/media/github.cf0b2304.svg"
-  },
-  {
-    "revision": "210a3a631e4e4389954f6b8bc33365b4",
-    "url": "/static/media/PortfolioToronto.210a3a63.jpg"
   },
   {
     "revision": "9269b769e27b7678aa335743301a03fb",
@@ -92,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/FridgefulMockups.dc333dca.png"
   },
   {
-    "revision": "0ee0af3f05cde7c578b1f59ca086ac29",
+    "revision": "9624d8d1984f9eb831261c5198d39b78",
     "url": "/index.html"
   }
 ];
