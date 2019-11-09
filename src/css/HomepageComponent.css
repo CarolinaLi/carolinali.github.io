@@ -10,7 +10,7 @@
   overflow: hidden; }
 
 .project img {
-  width: 33.34vw;
+  width: 25vw;
   margin-left: -10px; }
 
 @media screen and (min-width: 576px) {
@@ -22,4 +22,5 @@
 
 @media screen and (min-width: 768px) {
   .intro {
-    margin: 8rem; } }
+    margin: 10rem;
+    margin-top: 2rem; } }

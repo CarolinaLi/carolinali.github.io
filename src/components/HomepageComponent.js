@@ -8,21 +8,21 @@ import FooterComponent from './FooterComponent';
 
 export default class HompageComponent extends Component {
   // TO-DO: generalize this
-  hoverDev() {
-    var img = document.getElementById('dev');
+  hoverCrown() {
+    var img = document.getElementById('crown');
     img.src = require('../images/dev-hover.png');
   }
-  unhoverDev() {
-    var img = document.getElementById('dev');
-    img.src = require('../images/dev.png');
+  unhoverCrown() {
+    var img = document.getElementById('crown');
+    img.src = require('../images/crown.jpg');
   }
   hoverUx() {
-    var img = document.getElementById('ux');
-    img.src = require('../images/ux-hover.png');
+    var img = document.getElementById('fridgeful');
+    img.src = require('../images/fridgeful-hover.png');
   }
   unhoverUx() {
-    var img = document.getElementById('ux');
-    img.src = require('../images/ux.png');
+    var img = document.getElementById('fridgeful');
+    img.src = require('../images/fridgeful.jpg');
   }
   hoverArt() {
     var img = document.getElementById('art');
@@ -30,7 +30,7 @@ export default class HompageComponent extends Component {
   }
   unhoverArt() {
     var img = document.getElementById('art');
-    img.src = require('../images/art.png');
+    img.src = require('../images/new-art.jpg');
   }
   render() {
     return (
@@ -39,8 +39,8 @@ export default class HompageComponent extends Component {
         <div className="block">
           <h1>CAROLINA LI</h1>
           <p className="intro">
-            Hi! I code and create designs. I strive for simplicity and elegance
-            in both. Click to take a look at my projects below.
+            Designer and artist. Currently a UX design intern at LCBO|next, 
+            previously worked as a software developer intern
           </p>
           <div className="social-media block">
             <a href="https://www.instagram.com/caro.linarts/">
@@ -56,20 +56,20 @@ export default class HompageComponent extends Component {
         </div>
         <div className="container-fluid block projects">
           <div className="row no-gutters">
-            <div className="col-4 project dev">
+            <div className="col-4 project crown">
               <a href="https://github.com/CarolinaLi/">
-                <img className="img-fluid" src={require('../images/dev.png')} alt="dev" id="dev" onMouseOver={this.hoverDev} onMouseOut={this.unhoverDev} />
+                <img className="img-fluid" src={require('../images/crown.jpg')} alt="project-crown" id="crown" onMouseOver={this.hoverCrown} onMouseOut={this.unhoverCrown} />
+              </a>
+            </div>
+            <div className="col-4 project art">
+              <a href="https://society6.com/linarts/collection/gallery">
+                <img src={require('../images/new-art.jpg')} alt="art" id="art" onMouseOver={this.hoverArt} onMouseOut={this.unhoverArt}/>
               </a>
             </div>
             <div className="col-4 project ux">
               <NavLink to="/ux">
-                <img src={require('../images/ux.png')} alt="ux" id="ux" onMouseOver={this.hoverUx} onMouseOut={this.unhoverUx} />
+                <img src={require('../images/fridgeful.jpg')} alt="project-fridgeful" id="fridgeful" onMouseOver={this.hoverUx} onMouseOut={this.unhoverUx} />
               </NavLink>
-            </div>
-            <div className="col-4 project art">
-              <a href="https://society6.com/linarts/collection/gallery">
-                <img src={require('../images/art.png')} alt="art" id="art" onMouseOver={this.hoverArt} onMouseOut={this.unhoverArt}/>
-              </a>
             </div>
           </div>
         </div>
