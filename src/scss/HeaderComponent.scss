@@ -11,15 +11,15 @@ $dark-grey: #8899ab;
   border-bottom: 2px solid $dark-grey;
 }
 
-.left-links {
+.links {
   position: absolute;
-  left: 10px;
+  right: 6rem;
   bottom: 0px;
 }
 
 a {
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin: 10px;
   text-decoration: none;
 }

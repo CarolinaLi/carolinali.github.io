@@ -10,7 +10,7 @@ export default class HompageComponent extends Component {
   // TO-DO: generalize this
   hoverCrown() {
     var img = document.getElementById('crown');
-    img.src = require('../images/crown-coming-soon.jpg');
+    img.src = require('../images/crown-hover.jpg');
   }
   unhoverCrown() {
     var img = document.getElementById('crown');
