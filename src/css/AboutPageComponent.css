@@ -10,3 +10,7 @@ h1 {
 
 p {
   font-size: 1.25rem; }
+
+.text-link {
+  margin: 0;
+  margin-left: 0.3rem; }

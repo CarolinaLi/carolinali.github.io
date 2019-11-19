@@ -25,8 +25,9 @@ export default class UXPageComponent extends Component {
               <p className="text" align="left">
                 I started as a software developer and transitioned to design because 
                 I love the human and visual aspect of tech. I’ve been drawing and 
-                painting since I was a kid and started running my art store in high 
-                school as a side hustle. 
+                painting since I was a kid and started running my 
+                <a className="text-link" href="https://society6.com/linarts/collection/gallery">
+                art store</a> in high school as a side hustle. 
               </p>
               <br></br>
               <p className="text" align="left">
