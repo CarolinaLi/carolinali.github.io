@@ -31,7 +31,8 @@ export default class UXPageComponent extends Component {
               </p>
               <br></br>
               <p className="text" align="left">
-                In my free time, I design at WATonomous, swim, bike, run, read books 
+                In my free time, I design at <a className="text-link" href="https://www.watonomous.ca/">
+                WATonomous</a>, swim, bike, run, read books 
                 and work on my next art project.
               </p>
             </div>

@@ -57,7 +57,9 @@ export default class HompageComponent extends Component {
         <div className="container-fluid block projects">
           <div className="row no-gutters">
             <div className="col-4 project crown">
-              <img className="img-fluid" src={require('../images/crown.jpg')} alt="project-crown" id="crown" onMouseOver={this.hoverCrown} onMouseOut={this.unhoverCrown} />
+              <a href="https://medium.com/@carolina.aoke.li/designing-a-product-recommendation-system-for-lcbo-customers-f6063c675c75">
+                <img className="img-fluid" src={require('../images/crown.jpg')} alt="project-crown" id="crown" onMouseOver={this.hoverCrown} onMouseOut={this.unhoverCrown} />
+              </a>
             </div>
             <div className="col-4 project art">
               <a href="https://society6.com/linarts/collection/gallery">
