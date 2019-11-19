@@ -43,13 +43,13 @@ export default class HompageComponent extends Component {
             previously worked as a software developer intern
           </p>
           <div className="social-media block">
-            <a href="https://www.instagram.com/caro.linarts/">
+            <a href="https://www.instagram.com/caro.linarts/" target = "_blank" rel="noopener noreferrer">
               <img src={require('../images/instagram.svg')} alt="instagram" />
             </a>
-            <a href="https://www.linkedin.com/in/carolinaaokeli/">
+            <a href="https://www.linkedin.com/in/carolinaaokeli/" target = "_blank" rel="noopener noreferrer">
               <img src={require('../images/linkedin.svg')} alt="linkedin" />
             </a>
-            <a href="https://github.com/CarolinaLi/">
+            <a href="https://github.com/CarolinaLi/" target = "_blank" rel="noopener noreferrer">
               <img src={require('../images/github.svg')} alt="github" />
             </a>
           </div>
@@ -57,12 +57,12 @@ export default class HompageComponent extends Component {
         <div className="container-fluid block projects">
           <div className="row no-gutters">
             <div className="col-4 project crown">
-              <a href="https://medium.com/@carolina.aoke.li/designing-a-product-recommendation-system-for-lcbo-customers-f6063c675c75">
+              <a href="https://medium.com/@carolina.aoke.li/designing-a-product-recommendation-system-for-lcbo-customers-f6063c675c75" target = "_blank" rel="noopener noreferrer">
                 <img className="img-fluid" src={require('../images/crown.jpg')} alt="project-crown" id="crown" onMouseOver={this.hoverCrown} onMouseOut={this.unhoverCrown} />
               </a>
             </div>
             <div className="col-4 project art">
-              <a href="https://society6.com/linarts/collection/gallery">
+              <a href="https://society6.com/linarts/collection/gallery" target = "_blank" rel="noopener noreferrer">
                 <img src={require('../images/new-art.jpg')} alt="art" id="art" onMouseOver={this.hoverArt} onMouseOut={this.unhoverArt}/>
               </a>
             </div>
