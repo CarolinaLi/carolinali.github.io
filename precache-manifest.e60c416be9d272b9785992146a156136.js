@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/new-art-hover.47dc92e1.jpg"
   },
   {
-    "revision": "57d00765a3aaceb42f48",
+    "revision": "3692596602fff5ed0632",
     "url": "/static/css/main.e4e5fbb3.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/static/media/fridgeful-hover.05656c38.jpg"
   },
   {
-    "revision": "57d00765a3aaceb42f48",
-    "url": "/static/js/main.0f4a34f8.chunk.js"
+    "revision": "3692596602fff5ed0632",
+    "url": "/static/js/main.4f5b079f.chunk.js"
   },
   {
     "revision": "f98ffb7d9c1a0bf507ce46833cc827c2",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/static/media/FridgefulMockups.dc333dca.png"
   },
   {
-    "revision": "976837103fb9f4ca793078b707b8dbf5",
+    "revision": "c366050c4b3ee2698abaeb1f0941bbee",
     "url": "/index.html"
   }
 ];
