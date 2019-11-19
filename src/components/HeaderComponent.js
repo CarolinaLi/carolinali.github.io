@@ -10,8 +10,8 @@ export default class HeaderComponent extends Component {
     return (
       <header className="header">
         <div className="links">
-          <a href={Pdf} target = "_blank" rel="noopener noreferrer">Résumé</a>
-          <NavLink to="/about">About</NavLink>
+          <a className="header-link" href={Pdf} target = "_blank" rel="noopener noreferrer">Résumé</a>
+          <NavLink className="header-link" to="/about">About</NavLink>
         </div>
         <Link to="/">
           <img className="favicon" src={favicon} alt="Favicon" />

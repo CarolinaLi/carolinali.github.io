@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  border-bottom: 2px solid #8899ab; }
+  border-bottom: 2px solid #448483; }
 
 .links {
   position: absolute;
@@ -15,9 +15,17 @@
 
 a {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   margin: 10px;
+  text-decoration: none;
+  color: #448483; }
+
+a:hover {
+  color: #4ADAE8;
   text-decoration: none; }
+
+.header-link {
+  margin: 0rem 0rem 0rem 4rem; }
 
 .favicon {
   height: 40px;

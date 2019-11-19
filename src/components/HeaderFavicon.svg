@@ -7,10 +7,10 @@
         <g id="Mobile" transform="translate(-22.000000, -24.000000)">
             <g id="favicon" transform="translate(27.000000, 35.000000)">
                 <rect id="Rectangle" fill="#FFFFFF" x="113" y="196" width="66" height="18" rx="1"></rect>
-                <text id="cl" fill="#8899AB" font-family="Signika-Regular, Signika" font-size="144" font-weight="normal">
+                <text id="cl" fill="#448483" font-family="Signika-Regular, Signika" font-size="144" font-weight="normal">
                     <tspan x="78.42" y="208">cl</tspan>
                 </text>
-                <polyline id="Path" stroke="#8899AB" stroke-width="12" stroke-linecap="round" points="1 200 135 0 135 0 269 200"></polyline>
+                <polyline id="Path" stroke="#448483" stroke-width="12" stroke-linecap="round" points="1 200 135 0 135 0 269 200"></polyline>
             </g>
         </g>
     </g>
