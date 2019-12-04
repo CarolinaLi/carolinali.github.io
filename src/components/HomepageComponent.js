@@ -48,7 +48,11 @@ export default class HompageComponent extends Component {
         <h1 className="black">Hi! My name is</h1>
         <h1>Carolina Li.</h1>
           <p className="intro">
-            {'I\'m currently a UX design intern at LCBO and a computer science student specializing in HCI at the University of Waterloo. Previously I worked as a software developer intern.'}
+            {'I\'m currently a UX design intern at'} 
+            <a className="text-link" href="https://www.lcbonext.com/" target = "_blank" rel="noopener noreferrer">
+            LCBO
+            </a> 
+            {' and a computer science student specializing in HCI at the University of Waterloo. Previously I worked as a software developer intern.'}
           </p>
           <div className="social-media block">
             <a href="https://www.instagram.com/caro.linarts/" target = "_blank" rel="noopener noreferrer">
