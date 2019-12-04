@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import favicon from './HeaderFavicon.svg';
+import favicon from './NewFavicon.svg';
 import Pdf from '../images/Resume.pdf';
 import '../css/Global.css';
 import '../css/HeaderComponent.css';

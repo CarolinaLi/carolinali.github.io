@@ -9,7 +9,7 @@ export default class FridgefulComponent extends Component {
     return (
       <>
         <h1 className="block">Fridgeful</h1>
-        <h2 className="light">UX Design Challenge</h2>
+        <h2 className="subtitle light">UX Design Challenge</h2>
         <img
           className="block big-picture"
           src={require('../../images/FridgefulHeader.png')}

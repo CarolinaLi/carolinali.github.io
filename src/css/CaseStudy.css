@@ -7,4 +7,10 @@ h3 {
 
 @media screen and (min-width: 576px) {
   h1 {
-    font-size: 6rem; } }
+    font-size: 6rem; }
+  .subtitle {
+    text-align: left;
+    margin-left: 8rem; }
+  .paragraph {
+    text-align: left;
+    margin-left: 8rem; } }

@@ -10,6 +10,7 @@ $bright-teal: #4ADAE8;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   border-bottom: 2px solid $teal;
+  margin-bottom: 9rem;
 }
 
 .links {
@@ -37,8 +38,8 @@ a:hover {
 
 
 .favicon {
-  height: 40px;
+  height: 3rem;
   position: absolute;
-  bottom: -3px;
-  margin-left: -20px;
+  left: 8rem;
+  margin: 0rem;
 }

@@ -18,8 +18,7 @@ export default class UXPageComponent extends Component {
             <div className="col-6">
               <h1 className="text" align="left" >hey there</h1>
               <p className="text" align="left">
-                Nice to meet you! I’m Carolina, a UX Design intern at LCBO|next 
-                and a computer science student at uWaterloo.
+                Nice to meet you!
               </p>
               <br></br>
               <p className="text" align="left">
