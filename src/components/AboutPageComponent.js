@@ -16,7 +16,7 @@ export default class UXPageComponent extends Component {
                 alt="portrait" />
             </div>
             <div className="col-6">
-              <h1 className="text" align="left" >hey there</h1>
+              <h1 className="text" align="left" >Hey there</h1>
               <p className="text" align="left">
                 Nice to meet you!
               </p>
