@@ -1,55 +1,55 @@
 self.__precacheManifest = [
   {
-    "revision": "47dc92e1df1bd4307addaa314d62d2f1",
-    "url": "/static/media/new-art-hover.47dc92e1.jpg"
+    "revision": "911ee7c0539f3c0eafd755c4a3105f38",
+    "url": "/static/media/portrait.911ee7c0.png"
   },
   {
-    "revision": "39c02d5ac37ab6825aa4",
-    "url": "/static/css/main.e4e5fbb3.chunk.css"
+    "revision": "3451515f496ce2ef954b",
+    "url": "/static/css/main.d3218238.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "edd24666d333377597b6",
-    "url": "/static/js/2.3869b4bb.chunk.js"
+    "revision": "5d503b39688c3067188c",
+    "url": "/static/js/2.a530c125.chunk.js"
   },
   {
-    "revision": "a842e8e7da021e9bacd68da8fd58521b",
-    "url": "/static/media/crown.a842e8e7.jpg"
-  },
-  {
-    "revision": "3e2f932869fc5d023ba493f5fd40d9f9",
-    "url": "/static/media/fridgeful.3e2f9328.jpg"
-  },
-  {
-    "revision": "b08feb630e6c0ff7e0dba0baf9fd6f5d",
-    "url": "/static/media/new-art.b08feb63.jpg"
-  },
-  {
-    "revision": "9cdeb40ce59586fcfa5729edb6e38f4c",
-    "url": "/static/media/HeaderFavicon.9cdeb40c.svg"
+    "revision": "d3fa7a60b4aa502ae282f2131442ff9e",
+    "url": "/static/media/NewFavicon.d3fa7a60.svg"
   },
   {
     "revision": "9136e374c1d113e9375a689412bcad3e",
     "url": "/static/media/Resume.9136e374.pdf"
   },
   {
-    "revision": "911ee7c0539f3c0eafd755c4a3105f38",
-    "url": "/static/media/portrait.911ee7c0.png"
+    "revision": "b08feb630e6c0ff7e0dba0baf9fd6f5d",
+    "url": "/static/media/new-art.b08feb63.jpg"
+  },
+  {
+    "revision": "47dc92e1df1bd4307addaa314d62d2f1",
+    "url": "/static/media/new-art-hover.47dc92e1.jpg"
+  },
+  {
+    "revision": "a842e8e7da021e9bacd68da8fd58521b",
+    "url": "/static/media/crown.a842e8e7.jpg"
   },
   {
     "revision": "43d2d537697a427b2a482a39996bd6d3",
     "url": "/static/media/crown-hover.43d2d537.jpg"
   },
   {
+    "revision": "3e2f932869fc5d023ba493f5fd40d9f9",
+    "url": "/static/media/fridgeful.3e2f9328.jpg"
+  },
+  {
     "revision": "05656c38a8ee732a3da5eddc5cdaf8f2",
     "url": "/static/media/fridgeful-hover.05656c38.jpg"
   },
   {
-    "revision": "39c02d5ac37ab6825aa4",
-    "url": "/static/js/main.bb350697.chunk.js"
+    "revision": "3451515f496ce2ef954b",
+    "url": "/static/js/main.b727fb93.chunk.js"
   },
   {
     "revision": "f98ffb7d9c1a0bf507ce46833cc827c2",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/static/media/FridgefulMockups.dc333dca.png"
   },
   {
-    "revision": "fe4e48623e21a6ef62c02813909cf4de",
+    "revision": "b47148041387d7d8a9cd84575536b751",
     "url": "/index.html"
   }
 ];
