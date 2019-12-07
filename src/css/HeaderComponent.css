@@ -7,17 +7,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   border-bottom: 2px solid #448483;
-  margin-bottom: 9rem; }
+  margin-bottom: 4rem; }
 
 .links {
   position: absolute;
-  right: 8rem;
+  right: 2rem;
   bottom: 0px; }
 
 a {
   font-size: 1.2rem;
   font-weight: 600;
-  margin: 10px;
   text-decoration: none;
   color: #448483; }
 
@@ -26,10 +25,20 @@ a:hover {
   text-decoration: none; }
 
 .header-link {
-  margin: 0rem 0rem 0rem 4rem; }
+  margin: 0rem 0rem 0rem 1rem; }
 
 .favicon {
   height: 3rem;
   position: absolute;
-  left: 8rem;
+  left: 2rem;
   margin: 0rem; }
+
+@media screen and (min-width: 768px) {
+  .header {
+    margin-bottom: 9rem; }
+  .favicon {
+    left: 8rem; }
+  .links {
+    right: 8rem; }
+  .header-link {
+    margin: 0rem 0rem 0rem 4rem; } }

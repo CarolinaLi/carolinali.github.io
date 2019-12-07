@@ -1,20 +1,41 @@
-.text {
-    margin-left: 3rem;
+.about-row {
+  margin: 0;
 }
 
-h1 {
-    font-size: 4rem;
-    margin-top: 6rem;
+.about-title {
+    font-size: 3rem;
+    margin: 2rem 0rem 1rem 0rem;
   }
 
-p {
+.text {
+  margin: 0;
   font-size: 1.25rem;
 }
 
 @media screen and (min-width: 576px) {
+
+  .about-title {
+    font-size: 4rem;
+  }
+
   .text-link {
     font-size: 1.25rem;
     margin: 0;
     margin-left: 0.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-row {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .about-title {
+    margin: 2rem 0rem 1rem 3rem;
+  }
+
+  .text {
+    margin-left: 3rem;
+    font-size: 1.25;
   }
 }

@@ -3,7 +3,7 @@ $teal: #448483;
 
 .footer {
   margin-top: 20vh;
-  padding: 15vw 3vw;
+  padding: 1rem;
   color: #fff;
   background: $teal;
 }
@@ -13,20 +13,24 @@ $teal: #448483;
   font-size: 1.5rem;
 }
 
-p {
-  font-size: 1.2rem;
+.footer-text {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 576px) {
-  .footer {
-    padding: 1rem;
-  }
   .footer-text {
     font-size: 1rem;
     font-weight: 700;
   }
+  
   p {
-    font-size: 1.5rem;
     margin-bottom: 0rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-text {
+    text-align: center;
   }
 }

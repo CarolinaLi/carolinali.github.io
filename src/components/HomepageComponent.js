@@ -45,10 +45,10 @@ export default class HompageComponent extends Component {
     return (
       <>
         <Header />
-        <h1 className="black">Hi! My name is</h1>
-        <h1>Carolina Li.</h1>
+          <h1 className="black title">Hi! My name is</h1>
+          <h1 className="title">Carolina Li.</h1>
           <p className="intro">
-            {'I\'m currently a UX design intern at'} 
+            {'I\'m currently a UX design intern at '} 
             <a className="text-link" href="https://www.lcbonext.com/" target = "_blank" rel="noopener noreferrer">
             LCBO
             </a> 
@@ -66,18 +66,18 @@ export default class HompageComponent extends Component {
             </a>
           </div>
         <div className="container-fluid block projects">
-          <div className="row no-gutters">
-            <div className="col-4 project crown">
+          <div className="row no-gutters homepage-row">
+            <div className="col-lg-4 project crown">
               <img className="img-fluid" src={this.state.hoverCrown ? crownHover : crown} 
                 alt="project-crown"  onMouseOver={() => this.hoverHandler('hoverCrown')} onMouseOut={() => this.unhoverHandler('hoverCrown')} 
                 onClick={() => this.onClickHandler('https://medium.com/@carolina.aoke.li/designing-a-product-recommendation-system-for-lcbo-customers-f6063c675c75')}/>
             </div>
-            <div className="col-4 project art">
+            <div className="col-lg-4 project art">
               <img className="img-fluid" src={this.state.hoverArt ? artHover : art} 
                 alt="art"  onMouseOver={() => this.hoverHandler('hoverArt')} onMouseOut={() => this.unhoverHandler('hoverArt')} 
                 onClick={() => this.onClickHandler('https://society6.com/linarts/collection/gallery')} />
             </div>
-            <div className="col-4 project ux">
+            <div className="col-lg-4 project ux">
               <NavLink to="/ux">
                 <img className="img-fluid" src={this.state.hoverFridgeful ? fridgefulHover : fridgeful} 
                   alt="fridgeful-project"  onMouseOver={() => this.hoverHandler('hoverFridgeful')} onMouseOut={() => this.unhoverHandler('hoverFridgeful')} />

@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  text-align: center;
+  text-align: left;
   font-family: 'Avenir', sans-serif;
 }
 
@@ -15,15 +15,11 @@ h1, h2 {
 
 h1 {
   font-size: 4.5rem;
-}
-
-p {
-  font-size: 1.5rem;
-  font-weight: 300;
+  margin-top: 0rem;
 }
 
 .block {
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 
 .paragraph {
@@ -32,6 +28,10 @@ p {
 
 .title {
   font-size: 3.5rem;
+}
+
+.black {
+  color: #000000;
 }
 
 .light {
@@ -50,9 +50,7 @@ p {
   .title {
     font-size: 4rem;
   }
-  p {
-    font-size: 1.5rem;
-  }
+
   .paragraph {
     margin: 15vw;
   }
@@ -60,9 +58,10 @@ p {
 
 @media screen and (min-width: 768px) {
   .title {
-    font-size: 6rem;
+    font-size: 5rem;
   }
-  p {
-    font-size: 2rem;
+
+  .block {
+    margin-top: 6rem;
   }
 }

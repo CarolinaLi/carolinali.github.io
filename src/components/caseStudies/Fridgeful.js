@@ -8,8 +8,8 @@ export default class FridgefulComponent extends Component {
     window.scrollTo(0, 0);
     return (
       <>
-        <h1 className="block">Fridgeful</h1>
-        <h2 className="subtitle light">UX Design Challenge</h2>
+        <h1 className="case-title block">Fridgeful</h1>
+        <h2 className="case-subtitle light">UX Design Challenge</h2>
         <img
           className="block big-picture"
           src={require('../../images/FridgefulHeader.png')}

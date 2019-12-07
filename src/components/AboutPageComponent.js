@@ -10,13 +10,13 @@ export default class UXPageComponent extends Component {
       <>
         <Header />
         <div className="container-fluid">
-          <div className="row no-gutters">
-            <div className="col-6">
+          <div className="row no-gutters about-row">
+            <div className="col-lg-6">
               <img className="img-fluid" src={require('../images/portrait.png')} 
                 alt="portrait" />
             </div>
-            <div className="col-6">
-              <h1 className="text" align="left" >Hey there</h1>
+            <div className="col-lg-6">
+              <h1 className="about-title" align="left" >Hey there</h1>
               <p className="text" align="left">
                 Nice to meet you!
               </p>
@@ -24,8 +24,7 @@ export default class UXPageComponent extends Component {
               <p className="text" align="left">
                 I started as a software developer and transitioned to design because 
                 I love the human and visual aspect of tech. I’ve been drawing and 
-                painting since I was a kid and started running my 
-                <a className="text-link" href="https://society6.com/linarts/collection/gallery">
+                painting since I was a kid and started running my <a className="text-link" href="https://society6.com/linarts/collection/gallery">
                 art store</a> in high school as a side hustle. 
               </p>
               <br></br>

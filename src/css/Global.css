@@ -2,27 +2,27 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  text-align: center;
+  text-align: left;
   font-family: 'Avenir', sans-serif; }
 
 h1, h2 {
   color: #448483; }
 
 h1 {
-  font-size: 4.5rem; }
-
-p {
-  font-size: 1.5rem;
-  font-weight: 300; }
+  font-size: 4.5rem;
+  margin-top: 0rem; }
 
 .block {
-  margin-top: 6rem; }
+  margin-top: 2rem; }
 
 .paragraph {
   margin: 15vw 5vw; }
 
 .title {
   font-size: 3.5rem; }
+
+.black {
+  color: #000000; }
 
 .light {
   font-weight: 300; }
@@ -36,13 +36,11 @@ p {
 @media screen and (min-width: 576px) {
   .title {
     font-size: 4rem; }
-  p {
-    font-size: 1.5rem; }
   .paragraph {
     margin: 15vw; } }
 
 @media screen and (min-width: 768px) {
   .title {
-    font-size: 6rem; }
-  p {
-    font-size: 2rem; } }
+    font-size: 5rem; }
+  .block {
+    margin-top: 6rem; } }
