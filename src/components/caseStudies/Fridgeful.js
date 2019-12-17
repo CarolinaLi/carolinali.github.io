@@ -25,15 +25,8 @@ export default class FridgefulComponent extends Component {
           <h3>THE PROMPT</h3>
           <p className="light italic">
             “Food waste happens in many walks of life, in large quantities from
-            big restaurants, to single homes not keeping leftovers; food waste
-            is all around us. The effects of food waste are catastrophic and
-            effect millions of people. There are efforts being done to combat
-            food waste, but more can be done.
-            <br />
-            <br />
-            Your challenge is to build an experience that helps people be more
-            conscious about food waste. See it as an opportunity to experiment
-            and explore different angles.”
+            big restaurants, to single homes not keeping leftovers. Your challenge is to build an experience that helps people be more
+            conscious about food waste.”
           </p>
         </div>
         <div className="paragraph">
@@ -79,11 +72,11 @@ export default class FridgefulComponent extends Component {
         <div className="paragraph">
           <h3>THE SOLUTION</h3>
           <p>
-            As I was coming up with ways to solve these problems, I made sure to
-            not lose our overall mission: Stop people from wasting food.
+            To stop people from wasting food, I created a mobile application that reminds users
+            about soon-to-expire food in their fridge.
             <br />
             <br />
-            This will be accomplished through three goals:
+            The mission is to prevent food waste, which will be accomplished through three goals:
             <br />
             1. Don’t let people forget about the food they already have
             <br />
