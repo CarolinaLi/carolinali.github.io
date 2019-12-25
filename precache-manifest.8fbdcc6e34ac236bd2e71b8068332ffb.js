@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/portrait.911ee7c0.png"
   },
   {
-    "revision": "3869f936d7708c520aaf",
+    "revision": "dabeff07d63e7c0f8167",
     "url": "/static/css/main.b7533bb8.chunk.css"
   },
   {
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/static/media/new-art-hover.47dc92e1.jpg"
   },
   {
-    "revision": "a842e8e7da021e9bacd68da8fd58521b",
-    "url": "/static/media/crown.a842e8e7.jpg"
+    "revision": "00a65caa17d0894d73169f3cec719a5c",
+    "url": "/static/media/crown.00a65caa.jpg"
   },
   {
-    "revision": "43d2d537697a427b2a482a39996bd6d3",
-    "url": "/static/media/crown-hover.43d2d537.jpg"
+    "revision": "ddde6c8c5268df1db911a3b08a6644dc",
+    "url": "/static/media/crown-hover.ddde6c8c.jpg"
   },
   {
     "revision": "3e2f932869fc5d023ba493f5fd40d9f9",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/static/media/fridgeful-hover.05656c38.jpg"
   },
   {
-    "revision": "3869f936d7708c520aaf",
-    "url": "/static/js/main.5ab6c5f3.chunk.js"
+    "revision": "dabeff07d63e7c0f8167",
+    "url": "/static/js/main.7b8ee74e.chunk.js"
   },
   {
     "revision": "f98ffb7d9c1a0bf507ce46833cc827c2",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/static/media/FridgefulMockups.dc333dca.png"
   },
   {
-    "revision": "9824936d073ff6aed383328e65a4ec8b",
+    "revision": "5a3aba3cd7ad636e6bcd29e85179d4f9",
     "url": "/index.html"
   }
 ];
