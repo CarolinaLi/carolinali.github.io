@@ -56,15 +56,17 @@ export default class HompageComponent extends Component {
           </p>
           <div className="social-media block">
             <a href="https://www.instagram.com/caro.linarts/" target = "_blank" rel="noopener noreferrer">
-              <img src={require('../images/instagram.svg')} alt="instagram" />
+              <img className="social-media-icon" src={require('../images/instagram.svg')} alt="instagram" />
             </a>
             <a href="https://www.linkedin.com/in/carolinaaokeli/" target = "_blank" rel="noopener noreferrer">
-              <img src={require('../images/linkedin.svg')} alt="linkedin" />
+              <img className="social-media-icon" src={require('../images/linkedin.svg')} alt="linkedin" />
             </a>
             <a href="https://github.com/CarolinaLi/" target = "_blank" rel="noopener noreferrer">
-              <img src={require('../images/github.svg')} alt="github" />
+              <img className="social-media-icon" src={require('../images/github.svg')} alt="github" />
             </a>
+            <img className="scroll-down" src={require('../images/arrow_downward.svg')} alt="scroll down" />
           </div>
+          
         <div className="container-fluid block projects">
           <div className="row no-gutters homepage-row">
             <div className="col-lg-4 project crown">
