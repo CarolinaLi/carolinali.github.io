@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from '../../components/HeaderComponent';
 import '../../css/Global.css';
 import '../../css/CaseStudy.css';
 import FooterComponent from '../FooterComponent';
@@ -8,6 +9,7 @@ export default class FridgefulComponent extends Component {
     window.scrollTo(0, 0);
     return (
       <>
+        <Header />
         <h1 className="case-title block">Fridgeful</h1>
         <h2 className="case-subtitle light">UX Design Challenge</h2>
         <img

@@ -11,6 +11,9 @@ h3 {
 .case-subtitle {
   margin-left: 2rem; }
 
+.phone {
+  height: 40rem; }
+
 @media screen and (min-width: 576px) {
   h1 {
     font-size: 6rem; }
@@ -19,7 +22,9 @@ h3 {
     margin-left: 2rem; }
   .paragraph {
     text-align: left;
-    margin-left: 2rem; } }
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem; } }
 
 @media screen and (min-width: 768px) {
   .case-title {
@@ -28,4 +33,5 @@ h3 {
     margin-left: 8rem; }
   .paragraph {
     font-size: 1.2rem;
-    margin-left: 8rem; } }
+    margin-left: 8rem;
+    margin-right: 8rem; } }

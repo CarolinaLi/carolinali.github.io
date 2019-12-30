@@ -4,7 +4,7 @@ import FooterComponent from './FooterComponent';
 import '../css/Global.css';
 import '../css/AboutPageComponent.css';
 
-export default class UXPageComponent extends Component {
+export default class AboutPageComponent extends Component {
   render() {  
     return (
       <>

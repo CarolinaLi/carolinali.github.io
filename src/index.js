@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';
 import AboutPage from './components/AboutPageComponent';
 import Homepage from './components/HomepageComponent';
-import UXPage from './components/UXPageComponent';
+import Ciroc from './components/caseStudies/Ciroc';
+import Fridgeful from './components/caseStudies/Fridgeful';
+import LCBODesignSystem from './components/caseStudies/LCBODesignSystem';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -12,7 +14,9 @@ ReactDOM.render(
     <Switch>
       <Route path = "/" exact component = {Homepage} />
       <Route path = "/about" component = {AboutPage} />
-      <Route path = "/ux" component = {UXPage} />
+      <Route path = "/ciroc" component = {Ciroc} />
+      <Route path = "/fridgeful" component = {Fridgeful} />
+      <Route path = "/lcboDesignSystem" component = {LCBODesignSystem} />
     </Switch>
   </Router>, document.getElementById('root')
 );
