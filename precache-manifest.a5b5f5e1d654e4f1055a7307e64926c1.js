@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/ciroc.00a9d9f7.gif"
   },
   {
-    "revision": "9cd003474bc56ef756e2",
+    "revision": "01a068281c69a96be1a9",
     "url": "/static/css/main.fc05d436.chunk.css"
   },
   {
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/fridgeful-hover.05656c38.jpg"
   },
   {
-    "revision": "9cd003474bc56ef756e2",
-    "url": "/static/js/main.8011883e.chunk.js"
+    "revision": "01a068281c69a96be1a9",
+    "url": "/static/js/main.2b2c1fb6.chunk.js"
   },
   {
     "revision": "911ee7c0539f3c0eafd755c4a3105f38",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/static/media/design-system-header.334d28dc.jpg"
   },
   {
-    "revision": "825dcb6c31ed7f4289cc75633e39234b",
+    "revision": "41dc01aa27f62993f4248d51ae87db1c",
     "url": "/index.html"
   }
 ];
