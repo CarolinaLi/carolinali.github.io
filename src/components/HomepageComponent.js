@@ -76,9 +76,10 @@ export default class HompageComponent extends Component {
         <div className="container-fluid block projects">
           <div className="row homepage-row">
             <div className="col-lg-4 pl-0 pr-3 project crown">
-              <img className="img-fluid" src={this.state.hoverCrown ? crownHover : crown} 
-                alt="project-crown"  onMouseOver={() => this.hoverHandler('hoverCrown')} onMouseOut={() => this.unhoverHandler('hoverCrown')} 
-                onClick={() => this.onClickHandler('https://medium.com/@carolina.aoke.li/designing-a-product-recommendation-system-for-lcbo-customers-f6063c675c75')}/>
+              <NavLink to="/lcboDesignSystem">
+                <img className="img-fluid" src={this.state.hoverDesignSystem ? designSystemHover : designSystem} 
+                  alt="lcbo-design-system-project"  onMouseOver={() => this.hoverHandler('hoverDesignSystem')} onMouseOut={() => this.unhoverHandler('hoverDesignSystem')} />
+              </NavLink>
             </div>
             <div className="col-lg-4 pl-0 pr-3 project art">
               <img className="img-fluid" src={this.state.hoverArt ? artHover : art} 
@@ -94,10 +95,9 @@ export default class HompageComponent extends Component {
           </div>
           <div className="row homepage-row">
             <div className="col-lg-6 pl-0 pr-3 project">
-              <NavLink to="/lcboDesignSystem">
-                <img className="img-fluid" src={this.state.hoverDesignSystem ? designSystemHover : designSystem} 
-                  alt="lcbo-design-system-project"  onMouseOver={() => this.hoverHandler('hoverDesignSystem')} onMouseOut={() => this.unhoverHandler('hoverDesignSystem')} />
-              </NavLink>
+              <img className="img-fluid" src={this.state.hoverCrown ? crownHover : crown} 
+                alt="project-crown"  onMouseOver={() => this.hoverHandler('hoverCrown')} onMouseOut={() => this.unhoverHandler('hoverCrown')} 
+                onClick={() => this.onClickHandler('https://medium.com/@carolina.aoke.li/designing-a-product-recommendation-system-for-lcbo-customers-f6063c675c75')}/>
             </div>
             <div className="col-lg-6 pl-0 pr-3 project">
               <NavLink to="/ciroc">
