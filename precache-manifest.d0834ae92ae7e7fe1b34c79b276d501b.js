@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/ciroc.00a9d9f7.gif"
   },
   {
-    "revision": "01a068281c69a96be1a9",
+    "revision": "97b2a06b5208fcbaad09",
     "url": "/static/css/main.fc05d436.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/NewFavicon.d3fa7a60.svg"
   },
   {
-    "revision": "4ccb4ad7e0232b32ba9f73eceb55e8fe",
-    "url": "/static/media/Resume.4ccb4ad7.pdf"
+    "revision": "925294bafe307fd4a8afcd4e2ace9f5f",
+    "url": "/static/media/Resume.925294ba.pdf"
   },
   {
     "revision": "b08feb630e6c0ff7e0dba0baf9fd6f5d",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/fridgeful-hover.05656c38.jpg"
   },
   {
-    "revision": "01a068281c69a96be1a9",
-    "url": "/static/js/main.2b2c1fb6.chunk.js"
+    "revision": "97b2a06b5208fcbaad09",
+    "url": "/static/js/main.f829b84d.chunk.js"
   },
   {
     "revision": "911ee7c0539f3c0eafd755c4a3105f38",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/static/media/design-system-header.334d28dc.jpg"
   },
   {
-    "revision": "41dc01aa27f62993f4248d51ae87db1c",
+    "revision": "eeeb8e7b913a5840e053f41d22215e9c",
     "url": "/index.html"
   }
 ];
