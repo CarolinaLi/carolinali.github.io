@@ -75,18 +75,29 @@ export default class HompageComponent extends Component {
           
         <div className="container-fluid block projects">
           <div className="row homepage-row">
-            <div className="col-lg-4 pl-0 pr-3 project crown">
+            <div className="col-md-6 pl-0 pr-3 project">
+              <img className="img-fluid" src={this.state.hoverCrown ? crownHover : crown} 
+                alt="project-crown"  onMouseOver={() => this.hoverHandler('hoverCrown')} onMouseOut={() => this.unhoverHandler('hoverCrown')} 
+                onClick={() => this.onClickHandler('https://medium.com/@carolina.aoke.li/designing-a-product-recommendation-system-for-lcbo-customers-f6063c675c75')}/>
+              {/* <div className="popup-content">
+                <p>Testing content</p>
+              </div> */}
+            </div>
+            <div className="col-md-6 pl-0 pr-3 project">
+              <NavLink to="/ciroc">
+                <img className="img-fluid" src={this.state.hoverCiroc ? cirocHover : ciroc} 
+                  alt="ciroc-project"  onMouseOver={() => this.hoverHandler('hoverCiroc')} onMouseOut={() => this.unhoverHandler('hoverCiroc')} />
+              </NavLink>
+            </div>
+          </div>
+          <div className="row homepage-row">
+            <div className="col-md-6 pl-0 pr-3 project">
               <NavLink to="/lcboDesignSystem">
                 <img className="img-fluid" src={this.state.hoverDesignSystem ? designSystemHover : designSystem} 
                   alt="lcbo-design-system-project"  onMouseOver={() => this.hoverHandler('hoverDesignSystem')} onMouseOut={() => this.unhoverHandler('hoverDesignSystem')} />
               </NavLink>
             </div>
-            <div className="col-lg-4 pl-0 pr-3 project art">
-              <img className="img-fluid" src={this.state.hoverArt ? artHover : art} 
-                alt="art"  onMouseOver={() => this.hoverHandler('hoverArt')} onMouseOut={() => this.unhoverHandler('hoverArt')} 
-                onClick={() => this.onClickHandler('https://society6.com/linarts/collection/gallery')} />
-            </div>
-            <div className="col-lg-4 pl-0 pr-3 project fridgeful">
+            <div className="col-md-6 pl-0 pr-3 project fridgeful">
               <NavLink to="/fridgeful">
                 <img className="img-fluid" src={this.state.hoverFridgeful ? fridgefulHover : fridgeful} 
                   alt="fridgeful-project"  onMouseOver={() => this.hoverHandler('hoverFridgeful')} onMouseOut={() => this.unhoverHandler('hoverFridgeful')} />
@@ -94,16 +105,10 @@ export default class HompageComponent extends Component {
             </div>
           </div>
           <div className="row homepage-row">
-            <div className="col-lg-6 pl-0 pr-3 project">
-              <img className="img-fluid" src={this.state.hoverCrown ? crownHover : crown} 
-                alt="project-crown"  onMouseOver={() => this.hoverHandler('hoverCrown')} onMouseOut={() => this.unhoverHandler('hoverCrown')} 
-                onClick={() => this.onClickHandler('https://medium.com/@carolina.aoke.li/designing-a-product-recommendation-system-for-lcbo-customers-f6063c675c75')}/>
-            </div>
-            <div className="col-lg-6 pl-0 pr-3 project">
-              <NavLink to="/ciroc">
-                <img className="img-fluid" src={this.state.hoverCiroc ? cirocHover : ciroc} 
-                  alt="ciroc-project"  onMouseOver={() => this.hoverHandler('hoverCiroc')} onMouseOut={() => this.unhoverHandler('hoverCiroc')} />
-              </NavLink>
+            <div className="col pl-0 pr-3 project art">
+              <img className="img-fluid" src={this.state.hoverArt ? artHover : art} 
+                alt="art"  onMouseOver={() => this.hoverHandler('hoverArt')} onMouseOut={() => this.unhoverHandler('hoverArt')} 
+                onClick={() => this.onClickHandler('https://society6.com/linarts/collection/gallery')} />
             </div>
           </div>
         </div>
