@@ -11,20 +11,26 @@ export default class FridgefulComponent extends Component {
       <>
         <Header />
         <h1 className="case-title block">Fridgeful</h1>
-        <h2 className="case-subtitle light">UX Design Challenge</h2>
+        <h2 className="case-subtitle light">Helping people become more mindful of food waste</h2>
         <img
           className="block big-picture"
           src={require('../../images/FridgefulHeader.png')}
           alt="phone UI"
         />
+         <p className="paragraph">
+           <b>Role: </b> Research, Prototyping, Visual Design <br />
+           <b>Timeline: </b> Four days, May 2019 <br />
+           <b>Team: </b> Myself <br />
+           <b>Tools Used: </b> Sketch and Photoshop <br />
+         </p>
         <p className="paragraph">
-          As a part of a UX application process, I had to build an experience
+          As a part of a UX design challenge, I had to build an experience
           that solves the food waste problem. I’ll take you through the whole
           process of how I made the app, from inception to the high fidelity
           mockups.
         </p>
         <div className="paragraph">
-          <h3>THE PROMPT</h3>
+          <h3 className="subtitle">THE PROMPT</h3>
           <p className="light italic">
             “Food waste happens in many walks of life, in large quantities from
             big restaurants, to single homes not keeping leftovers. Your challenge is to build an experience that helps people be more
@@ -32,7 +38,7 @@ export default class FridgefulComponent extends Component {
           </p>
         </div>
         <div className="paragraph">
-          <h3>RESEARCH</h3>
+          <h3 className="subtitle">RESEARCH</h3>
           <img
             className="big-picture"
             src={require('../../images/FridgefulNotes.png')}
@@ -52,12 +58,18 @@ export default class FridgefulComponent extends Component {
             I wanted to design for another market: the individual user.
             <br />
             <br />
+            <b>Thus, we reframe our question: 
+              <br /> 
+            How might we reduce food waste for 
+            individuals who do their own grocery shopping?</b>
+            <br />
+            <br />
             Before we start designing, we need to find the underlying problem of
             why people are wasting food.
           </p>
         </div>
         <div className="paragraph">
-          <h3>THE PROBLEM</h3>
+          <h3 className="subtitle">THE PROBLEM</h3>
           <p>
             People are buying more food than they can eat. Fruits and veggies
             are most commonly thrown away — things that expire quickly. No one
@@ -72,7 +84,7 @@ export default class FridgefulComponent extends Component {
           </p>
         </div>
         <div className="paragraph">
-          <h3>THE SOLUTION</h3>
+          <h3 className="subtitle">THE SOLUTION</h3>
           <p>
             To stop people from wasting food, I created a mobile application that reminds users
             about soon-to-expire food in their fridge.
@@ -91,7 +103,7 @@ export default class FridgefulComponent extends Component {
           </p>
         </div>
         <div className="paragraph">
-          <h3>WIREFRAMES</h3>
+          <h3 className="subtitle">WIREFRAMES</h3>
           <img
             className="big-picture"
             src={require('../../images/FridgefulWireframes.png')}
@@ -113,8 +125,7 @@ export default class FridgefulComponent extends Component {
             alt="detailed wireframes"
           />
           <p className="block">
-            I chose to have navigation on the bottom since it works better with
-            thumbs. As users move from left to right, they progress from the
+            As users move from left to right using bottom navigation, they progress from the
             individual to the wider community.
             <br />
             <br />
@@ -142,8 +153,8 @@ export default class FridgefulComponent extends Component {
           </p>
         </div>
         <div className="paragraph">
-          <h3>HIGH FIDELITY</h3>
-          <p>ADDING FOOD TO THE INVENTORY</p>
+          <h3 className="subtitle">HIGH FIDELITY</h3>
+          <p><b>ADDING FOOD TO THE INVENTORY</b></p>
           <img
             className="big-picture"
             src={require('../../images/FridgefulAdd.png')}
@@ -161,14 +172,14 @@ export default class FridgefulComponent extends Component {
             item manually. To speed things up, the app provides some default
             dates and quantities that the user can edit.
           </p>
-          <p className="block">REMOVING FOOD FROM THE INVENTORY</p>
+          <p className="block"><b>REMOVING FOOD FROM THE INVENTORY</b></p>
           <img
             className="big-picture"
             src={require('../../images/FridgefulRemove.png')}
             alt="mockup of removing food"
           />
           <p className="block">
-            Here, the app sneakily convinces users to not waste food. If they
+            Here, the app gives the users a final reminder to not waste food. If they
             choose to throw away food, the app prompts them to reconsider, and
             provides a link to an article from Learn with more information about
             when food truly expires. If it’s indeed no longer edible, users are
@@ -178,7 +189,7 @@ export default class FridgefulComponent extends Component {
             The data is then saved and displayed in the user’s stats, so people
             can track how much of their food is wasted, consumed, or donated.
           </p>
-          <p className="block">INTERACTING WITH THE COMMUNITY</p>
+          <p className="block"><b>INTERACTING WITH THE COMMUNITY</b></p>
           <img
             className="big-picture"
             src={require('../../images/FridgefulCommunity.png')}
@@ -196,7 +207,7 @@ export default class FridgefulComponent extends Component {
           </p>
         </div>
         <div className="paragraph">
-          <h3>WRAPPING IT UP</h3>
+          <h3 className="subtitle">WRAPPING IT UP</h3>
           <img
             className="big-picture"
             src={require('../../images/FridgefulMockups.png')}
@@ -208,8 +219,33 @@ export default class FridgefulComponent extends Component {
             to save food and build the community. The next step would be
             validating these assumptions, doing user testing, and figuring out
             what needs to be tweaked.
+          </p>
+        </div>
+        <div className="paragraph">
+          <h3 className="subtitle">KEY TAKEAWAYS</h3>
+          <p>
+            Looking back on my first case study, I can see many opportunities for improving
+            my process and creating a better user experience! 
             <br />
-            <br />I hope this case study gave you an idea of how I tackle
+            <br />
+            To add on to my market research, I would also interview potential users. I
+            currently live with other Waterloo students, and with five busy people sharing a 
+            kitchen, our fridge needs to be cleaned out on a weekly basis! If I were to redo 
+            this project, I would conduct user interviews directly to gain more insight into why
+            this problem exists and what people need help with.
+            <br />
+            <br />
+            Continuing with the design process, I would use all the data I collected to build
+            user personas, which will help clarify how I can best accomplish the three goals.
+            <br />
+            <br />
+            As for the interface design, I would make sure that all my design decisions are deliberate.
+            For example, I decided to place the add button on the left, when a common design pattern
+            is to put it on the bottom right. Unless if I had a really good reason to stray from the 
+            standard, I would leverage these design patterns to build a more familiar user experience.
+            <br />
+            <br />
+            I hope this case study gave you an idea of how I tackle
             projects. Thanks for reading!
           </p>
         </div>
