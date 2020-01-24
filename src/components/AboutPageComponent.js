@@ -24,12 +24,12 @@ export default class AboutPageComponent extends Component {
               <p className="text" align="left">
                 I started as a software developer and transitioned to design because 
                 I love the human and visual aspect of tech. I’ve been drawing and 
-                painting since I was a kid and started running my <a className="text-link" href="https://society6.com/linarts/collection/gallery">
+                painting since I was a kid and started running my <a className="text-link-about" href="https://society6.com/linarts/collection/gallery">
                 art store</a> in high school as a side hustle. 
               </p>
               <br></br>
               <p className="text" align="left">
-                In my free time, I design at <a className="text-link" href="https://www.watonomous.ca/">
+                In my free time, I design at <a className="text-link-about" href="https://www.watonomous.ca/">
                 WATonomous</a>, swim, bike, run, read books 
                 and work on my next art project.
               </p>

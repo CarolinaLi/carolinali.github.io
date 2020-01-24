@@ -3,8 +3,6 @@ import { NavLink } from 'react-router-dom';
 import Header from './HeaderComponent';
 import '../css/HomepageComponent.css';
 import FooterComponent from './FooterComponent';
-import art from '../images/new-art.jpg';
-import artHover from '../images/new-art-hover.jpg';
 import designSystem from '../images/design-system.jpg';
 import designSystemHover from '../images/design-system-hover.jpg';
 import ciroc from '../images/ciroc.jpg';
@@ -54,11 +52,15 @@ export default class HompageComponent extends Component {
           <h1 className="black title">Hi! My name is</h1>
           <h1 className="title">Carolina Li.</h1>
           <p className="intro">
-            {'I\'m currently a UX design intern at '} 
+            {'I\'m currently a UX design intern at'} 
             <a className="text-link" href="https://www.lcbonext.com/" target = "_blank" rel="noopener noreferrer">
             LCBO
             </a> 
-            {' and a computer science student specializing in HCI at the University of Waterloo. Previously I worked as a software developer intern.'}
+            {' and a computer science student specializing in HCI at the University of Waterloo. I’m also an avid'}
+            <a className="text-link" href="https://society6.com/linarts/collection/gallery" target = "_blank" rel="noopener noreferrer">
+            artist
+            </a> 
+            {'!'}
           </p>
           <div className="social-media block">
             <a href="https://www.instagram.com/caro.linarts/" target = "_blank" rel="noopener noreferrer">
@@ -83,10 +85,10 @@ export default class HompageComponent extends Component {
                 <p>Testing content</p>
               </div> */}
             </div>
-            <div className="col-md-6 pl-0 pr-3 project">
-              <NavLink to="/ciroc">
-                <img className="img-fluid" src={this.state.hoverCiroc ? cirocHover : ciroc} 
-                  alt="ciroc-project"  onMouseOver={() => this.hoverHandler('hoverCiroc')} onMouseOut={() => this.unhoverHandler('hoverCiroc')} />
+            <div className="col-md-6 pl-0 pr-3 project fridgeful">
+              <NavLink to="/fridgeful">
+                <img className="img-fluid" src={this.state.hoverFridgeful ? fridgefulHover : fridgeful} 
+                  alt="fridgeful-project"  onMouseOver={() => this.hoverHandler('hoverFridgeful')} onMouseOut={() => this.unhoverHandler('hoverFridgeful')} />
               </NavLink>
             </div>
           </div>
@@ -97,18 +99,11 @@ export default class HompageComponent extends Component {
                   alt="lcbo-design-system-project"  onMouseOver={() => this.hoverHandler('hoverDesignSystem')} onMouseOut={() => this.unhoverHandler('hoverDesignSystem')} />
               </NavLink>
             </div>
-            <div className="col-md-6 pl-0 pr-3 project fridgeful">
-              <NavLink to="/fridgeful">
-                <img className="img-fluid" src={this.state.hoverFridgeful ? fridgefulHover : fridgeful} 
-                  alt="fridgeful-project"  onMouseOver={() => this.hoverHandler('hoverFridgeful')} onMouseOut={() => this.unhoverHandler('hoverFridgeful')} />
+            <div className="col-md-6 pl-0 pr-3 project">
+              <NavLink to="/ciroc">
+                <img className="img-fluid" src={this.state.hoverCiroc ? cirocHover : ciroc} 
+                  alt="ciroc-project"  onMouseOver={() => this.hoverHandler('hoverCiroc')} onMouseOut={() => this.unhoverHandler('hoverCiroc')} />
               </NavLink>
-            </div>
-          </div>
-          <div className="row homepage-row">
-            <div className="col pl-0 pr-3 project art">
-              <img className="img-fluid" src={this.state.hoverArt ? artHover : art} 
-                alt="art"  onMouseOver={() => this.hoverHandler('hoverArt')} onMouseOut={() => this.unhoverHandler('hoverArt')} 
-                onClick={() => this.onClickHandler('https://society6.com/linarts/collection/gallery')} />
             </div>
           </div>
         </div>

@@ -7,15 +7,15 @@
 
 .text {
   margin: 0;
+  font-size: 1.25rem;
+  font-weight: 500; }
+
+.text-link-about {
   font-size: 1.25rem; }
 
 @media screen and (min-width: 576px) {
   .about-title {
-    font-size: 4rem; }
-  .text-link {
-    font-size: 1.25rem;
-    margin: 0;
-    margin-left: 0.3rem; } }
+    font-size: 4rem; } }
 
 @media screen and (min-width: 768px) {
   .about-row {
@@ -25,4 +25,6 @@
     margin: 2rem 0rem 1rem 3rem; }
   .text {
     margin-left: 3rem;
-    font-size: 1.25; } }
+    font-size: 1.25; }
+  .text-link-about {
+    font-size: 1.25rem; } }
