@@ -46,7 +46,12 @@
 
 @media screen and (min-width: 576px) {
   .title {
-    font-size: 3rem; }
+    font-size: 3rem;
+    margin-left: 0rem; }
+  .intro {
+    margin-left: 0rem; }
+  .social-media {
+    margin-left: 0rem; }
   .black {
     color: #000000; }
   .social-media .social-media-icon {
