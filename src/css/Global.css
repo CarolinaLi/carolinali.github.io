@@ -9,7 +9,7 @@ h1, h2 {
   color: #448483; }
 
 h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   margin-top: 0rem; }
 
 .block {
@@ -39,6 +39,6 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .title {
-    font-size: 5rem; }
+    font-size: 3rem; }
   .block {
     margin-top: 6rem; } }

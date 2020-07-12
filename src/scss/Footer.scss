@@ -14,6 +14,7 @@ $teal: #448483;
 }
 
 .footer-text {
+  text-align: center;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -26,11 +27,5 @@ $teal: #448483;
   
   p {
     margin-bottom: 0rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .footer-text {
-    text-align: center;
   }
 }

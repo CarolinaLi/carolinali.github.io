@@ -49,18 +49,28 @@ export default class HompageComponent extends Component {
     return (
       <>
         <Header />
-          <h1 className="black title">Hi! My name is</h1>
-          <h1 className="title">Carolina Li.</h1>
+        <div className="container">
+          <h1 className="title">
+            <span className="black">Hey, nice to meet you! </span>
+            <span>{'I\'m Carolina.'}</span>
+          </h1>
           <p className="intro">
-            {'I\'m currently a UX design intern at'} 
-            <a className="text-link" href="https://www.lcbonext.com/" target = "_blank" rel="noopener noreferrer">
-            LCBO
+            {'Currently a product design intern at'} 
+            <a className="text-link" href="https://www.ea.com/en-ca/about" target = "_blank" rel="noopener noreferrer">
+            EA
             </a> 
-            {' and a computer science student specializing in HCI at the University of Waterloo. I’m also an avid'}
-            <a className="text-link" href="https://society6.com/linarts/collection/gallery" target = "_blank" rel="noopener noreferrer">
-            artist
+            {' and studying CS & HCI at the'}
+            <a className="text-link" href="https://uwaterloo.ca/" target = "_blank" rel="noopener noreferrer">
+            University of Waterloo
             </a> 
-            {'!'}
+            {'. I\'m passionate about combining visual storytelling, technology, and psychology to create human-centered experiences.'}
+            <br />
+            <br />
+            {'Reach me at '}
+            <a className="text-link" href="mailto:ca2li@uwaterloo.ca" target = "_blank" rel="noopener noreferrer">
+            ca2li@uwaterloo.ca
+            </a> 
+            {' or discover my works below.'}
           </p>
           <div className="social-media block">
             <a href="https://www.instagram.com/caro.linarts/" target = "_blank" rel="noopener noreferrer">
@@ -74,8 +84,8 @@ export default class HompageComponent extends Component {
             </a>
             <img className="scroll-down" src={require('../images/arrow_downward.svg')} alt="scroll down" />
           </div>
-          
-        <div className="container-fluid block projects">
+        </div>
+        <div className="container block projects">
           <div className="row homepage-row">
             <div className="col-md-6 pl-0 pr-3 project">
               <img className="img-fluid" src={this.state.hoverCrown ? crownHover : crown} 

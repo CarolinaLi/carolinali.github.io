@@ -9,6 +9,7 @@
   font-size: 1.5rem; }
 
 .footer-text {
+  text-align: center;
   font-size: 1rem;
   font-weight: 600; }
 
@@ -18,7 +19,3 @@
     font-weight: 700; }
   p {
     margin-bottom: 0rem; } }
-
-@media screen and (min-width: 768px) {
-  .footer-text {
-    text-align: center; } }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink, Link } from 'react-router-dom';
-import favicon from './NewFavicon.svg';
+import { NavLink } from 'react-router-dom';
 import Pdf from '../images/Resume.pdf';
 import '../css/Global.css';
 import '../css/HeaderComponent.css';
@@ -10,12 +9,10 @@ export default class HeaderComponent extends Component {
     return (
       <header className="header">
         <div className="links">
-          <a className="header-link" href={Pdf} target = "_blank" rel="noopener noreferrer">Résumé</a>
+          <NavLink className="header-link" to="/">Work</NavLink>
           <NavLink className="header-link" to="/about">About</NavLink>
+          <a className="header-link" href={Pdf} target = "_blank" rel="noopener noreferrer">Résumé</a>
         </div>
-        <Link to="/">
-          <img className="favicon" src={favicon} alt="Favicon" />
-        </Link>
       </header>
     );
   }

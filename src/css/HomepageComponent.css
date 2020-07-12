@@ -3,6 +3,7 @@
   font-size: 2rem;
   font-weight: 800;
   margin-left: 2rem;
+  margin-right: 2rem;
   margin-top: 0rem; }
 
 .intro {
@@ -54,22 +55,12 @@
 
 @media screen and (min-width: 768px) {
   .title {
-    font-size: 5rem;
-    margin-left: 8rem; }
+    font-size: 3rem; }
   .intro {
-    margin: 0rem 8rem 2rem 8rem;
     font-size: 1.5rem; }
   .text-link {
     font-size: 1.5rem; }
-  .social-media {
-    margin-left: 8rem; }
-    .social-media a {
-      margin: 0; }
+  .social-media a {
+    margin: 0; }
   .homepage-row {
-    margin-left: 8rem;
-    margin-right: 8rem;
     margin-bottom: 1rem; } }
-
-@media screen and (min-width: 992px) {
-  .intro {
-    margin: 0rem 20rem 2rem 8rem; } }
