@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cf64a85492a3ed4eae47",
-    "url": "/static/css/main.633e4220.chunk.css"
+    "revision": "9a8ebc6c36a1de255c30",
+    "url": "/static/css/main.8c989595.chunk.css"
   },
   {
-    "revision": "cf64a85492a3ed4eae47",
-    "url": "/static/js/main.32bb0288.chunk.js"
+    "revision": "9a8ebc6c36a1de255c30",
+    "url": "/static/js/main.20223eaa.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/js/2.f49282c3.chunk.js"
   },
   {
-    "revision": "ae945f1fda630a0ba38dccc5aa8af377",
-    "url": "/static/media/Resume.ae945f1f.pdf"
+    "revision": "c07839f2e0be57e8a7d59cce36e1de42",
+    "url": "/static/media/resume-july-2020.c07839f2.pdf"
   },
   {
     "revision": "293428fec45f655f1c878576e7f0e6e1",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/static/media/design-system-header.334d28dc.jpg"
   },
   {
-    "revision": "e1fe542e75ae735167168844f8a61a28",
+    "revision": "cb698c6cc332adf7cca6a23d4d36fa90",
     "url": "/index.html"
   }
 ];

@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.633e4220.chunk.css",
-  "main.js": "/static/js/main.32bb0288.chunk.js",
-  "main.js.map": "/static/js/main.32bb0288.chunk.js.map",
+  "main.css": "/static/css/main.8c989595.chunk.css",
+  "main.js": "/static/js/main.20223eaa.chunk.js",
+  "main.js.map": "/static/js/main.20223eaa.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.f49282c3.chunk.js": "/static/js/2.f49282c3.chunk.js",
   "static/js/2.f49282c3.chunk.js.map": "/static/js/2.f49282c3.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.5bb6e72cce9bd80330bbfe2de6e0baa6.js": "/precache-manifest.5bb6e72cce9bd80330bbfe2de6e0baa6.js",
+  "precache-manifest.f38b4817647a4aaef0e747d2ae7e05aa.js": "/precache-manifest.f38b4817647a4aaef0e747d2ae7e05aa.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.633e4220.chunk.css.map": "/static/css/main.633e4220.chunk.css.map",
+  "static/css/main.8c989595.chunk.css.map": "/static/css/main.8c989595.chunk.css.map",
   "static/media/FridgefulAdd.png": "/static/media/FridgefulAdd.5463955a.png",
   "static/media/FridgefulCommunity.png": "/static/media/FridgefulCommunity.5b3f093c.png",
   "static/media/FridgefulHeader.png": "/static/media/FridgefulHeader.9269b769.png",
@@ -18,7 +18,6 @@
   "static/media/FridgefulRemove.png": "/static/media/FridgefulRemove.8a421102.png",
   "static/media/FridgefulSketchWF.png": "/static/media/FridgefulSketchWF.54aede85.png",
   "static/media/FridgefulWireframes.png": "/static/media/FridgefulWireframes.6279c719.png",
-  "static/media/Resume.pdf": "/static/media/Resume.ae945f1f.pdf",
   "static/media/arrow_downward.svg": "/static/media/arrow_downward.fc96f5ac.svg",
   "static/media/ciroc-header.jpg": "/static/media/ciroc-header.a6d4019f.jpg",
   "static/media/ciroc-hover.jpg": "/static/media/ciroc-hover.88e9e977.jpg",
@@ -34,5 +33,6 @@
   "static/media/github.svg": "/static/media/github.f8ddf64e.svg",
   "static/media/instagram.svg": "/static/media/instagram.f98ffb7d.svg",
   "static/media/linkedin.svg": "/static/media/linkedin.3fdb4c5f.svg",
-  "static/media/portrait.png": "/static/media/portrait.911ee7c0.png"
+  "static/media/portrait.png": "/static/media/portrait.911ee7c0.png",
+  "static/media/resume-july-2020.pdf": "/static/media/resume-july-2020.c07839f2.pdf"
 }
