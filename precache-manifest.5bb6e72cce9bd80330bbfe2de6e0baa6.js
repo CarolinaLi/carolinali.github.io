@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "911ee7c0539f3c0eafd755c4a3105f38",
-    "url": "/static/media/portrait.911ee7c0.png"
+    "revision": "cf64a85492a3ed4eae47",
+    "url": "/static/css/main.633e4220.chunk.css"
   },
   {
-    "revision": "30ddb8320bd6b8612e52",
-    "url": "/static/css/main.772a6c3e.chunk.css"
+    "revision": "cf64a85492a3ed4eae47",
+    "url": "/static/js/main.32bb0288.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "7a4a9f99805ff5160661",
-    "url": "/static/js/2.97b8e720.chunk.js"
-  },
-  {
-    "revision": "d3fa7a60b4aa502ae282f2131442ff9e",
-    "url": "/static/media/NewFavicon.d3fa7a60.svg"
+    "revision": "0f57fc2fe51f823b126c",
+    "url": "/static/js/2.f49282c3.chunk.js"
   },
   {
     "revision": "ae945f1fda630a0ba38dccc5aa8af377",
@@ -60,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/ciroc.00a9d9f7.gif"
   },
   {
-    "revision": "30ddb8320bd6b8612e52",
-    "url": "/static/js/main.31a0b91d.chunk.js"
+    "revision": "911ee7c0539f3c0eafd755c4a3105f38",
+    "url": "/static/media/portrait.911ee7c0.png"
   },
   {
     "revision": "f98ffb7d9c1a0bf507ce46833cc827c2",
@@ -120,7 +116,7 @@ self.__precacheManifest = [
     "url": "/static/media/design-system-header.334d28dc.jpg"
   },
   {
-    "revision": "5efb5e8cddc3b53000d934e282170cc9",
+    "revision": "e1fe542e75ae735167168844f8a61a28",
     "url": "/index.html"
   }
 ];
