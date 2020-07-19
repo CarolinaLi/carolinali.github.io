@@ -87,16 +87,22 @@
   }
 
   @media screen and (min-width: 768px) {
+    .intro-section {
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     .title {
       font-size: 3rem;
     }
 
     .intro {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     .text-link {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     .social-media {
@@ -108,5 +114,11 @@
 
     .homepage-row {
       margin-bottom: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    .intro-section {
+      width: 100%;
     }
   }

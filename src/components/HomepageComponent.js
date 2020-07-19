@@ -50,39 +50,41 @@ export default class HompageComponent extends Component {
       <>
         <Header />
         <div className="container">
-          <h1 className="title">
-            <span className="black">Hey, nice to meet you! </span>
-            <span>{'I\'m Carolina.'}</span>
-          </h1>
-          <p className="intro">
-            {'Currently a product design intern at'} 
-            <a className="text-link" href="https://www.ea.com/en-ca/about" target = "_blank" rel="noopener noreferrer">
-            EA
-            </a> 
-            {' and studying CS & HCI at the'}
-            <a className="text-link" href="https://uwaterloo.ca/" target = "_blank" rel="noopener noreferrer">
-            University of Waterloo
-            </a> 
-            {'. I\'m passionate about combining visual storytelling, technology, and psychology to create human-centered experiences.'}
-            <br />
-            <br />
-            {'Reach me at '}
-            <a className="text-link" href="mailto:ca2li@uwaterloo.ca" target = "_blank" rel="noopener noreferrer">
-            ca2li@uwaterloo.ca
-            </a> 
-            {' or discover my works below.'}
-          </p>
-          <div className="social-media block">
-            <a href="https://www.instagram.com/caro.linarts/" target = "_blank" rel="noopener noreferrer">
-              <img className="social-media-icon" src={require('../images/instagram.svg')} alt="instagram" />
-            </a>
-            <a href="https://www.linkedin.com/in/carolinaaokeli/" target = "_blank" rel="noopener noreferrer">
-              <img className="social-media-icon" src={require('../images/linkedin.svg')} alt="linkedin" />
-            </a>
-            <a href="https://github.com/CarolinaLi/" target = "_blank" rel="noopener noreferrer">
-              <img className="social-media-icon" src={require('../images/github.svg')} alt="github" />
-            </a>
-            <img className="scroll-down" src={require('../images/arrow_downward.svg')} alt="scroll down" />
+          <div className="intro-section">
+            <h1 className="title">
+              <span className="black">Hey, nice to meet you! </span>
+              <span>{'I\'m Carolina.'}</span>
+            </h1>
+            <p className="intro">
+              {'Currently a product design intern at'} 
+              <a className="text-link" href="https://www.ea.com/en-ca/about" target = "_blank" rel="noopener noreferrer">
+              EA
+              </a> 
+              {' and studying CS & HCI at the'}
+              <a className="text-link" href="https://uwaterloo.ca/" target = "_blank" rel="noopener noreferrer">
+              University of Waterloo
+              </a> 
+              {'. I\'m passionate about combining visual storytelling, technology, and psychology to create human-centered experiences.'}
+              <br />
+              <br />
+              {'Reach me at'}
+              <a className="text-link" href="mailto:ca2li@uwaterloo.ca" target = "_blank" rel="noopener noreferrer">
+              ca2li@uwaterloo.ca
+              </a> 
+              {' or discover my works below.'}
+            </p>
+            <div className="social-media block">
+              <a href="https://www.instagram.com/caro.linarts/" target = "_blank" rel="noopener noreferrer">
+                <img className="social-media-icon" src={require('../images/instagram.svg')} alt="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/carolinaaokeli/" target = "_blank" rel="noopener noreferrer">
+                <img className="social-media-icon" src={require('../images/linkedin.svg')} alt="linkedin" />
+              </a>
+              <a href="https://github.com/CarolinaLi/" target = "_blank" rel="noopener noreferrer">
+                <img className="social-media-icon" src={require('../images/github.svg')} alt="github" />
+              </a>
+              <img className="scroll-down" src={require('../images/arrow_downward.svg')} alt="scroll down" />
+            </div>
           </div>
         </div>
         <div className="container block projects">
