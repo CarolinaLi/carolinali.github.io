@@ -1,4 +1,4 @@
-$teal: #448483;
+$dark-grey: #3E3E3E;
 
 html {
   scroll-behavior: smooth;
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2 {
-  color: $teal;
+  color: $dark-grey;
 }
 
 h1 {
@@ -47,12 +47,15 @@ h1 {
 }
 
 @media screen and (min-width: 576px) {
+
   .title {
     font-size: 4rem;
   }
+
 }
 
 @media screen and (min-width: 768px) {
+
   .title {
     font-size: 3rem;
   }
@@ -60,4 +63,5 @@ h1 {
   .block {
     margin-top: 6rem;
   }
+  
 }

@@ -14,17 +14,21 @@
   bottom: 0px; }
 
 a {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
-  color: #448483; }
+  color: #545454; }
 
 a:hover {
-  color: #4ADAE8;
+  color: #4305F2;
   text-decoration: none; }
 
 .header-link {
-  margin: 0rem 0rem 0rem 1rem; }
+  margin: 0rem 0rem 0rem 1rem;
+  font-size: 1.2rem; }
+
+.active-link {
+  font-weight: 600;
+  color: #3E3E3E; }
 
 .favicon {
   height: 3rem;
@@ -37,7 +41,5 @@ a:hover {
     margin-bottom: 9rem; }
   .favicon {
     left: 8rem; }
-  .links {
-    right: 8rem; }
   .header-link {
     margin: 0rem 0rem 0rem 4rem; } }

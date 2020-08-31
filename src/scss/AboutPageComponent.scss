@@ -7,7 +7,7 @@
     margin: 2rem 0rem 1rem 0rem;
   }
 
-.text {
+.about-text {
   margin: 0;
   font-size: 1.25rem;
   font-weight: 500;
@@ -22,16 +22,14 @@
   .about-title {
     font-size: 4rem;
   }
+  
+  .about-text {
+    margin-left: 0rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .about-row {
-    margin-left: 6rem;
-    margin-right: 6rem;
-  }
-  .about-title {
-    margin: 2rem 0rem 1rem 3rem;
-  }
+ 
 
   .text {
     margin-left: 3rem;
@@ -40,5 +38,14 @@
 
   .text-link-about {
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-text {
+    margin: 2rem 0rem 1rem 3rem;
+  }
+  .about-title {
+    margin: 2rem 0rem 1rem 3rem;
   }
 }

@@ -1,5 +1,6 @@
-$teal: #448483;
-$bright-teal: #4ADAE8;
+$dark-grey: #3E3E3E;
+$grey: #545454;
+$blue: #4305F2;
 
 .header {
   min-height: 10vh;
@@ -19,19 +20,24 @@ $bright-teal: #4ADAE8;
 }
 
 a {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
-  color: $teal;
+  color: $grey;
 }
 
 a:hover {
-  color: $bright-teal;
+  color: $blue;
   text-decoration: none;
 }
 
 .header-link {
   margin: 0rem 0rem 0rem 1rem;
+  font-size: 1.2rem;
+}
+
+.active-link {
+  font-weight: 600;
+  color: $dark-grey;
 }
 
 
@@ -49,10 +55,6 @@ a:hover {
 
   .favicon {
     left: 8rem;
-  }
-
-  .links {
-    right: 8rem;
   }
 
   .header-link {

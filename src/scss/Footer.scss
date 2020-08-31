@@ -1,31 +1,27 @@
-$dark-grey: #8899ab;
-$teal: #448483;
+$dark-grey: #3E3E3E;
 
 .footer {
-  margin-top: 20vh;
-  padding: 1rem;
-  color: #fff;
-  background: $teal;
+  color: $dark-grey;
+  font-size: 0.65rem;
 }
 
-.footerh2 {
-  color: #fff;
-  font-size: 1.5rem;
-}
-
-.footer-text {
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 600;
+.footer-link{
+  padding-left: 3rem;
 }
 
 @media screen and (min-width: 576px) {
-  .footer-text {
+
+  .footer{
+    padding: 4vh 0 16vh 0;
     font-size: 1rem;
-    font-weight: 700;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .footer {
+    padding: 4vh 0 16vh 0;
   }
   
-  p {
-    margin-bottom: 0rem;
-  }
 }
