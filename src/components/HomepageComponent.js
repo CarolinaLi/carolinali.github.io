@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import Header from './HeaderComponent';
+import '../css/Global.css';
 import '../css/HomepageComponent.css';
 import FooterComponent from './FooterComponent';
 import designSystem from '../images/design-system.jpg';
@@ -12,6 +13,7 @@ import crownHover from '../images/crown-hover.jpg';
 import fridgeful from '../images/fridgeful.jpg';
 import fridgefulHover from '../images/fridgeful-hover.jpg';
 import Pdf from '../images/resume-2020-aug.pdf';
+import TileComponent from './TileComponent';
 
 export default class HompageComponent extends Component {
   constructor(props) {
@@ -52,7 +54,7 @@ export default class HompageComponent extends Component {
         <div className="container text-section">
           <h1 className="title">
             <span className="black">Hey, there! </span>
-            <NavLink to="/about">
+            <NavLink classname="link" to="/about">
               <span className="text-link">{'I\'m Carolina.'}</span>
             </NavLink>
           </h1>
@@ -61,7 +63,7 @@ export default class HompageComponent extends Component {
               'Currently studying CS & HCI at the University of Waterloo. I’m a product designer who’s passionate about visual experiences, strategy, and sustainability. Previously, I designed at'
             }
             <a
-              className="text-link"
+              className="link text-link"
               href="https://www.ea.com/en-ca/about"
               target="_blank"
               rel="noopener noreferrer"
@@ -70,7 +72,7 @@ export default class HompageComponent extends Component {
             </a>
             {' and'}
             <a
-              className="text-link"
+              className="link text-link"
               href="https://www.lcbonext.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -82,7 +84,7 @@ export default class HompageComponent extends Component {
             <br />
             {'Reach me at'}
             <a
-              className="text-link"
+              className="link text-link"
               href="mailto:ca2li@uwaterloo.ca"
               target="_blank"
               rel="noopener noreferrer"
@@ -102,7 +104,20 @@ export default class HompageComponent extends Component {
             }}
           />
         </div>
-        <div className="container block projects" ref={this.projectRef}>
+        <div className="container" ref={this.projectRef}>
+          <div className="row">
+            <div className="col-md-6 pl-0 pr-3">
+              <TileComponent 
+                image={'slack-hero.png'}
+                title={'Redesigning Slack’s sign in process'}
+                description={'Personal project exploring ways to improve Slack’s sign in process and how to increase user satisfaction'}
+                buttonText={'View case study'}
+                buttonColor={'#4D1D52'}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="container block projects">
           <div className="row homepage-row">
             <div className="col-md-6 pl-0 pr-3 project">
               <img
@@ -164,7 +179,7 @@ export default class HompageComponent extends Component {
           <p className="text">
             {'Email me at'}
             <a
-              className="text-link"
+              className="link text-link"
               href="mailto:ca2li@uwaterloo.ca"
               target="_blank"
               rel="noopener noreferrer"
@@ -173,7 +188,7 @@ export default class HompageComponent extends Component {
             </a>
             {' and let\'s talk about anything! Or, check out my'}
             <a
-              className="text-link"
+              className="link text-link"
               href={Pdf}
               target="_blank"
               rel="noopener noreferrer"

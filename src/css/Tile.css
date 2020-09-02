@@ -1,0 +1,23 @@
+.tile:hover {
+  box-shadow: 8px 8px black;
+  border-radius: 0rem;
+  border: none;
+  transform: translate(-8px, -8px);
+  transition-duration: 0.5s; }
+
+.tile-image {
+  border: 4px solid black;
+  border-radius: 0rem; }
+
+.tile-body {
+  border: 4px solid black;
+  border-top: 0;
+  color: #3E3E3E; }
+
+.tile-title {
+  font-weight: 600; }
+
+.tile-button {
+  border: 2px solid black;
+  border-radius: 0rem;
+  font-weight: 600; }

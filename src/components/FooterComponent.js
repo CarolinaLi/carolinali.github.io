@@ -8,6 +8,7 @@ export default class FooterComponent extends Component {
       <div className="container footer">
         <p>
           <a
+            className="link"
             href="https://www.linkedin.com/in/carolinaaokeli/"
             target="_blank"
             rel="noopener noreferrer"
@@ -15,7 +16,7 @@ export default class FooterComponent extends Component {
             LinkedIn
           </a>
           <a
-            className="footer-link"
+            className="link footer-link"
             href="https://www.instagram.com/caro.linarts/"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,7 +24,7 @@ export default class FooterComponent extends Component {
             Instagram
           </a>
           <a
-            className="footer-link"
+            className="link footer-link"
             href="https://medium.com/@carolina.aoke.li"
             target="_blank"
             rel="noopener noreferrer"
@@ -31,7 +32,7 @@ export default class FooterComponent extends Component {
             Medium
           </a>
           <a
-            className="footer-link"
+            className="link footer-link"
             href="https://github.com/CarolinaLi/"
             target="_blank"
             rel="noopener noreferrer"

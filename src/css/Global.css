@@ -12,6 +12,9 @@ h1 {
   font-size: 4rem;
   margin-top: 0rem; }
 
+a:hover {
+  text-decoration: none; }
+
 .block {
   margin-top: 2rem; }
 
@@ -20,6 +23,14 @@ h1 {
 
 .title {
   font-size: 3.5rem; }
+
+.link {
+  font-weight: 500;
+  text-decoration: none;
+  color: #545454; }
+
+.link:hover {
+  color: #4305F2; }
 
 .black {
   color: #000000; }

@@ -11,14 +11,14 @@ export default class HeaderComponent extends Component {
       <div className="container">
         <header className="header">
           <div className="links pull-right">
-            <NavLink exact={true} className="header-link" activeClassName="active-link" to="/">
+            <NavLink exact={true} className="link header-link" activeClassName="active-link" to="/">
               Work
             </NavLink>
-            <NavLink className="header-link" activeClassName="active-link" to="/about">
+            <NavLink className="link header-link" activeClassName="active-link" to="/about">
               About
             </NavLink >
             <a
-              className="header-link"
+              className="link header-link"
               href={Pdf}
               target="_blank"
               rel="noopener noreferrer"

@@ -4,10 +4,6 @@ $blue: #4305F2;
   text-align: left;
   font-size: 2rem;
   font-weight: 800;
-  // margin-left: 2rem;
-  // margin-right: 2rem;
-  // margin-top: 0rem;
-  //margin: 0rem 2rem 0rem 2rem;
 }
 
 .text {
@@ -17,19 +13,10 @@ $blue: #4305F2;
   }
 
 .text-link {
-  //font-size: 1.25rem;
   margin-left: 0.3rem;
   color: $blue;
   font-weight: 600;
  }
-  
-  // .social-media {
-  //   margin-left: 2rem;
-  //   .social-media-icon {
-  //     height: 1.5rem;
-  //     margin: 0rem 2rem 0rem 0rem;
-  //   }
-  // }
 
   .scroll-down {
     -moz-animation: bounce 2s infinite;
@@ -84,7 +71,6 @@ $blue: #4305F2;
 
     .text {
       margin-left: 0rem;
-      //width: 100%;
     }
 
     .scroll-down {
@@ -94,41 +80,17 @@ $blue: #4305F2;
     .black {
       color: #000000;
     }
-
-    // .social-media {
-    //   .social-media-icon {
-    //     text-align: left;
-    //     height: 1.5rem;
-    //   }
-    // }
   }
 
   @media screen and (min-width: 768px) {
 
     .title {
       font-size: 3rem;
-      //margin: 0rem 2rem 0rem 2rem;
     }
 
     .text {
       font-size: 1.3rem;
-      //margin: 2rem 2rem;
     }
-
-    .scroll-down{
-       //margin: 2rem 2rem;
-    }
-
-    // .text-link {
-    //   //font-size: 1.3rem;
-    // }
-
-    // .social-media {
-
-    //   a {
-    //     margin: 0;
-    //   }
-    // }
 
     .homepage-row {
       margin-bottom: 1rem;
