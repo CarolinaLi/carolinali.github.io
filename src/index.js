@@ -7,6 +7,9 @@ import Homepage from './components/HomepageComponent';
 import Ciroc from './components/caseStudies/Ciroc';
 import Fridgeful from './components/caseStudies/Fridgeful';
 import LCBODesignSystem from './components/caseStudies/LCBODesignSystem';
+import Slack from './components/caseStudies/Slack';
+import EA from './components/caseStudies/EA';
+import LCBO from './components/caseStudies/LCBO';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -17,6 +20,9 @@ ReactDOM.render(
       <Route path = "/ciroc" component = {Ciroc} />
       <Route path = "/fridgeful" component = {Fridgeful} />
       <Route path = "/lcboDesignSystem" component = {LCBODesignSystem} />
+      <Route path = "/slack" component = {Slack} />
+      <Route path = "/ea" component = {EA} />
+      <Route path = "/lcbo" component = {LCBO} />
     </Switch>
   </Router>, document.getElementById('root')
 );

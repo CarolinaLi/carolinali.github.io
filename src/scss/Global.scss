@@ -9,27 +9,32 @@ html {
 body {
   text-align: left;
   font-family: 'Avenir', sans-serif;
-}
-
-h1, h2 {
   color: $dark-grey;
 }
 
-h1 {
-  font-size: 4rem;
-  margin-top: 0rem;
+// h1, h2 {
+//   color: $dark-grey;
+// }
+
+// h1 {
+//   font-size: 4rem;
+//   margin-top: 0rem;
+// }
+
+p {
+  font-weight: 450;
 }
 
 a:hover {
   text-decoration: none;
 }
 
-.block {
-  margin-top: 2rem;
+.block { // remove
+  // margin-top: 2rem;
 }
 
-.paragraph {
-  margin: 5vw;
+.paragraph { //remove
+  // margin: 5vw;
 }
 
 .title {
@@ -46,6 +51,12 @@ a:hover {
   color: $blue;
 }
 
+.text-link {
+  margin-left: 0.3rem;
+  color: $blue;
+  font-weight: 600;
+ }
+
 .black {
   color: #000000;
 }
@@ -58,8 +69,22 @@ a:hover {
   font-style: italic;
 }
 
-.big-picture {
+.container-hero {
+  padding: 0;
+}
+
+.hero {
   max-width: 100%;
+  padding: 0;
+}
+
+.arrow {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  height: 2rem;
+  margin: 2rem 0rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 576px) {
@@ -76,8 +101,8 @@ a:hover {
     font-size: 3rem;
   }
 
-  .block {
-    margin-top: 6rem;
-  }
+  // .block {
+  //   margin-top: 6rem;
+  // }
   
 }

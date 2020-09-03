@@ -1,37 +1,65 @@
-h1 {
-    font-size: 3rem;
+.content {
+  margin: 2rem auto 4rem auto;
 }
 
-.subtitle { // used for subtitles within case study
-    font-size: 2.5rem;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
+.block {
+  margin-top: 2rem;
 }
 
-.phone {
-  height: 40rem;
+.block-text {
+  max-width: 667px;
+}
+
+.block-title { // used for subtitles within case study
+    font-size: 1.6rem;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 576px) {
-    h1 {
-      font-size: 4rem;
+
+    .content {
+      margin: 4rem auto 4rem auto;
     }
 
-    .case-subtitle {
-      text-align: left;
+    .block {
+      margin-top: 4rem;
     }
 
-    .paragraph {
-      text-align: left;
-      margin-bottom: 3rem;
+    .block-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
     }
+
   }
 
 @media screen and (min-width: 768px) {
 
-  .paragraph {
-    font-size: 1.2rem;
-    margin-left: 8rem;
-    margin-right: 8rem;
+  .content {
+    margin: 6rem auto 6rem auto;
   }
+
+  .block {
+    margin-top: 5rem;
+  }
+
+  .block-title {
+    margin-bottom: 1.25rem;
+  }
+  
+}
+
+@media screen and (min-width: 1300px) {
+
+  .content {
+    margin: 8rem auto 6rem auto;
+  }
+
+  .block {
+    margin-top: 6rem;
+  }
+
+  .block-title {
+    margin-bottom: 2rem;
+  }
+
 }

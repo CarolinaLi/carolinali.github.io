@@ -11,21 +11,6 @@ $blue: #4305F2;
     font-weight: 500;
     font-size: 1.25rem;
   }
-
-.text-link {
-  margin-left: 0.3rem;
-  color: $blue;
-  font-weight: 600;
- }
-
-  .scroll-down {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-    height: 2rem;
-    margin: 2rem 0rem;
-    cursor: pointer;
-  }
   
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
@@ -60,6 +45,10 @@ $blue: #4305F2;
 
   @media screen and (min-width: 576px) {
 
+    .intro {
+      margin: 6rem 0 2rem 0;
+    }
+
     .text-section {
       padding: 0;
     }
@@ -84,6 +73,10 @@ $blue: #4305F2;
 
   @media screen and (min-width: 768px) {
 
+    .intro {
+      margin: 8rem 0 2rem 0;
+    }
+
     .title {
       font-size: 3rem;
     }
@@ -98,7 +91,13 @@ $blue: #4305F2;
   }
 
   @media screen and (min-width: 1300px) {
+
+    .intro {
+      margin: 10rem 0 4rem 0;
+    }
+
     .text-section {
       width: 100%;
     }
+
   }
