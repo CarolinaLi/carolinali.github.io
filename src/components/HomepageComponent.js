@@ -104,15 +104,35 @@ export default class HompageComponent extends Component {
             }}
           />
         </div>
-        <div className="container" ref={this.projectRef}>
+        <div className="container text-section" ref={this.projectRef}>
           <div className="row">
-            <div className="col-md-6 pl-0 pr-3">
+            <div className="col-md-6 pl-0 pr-3 pb-5">
               <TileComponent 
                 image={'slack-hero.png'}
                 title={'Redesigning Slack’s sign in process'}
                 description={'Personal project exploring ways to improve Slack’s sign in process and how to increase user satisfaction'}
                 buttonText={'View case study'}
                 buttonColor={'#4D1D52'}
+              />
+            </div>
+            <div className="col-md-6 pl-0 pr-3 pb-5">
+              <TileComponent 
+                image={'ea-hero.png'}
+                title={'Electronic Arts internship'}
+                description={'Worked on projects that enhance how players experience the EA community, as a product design intern on the EAX team'}
+                buttonText={'Read more'}
+                buttonColor={'#121142'}
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 pl-0 pr-3">
+              <TileComponent 
+                image={'lcbo-hero.png'}
+                title={'LCBO internship'}
+                description={'Deployed an in-store beverage recommendation app and started our first design system'}
+                buttonText={'View work'}
+                buttonColor={'#01B456'}
               />
             </div>
           </div>
