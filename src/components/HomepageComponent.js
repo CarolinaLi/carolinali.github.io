@@ -80,7 +80,7 @@ export default class HompageComponent extends Component {
                   image={'slack-hero.png'}
                   title={'Redesigning Slack’s sign in process'}
                   description={
-                    'Personal project different exploring ways to make Slack’s sign in process better and how to increase user satisfaction'
+                    'Personal project exploring ways to improve Slack’s sign in process and how to increase user satisfaction'
                   }
                   buttonText={'View case study'}
                   buttonColor={'#4D1D52'}
@@ -93,7 +93,7 @@ export default class HompageComponent extends Component {
                   image={'ea-card.png'}
                   title={'Electronic Arts internship'}
                   description={
-                    'Worked on projects that enhance how players experience the EA community and how they connect with games'
+                    'Worked on products that enhance how players experience the EA community and how they connect with games'
                   }
                   buttonText={'Read more'}
                   buttonColor={'#121142'}
@@ -108,7 +108,7 @@ export default class HompageComponent extends Component {
                   image={'lcbo-hero.png'}
                   title={'LCBO internship'}
                   description={
-                    'Deployed an in-store beverage recommendation app and started our first design system'
+                    'Designed and deployed an in-store beverage recommendation app and started our first design system'
                   }
                   buttonText={'View work'}
                   buttonColor={'#01B456'}
