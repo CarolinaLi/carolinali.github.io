@@ -7,7 +7,7 @@ import FooterComponent from './FooterComponent';
 import Pdf from '../images/resume-2020-aug.pdf';
 import TileComponent from './TileComponent';
 
-export default class HompageComponent extends Component {
+export default class HomepageComponent extends Component {
   constructor(props) {
     super(props);
     this.projectRef = React.createRef();
@@ -21,7 +21,7 @@ export default class HompageComponent extends Component {
           <div className="intro">
             <h1 className="title">
               <span className="black">Hey, there! </span>
-              <NavLink classname="link" to="/about">
+              <NavLink className="link" to="/about">
                 <span className="text-link">{'I’m Carolina.'}</span>
               </NavLink>
             </h1>

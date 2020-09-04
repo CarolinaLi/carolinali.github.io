@@ -3,14 +3,15 @@ html {
 
 body {
   text-align: left;
-  font-family: 'Avenir', sans-serif;
-  color: #3E3E3E; }
+  font-family: "Avenir", sans-serif;
+  color: #3e3e3e; }
 
 p {
   font-weight: 450; }
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #4305f2; }
 
 .title {
   font-size: 3.5rem; }
@@ -21,15 +22,15 @@ a:hover {
   color: #545454; }
 
 .link:hover {
-  color: #4305F2; }
+  color: #4305f2; }
 
 .text-link {
   margin-left: 0.3rem;
-  color: #4305F2;
+  color: #4305f2;
   font-weight: 600;
   transition: color;
   background-size: 100% 200%;
-  background-image: linear-gradient(to top, transparent 0%, transparent 50%, #4305F2 50%, #4305F2 100%);
+  background-image: linear-gradient(to top, transparent 0%, transparent 50%, #4305f2 50%, #4305f2 100%);
   background-position: 0 100%;
   will-change: background-position; }
 
