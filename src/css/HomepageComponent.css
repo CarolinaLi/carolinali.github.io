@@ -30,10 +30,6 @@
   margin-top: 6rem; }
 
 @media screen and (min-width: 576px) {
-  .intro {
-    margin: 6rem 0 2rem 0; }
-  .text-section {
-    padding: 0; }
   .title {
     font-size: 3rem;
     margin-left: 0rem; }
@@ -45,8 +41,6 @@
     margin-top: 8rem; } }
 
 @media screen and (min-width: 768px) {
-  .intro {
-    margin: 8rem 0 2rem 0; }
   .title {
     font-size: 3rem; }
   .text {
@@ -55,9 +49,3 @@
     margin-bottom: 1rem; }
   .outro {
     margin-top: 10rem; } }
-
-@media screen and (min-width: 1300px) {
-  .intro {
-    margin: 10rem 0 4rem 0; }
-  .text-section {
-    width: 100%; } }

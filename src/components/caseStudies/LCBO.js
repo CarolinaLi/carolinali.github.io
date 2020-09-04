@@ -147,7 +147,7 @@ export default class LCBOComponent extends Component {
               </div>
             </div>
             <p className="text-monospace">
-              <small>Source for images: lcbo.com</small>
+              <small>Image source: lcbo.com</small>
               <br></br>
               <br></br>
             </p>
