@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f434e02bbb9d4da70122",
+    "revision": "b24589575a02890c04b3",
     "url": "/static/css/main.cbfbc61a.chunk.css"
   },
   {
-    "revision": "f434e02bbb9d4da70122",
-    "url": "/static/js/main.41d5a67a.chunk.js"
+    "revision": "b24589575a02890c04b3",
+    "url": "/static/js/main.80d6a78a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "edad4b443d75c56fd6df",
-    "url": "/static/js/2.eb400f01.chunk.js"
+    "revision": "1b4163b38a162453cd80",
+    "url": "/static/js/2.3648aaa4.chunk.js"
   },
   {
     "revision": "b24f5d9555eabb613c7cf5c50a7c3857",
@@ -236,7 +236,7 @@ self.__precacheManifest = [
     "url": "/static/media/resume-july-2020.c07839f2.pdf"
   },
   {
-    "revision": "00a999bb7373578cd87a3f743a101501",
+    "revision": "772d40b31374a0b95ba08163bbd5db89",
     "url": "/index.html"
   }
 ];
