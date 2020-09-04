@@ -66,9 +66,10 @@ $blue: #4305F2;
       margin-left: 0rem;
     }
 
-    .black {
-      color: #000000;
+    .outro {
+      margin-top: 8rem;
     }
+
   }
 
   @media screen and (min-width: 768px) {
@@ -87,6 +88,10 @@ $blue: #4305F2;
 
     .homepage-row {
       margin-bottom: 1rem;
+    }
+
+    .outro {
+      margin-top: 10rem;
     }
   }
 
