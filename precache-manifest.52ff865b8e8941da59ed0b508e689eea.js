@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "345e901371b399780ef0",
-    "url": "/static/css/main.43796523.chunk.css"
+    "revision": "f434e02bbb9d4da70122",
+    "url": "/static/css/main.cbfbc61a.chunk.css"
   },
   {
-    "revision": "345e901371b399780ef0",
-    "url": "/static/js/main.c1e67f62.chunk.js"
+    "revision": "f434e02bbb9d4da70122",
+    "url": "/static/js/main.41d5a67a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -236,7 +236,7 @@ self.__precacheManifest = [
     "url": "/static/media/resume-july-2020.c07839f2.pdf"
   },
   {
-    "revision": "e3b64b7909006c2d152c677c4570841e",
+    "revision": "00a999bb7373578cd87a3f743a101501",
     "url": "/index.html"
   }
 ];
