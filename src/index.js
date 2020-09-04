@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './index.css';
 import AboutPage from './components/AboutPageComponent';
 import Homepage from './components/HomepageComponent';
@@ -13,7 +14,7 @@ import LCBO from './components/caseStudies/LCBO';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Router>
+  <HashRouter>
     <Switch>
       <Route path = "/" exact component = {Homepage} />
       <Route path = "/about" component = {AboutPage} />
@@ -23,8 +24,9 @@ ReactDOM.render(
       <Route path = "/slack" component = {Slack} />
       <Route path = "/ea" component = {EA} />
       <Route path = "/lcbo" component = {LCBO} />
+      <Redirect from='*' to='/' />
     </Switch>
-  </Router>, document.getElementById('root')
+  </HashRouter>, document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
