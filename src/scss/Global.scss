@@ -1,6 +1,7 @@
-$dark-grey: #3E3E3E;
+$dark-grey: #3e3e3e;
 $grey: #545454;
-$blue: #4305F2;
+$blue: #4305f2;
+$linkAnimationSpeed: 0.3s;
 
 html {
   scroll-behavior: smooth;
@@ -8,7 +9,7 @@ html {
 
 body {
   text-align: left;
-  font-family: 'Avenir', sans-serif;
+  font-family: "Avenir", sans-serif;
   color: $dark-grey;
 }
 
@@ -38,7 +39,41 @@ a:hover {
   margin-left: 0.3rem;
   color: $blue;
   font-weight: 600;
- }
+
+  transition: color;
+  $linkAnimationSpeed: ease-in-out;
+  background-size: 100% 200%;
+  background-image: linear-gradient(
+    to top,
+    transparent 0%,
+    transparent 50%,
+    $blue 50%,
+    $blue 100%
+  );
+  background-position: 0 100%;
+  will-change: background-position;
+}
+
+.text-link:hover {
+  animation: backgroundAnimateIn $linkAnimationSpeed;
+  animation-fill-mode: forwards;
+}
+
+@keyframes backgroundAnimateIn {
+  0% {
+    background-position: 0 -100%;
+  }
+  63% {
+    background-position: 0 -95%;
+  }
+  86% {
+    background-position: 0 2.5%;
+  }
+  100% {
+    color: white;
+    background-position: 0 0%;
+  }
+}
 
 .black {
   color: #000000;
@@ -71,7 +106,6 @@ a:hover {
 }
 
 @media screen and (min-width: 576px) {
-
   .intro {
     margin: 8rem 0 2rem 0;
   }
@@ -83,11 +117,9 @@ a:hover {
   .text-section {
     padding: 0;
   }
-
 }
 
 @media screen and (min-width: 768px) {
-
   .intro {
     margin: 8rem 0 2rem 0;
   }
@@ -95,12 +127,9 @@ a:hover {
   .title {
     font-size: 3rem;
   }
-
 }
 
-
 @media screen and (min-width: 1300px) {
-
   .intro {
     margin: 10rem 0 4rem 0;
   }
@@ -108,5 +137,4 @@ a:hover {
   .text-section {
     width: 100%;
   }
-
 }

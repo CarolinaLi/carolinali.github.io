@@ -82,7 +82,7 @@ export default class SlackComponent extends Component {
               Currently, users must create a new account for every workspace,
               even if they’ve used Slack before. From user interviews, I learned
               that this is <b>confusing and frustrating.</b> People don’t
-              undertand why they must create a new account each time, and they
+              understand why they must create a new account each time, and they
               don’t like managing multiple accounts.
             </p>
             <img
@@ -276,7 +276,7 @@ export default class SlackComponent extends Component {
               <b>
                 how many emails do you want to associate with a Slack account?
               </b>{' '}
-              If users want mulitple emails linked to a single account, then
+              If users want multiple emails linked to a single account, then
               Idea 2 would give them that flexibility.
             </p>
             <img
@@ -311,20 +311,32 @@ export default class SlackComponent extends Component {
           <div className="block">
             <h2 className="block-title">What I learned and next steps</h2>
             <p className="block-text">
-              Gaining experience on a personal project while interning at EA helped me learn a lot, fast. Now I know that designers should solve for the root of a problem, not treat the symptoms. I practiced this with Slack — when choosing between two different solutions, I could’ve taken the users’ feedback literally. Instead, I thought about the root cause of why they preferred one option over the other, and made my choice based off of that.
+              Gaining experience on a personal project while interning at EA
+              helped me learn a lot, fast. Now I know that designers should
+              solve for the root of a problem, not treat the symptoms. I
+              practiced this with Slack — when choosing between two different
+              solutions, I could’ve taken the users’ feedback literally.
+              Instead, I thought about the root cause of why they preferred one
+              option over the other, and made my choice based off of that.
               <br />
               <br />
-              I also learned how to scope down a problem and how to say no to less important problems. This project introduced me to Effort vs Value charts and Net Promoter Scores. It taught me the importance of benchmarking and finding out if the new designs made a difference, whether positive or negative.
+              I also learned how to scope down a problem and how to say no to
+              less important problems. This project introduced me to Effort vs
+              Value charts and Net Promoter Scores. It taught me the importance
+              of benchmarking and finding out if the new designs made a
+              difference, whether positive or negative.
               <br />
               <br />
-              If I had more time, I would explore if Slack could benefit from having different levels of security for different types of workspaces. I’d also look into password-free sign in methods.
+              If I had more time, I would explore if Slack could benefit from
+              having different levels of security for different types of
+              workspaces. I’d also look into password-free sign in methods.
             </p>
             <img
               className="arrow"
               src={require('../../images/arrow_upward.svg')}
               alt="back to top"
               onClick={() => {
-                window.scrollTo({top: 0, behavior: 'smooth'});
+                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
             />
           </div>

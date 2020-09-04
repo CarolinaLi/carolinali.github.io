@@ -26,7 +26,27 @@ a:hover {
 .text-link {
   margin-left: 0.3rem;
   color: #4305F2;
-  font-weight: 600; }
+  font-weight: 600;
+  transition: color;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, transparent 0%, transparent 50%, #4305F2 50%, #4305F2 100%);
+  background-position: 0 100%;
+  will-change: background-position; }
+
+.text-link:hover {
+  animation: backgroundAnimateIn 0.3s;
+  animation-fill-mode: forwards; }
+
+@keyframes backgroundAnimateIn {
+  0% {
+    background-position: 0 -100%; }
+  63% {
+    background-position: 0 -95%; }
+  86% {
+    background-position: 0 2.5%; }
+  100% {
+    color: white;
+    background-position: 0 0%; } }
 
 .black {
   color: #000000; }

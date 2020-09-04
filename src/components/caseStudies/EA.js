@@ -130,11 +130,12 @@ export default class EAComponent extends Component {
             <br></br>
             <br></br>
             <p className="block-text">
-            Before starting the site, I worked with the team to come up with overarching goals:
+              Before starting the site, I worked with the team to come up with
+              overarching goals:
               <br></br>
               <br></br>• Pull together and organize all existing documentation
               so a cross-functional group can find the information that’s most
-              relevent to them quickly and easily
+              relevant to them quickly and easily
               <br></br>
               <br></br>• Help new team members onboard onto the project
               efficiently and without confusion.
@@ -179,10 +180,17 @@ export default class EAComponent extends Component {
             <p className="block-text">
               <b className="text-monospace">OVERCOMING HURDLES</b>
               <br></br>
-              After conducting research and reading every document we had on the project, I tackled the task of organizing the site. From interviews, I learned what people thought the ideal site structure should be, but when I implemented this, I realized it wouldn’t match our existing docs. Working with the team, I pivoted to an architecture that best showcases our current assets, and learned that user interviews only give us information, not instructions.
+              After conducting research and reading every document we had on the
+              project, I tackled the task of organizing the site. From
+              interviews, I learned what people thought the ideal site structure
+              should be, but when I implemented this, I realized it wouldn’t
+              match our existing docs. Working with the team, I pivoted to an
+              architecture that best showcases our current assets, and learned
+              that user interviews only give us information, not instructions.
               <br></br>
               <br></br>
-              This site is now being used in EA teams across the world, and helps onboard new members to the project’s ever-growing team.
+              This site is now being used in EA teams across the world, and
+              helps onboard new members to the project’s ever-growing team.
               <br></br>
               <br></br>
             </p>
@@ -190,28 +198,48 @@ export default class EAComponent extends Component {
           <div className="block">
             <h2 className="block-title">Chapter 3 — Wrapping it up</h2>
             <p className="block-text">
-            For the rest of the summer, I worked on hard skills, such as visual and interaction design. I practiced product thinking and got more familiar with design deliverable expectations.       
+              For the rest of the summer, I worked on hard skills, such as
+              visual and interaction design. I practiced product thinking and
+              got more familiar with design deliverable expectations.
+              <br></br>
+              <br></br>I worked with the UX Design Program Manager to bring
+              consistency to a design sprint template, which will help our teams
+              run future sprints.
               <br></br>
               <br></br>
-            I worked with the UX Design Program Manager to bring consistency to a design sprint template, which will help our teams run future sprints.
-              <br></br>
-              <br></br>
-            Finally, I created two new icons for web navigation, gaining newfound appreciation for nuances in iconography.
+              Finally, I created two new icons for web navigation, gaining
+              newfound appreciation for nuances in iconography.
             </p>
           </div>
           <div className="block">
-            <h2 className="block-title">Learnings and what I’d do differently</h2>
+            <h2 className="block-title">
+              Learnings and what I’d do differently
+            </h2>
             <p className="block-text">
-            Before this internship, I used to think that there’s a perfect design somewhere out there, and that it was the designer’s job to find it. Now I see that it’s more about <b>balancing priorities.</b> I also learned that it’s important to be comfortable with ambiguity and making decisions with incomplete information.
+              Before this internship, I used to think that there’s a perfect
+              design somewhere out there, and that it was the designer’s job to
+              find it. Now I see that it’s more about{' '}
+              <b>balancing priorities.</b> I also learned that it’s important to
+              be comfortable with ambiguity and making decisions with incomplete
+              information.
               <br></br>
               <br></br>
-            If I could time travel to the start of my internship, <b>I’d focus more on the context of each project and why it’s valuable</b>, instead of just focusing on the deliverables.
+              If I could time travel to the start of my internship,{' '}
+              <b>
+                I’d focus more on the context of each project and why it’s
+                valuable
+              </b>
+              , instead of just focusing on the deliverables.
               <br></br>
               <br></br>
-            Though overwhelming at times, I rose to the challenge and grew personally and professionally through this experience. I learned from so many great mentors: about what it means to be a product designer, what kind of designer I want to be, how to ask for feedback, and how to present more effectively.
+              Though overwhelming at times, I rose to the challenge and grew
+              personally and professionally through this experience. I learned
+              from so many great mentors: about what it means to be a product
+              designer, what kind of designer I want to be, how to ask for
+              feedback, and how to present more effectively.
               <br></br>
-              <br></br>
-            I could go on for ages, so if you want to learn more about this internship, don’t hesitate to 
+              <br></br>I could go on for ages, so if you want to learn more
+              about this internship, don’t hesitate to
               <a
                 className="link text-link"
                 href="mailto:ca2li@uwaterloo.ca"
@@ -221,7 +249,7 @@ export default class EAComponent extends Component {
                 reach out!
               </a>
             </p>
-          </div>        
+          </div>
           <img
             className="arrow"
             src={require('../../images/arrow_upward.svg')}

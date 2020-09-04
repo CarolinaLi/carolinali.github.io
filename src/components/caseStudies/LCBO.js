@@ -180,7 +180,7 @@ export default class LCBOComponent extends Component {
               specific recommendation. The challenge is how to show this,
               especially on an app that can’t track personal data after the
               session ends. I experimented with tags, using the green
-              rectangles, but users mistaked them for buttons. In the end, I
+              rectangles, but users mistook them for buttons. In the end, I
               decided to use bolded descriptors because they’re easy to consume
               and space-efficient. If I had more time, I’d run A/B tests to make
               a decision.
@@ -225,7 +225,7 @@ export default class LCBOComponent extends Component {
             <p className="block-text">
               From the interviews, I discovered that the greatest needs are
               having assets, colour schemes, and typography guidelines readily
-              available. I started organizing each of these using Invision’s
+              available. I started organizing each of these using InVision’s
               Design System Manager.
             </p>
           </div>
