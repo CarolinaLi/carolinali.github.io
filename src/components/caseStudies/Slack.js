@@ -18,10 +18,10 @@ export default class SlackComponent extends Component {
           />
         </div>
         <div className="container content">
-          <h1 className="title">Redesigning Slack’s sign in process</h1>
+          <h1 className="title case-study-title">Redesigning Slack’s sign in process</h1>
           <div className="container-md block">
             <h2 className="block-title">Overview</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               I had trouble signing in to Slack, and discovered that I wasn’t
               the only one. During my Summer 2020 internship, working on how to
               make signing in easier became my personal side project. The goal
@@ -33,7 +33,7 @@ export default class SlackComponent extends Component {
               </b>
             </p>
             <br></br>
-            <div className="row block-text">
+            <div className="row center-with-margins">
               <div className="col-sm mb-4">
                 <b className="text-monospace">TIMELINE</b>
                 <p>May - Aug 2020</p>
@@ -52,7 +52,7 @@ export default class SlackComponent extends Component {
             <h2 className="block-title">
               Prologue: How this whole thing started
             </h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               It was Spring 2020, and I had just joined a new workspace on the
               web app and wanted to sign in on my phone. I just couldn’t figure
               out how to do it! I hit dead ends everywhere and ended up deleting
@@ -67,7 +67,7 @@ export default class SlackComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">The scope</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               Since this was going to be a one-person journey, I knew I had to
               scope down the project. I focused on a specific use case: a
               returning user who joins a new workspace on Slack’s web app. In
@@ -78,21 +78,22 @@ export default class SlackComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">The problem</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               Currently, users must create a new account for every workspace,
               even if they’ve used Slack before. From user interviews, I learned
               that this is <b>confusing and frustrating.</b> People don’t
               understand why they must create a new account each time, and they
               don’t like managing multiple accounts.
             </p>
+            <br></br>
             <img
+              className="case-study-img"
               src={require('../../images/slack-problem.png')}
               alt="Slack's current flow makes users create a new account for each workspace"
-              style={{ maxWidth: '100%' }}
             />
             <br></br>
             <br></br>
-            <p className="block-text">
+            <p className="center-with-margins">
               One Slack user said,{' '}
               <b>
                 “For this email, I already used it for another Slack, so I don’t
@@ -102,28 +103,29 @@ export default class SlackComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">The solution</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               I focused on tackling the biggest hurdle: how can users sign in
               without creating a new account for each workspace?
             </p>
             <img
+              className="case-study-img"
               src={require('../../images/slack-brainstorming.png')}
               alt="A collection of solution iteration sketches"
-              style={{ maxWidth: '100%' }}
             />
             <br></br>
             <br></br>
-            <p className="block-text">
+            <p className="center-with-margins">
               I generated iterations upon iterations, tested when I needed
               feedback, and evaluated different possible solutions to create the
               final design below:
             </p>
+            <br></br>
             <img
+              className="case-study-img"
               src={require('../../images/slack-solution.png')}
               alt="The solution flow"
-              style={{ maxWidth: '100%' }}
             />
-            <p className="block-text">
+            <p className="center-with-margins">
               <br></br>
               <br></br>
               Let’s break down each step.
@@ -152,7 +154,7 @@ export default class SlackComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">Impact</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               At the start of the project, I conducted research to discover how
               others felt about the sign in process. At the end, I measured
               success by reinterviewing the same people and asking if the
@@ -185,16 +187,16 @@ export default class SlackComponent extends Component {
               ”
             </p>
             <img
+              className="case-study-img"
               src={require('../../images/nps.png')}
               alt="In NPS, 0-6 are detractors, 7-8 are passive, and 9-10 are promoters"
-              style={{ maxWidth: '100%' }}
             />
-            <p className="text-monospace">
+            <p className="text-monospace center-with-margins">
               <small>Source: www.netpromoter.com/know</small>
             </p>
             <br></br>
             <br></br>
-            <p className="block-text">
+            <p className="center-with-margins">
               This means the user would go from being passive (7) to becoming a
               promoter (9).
               <br></br>
@@ -209,7 +211,7 @@ export default class SlackComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">How I made my design decisions</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               <b>CHOOSING A PROBLEM</b>
               <br />
               <br />
@@ -220,26 +222,26 @@ export default class SlackComponent extends Component {
               <br />
             </p>
             <img
+              className="case-study-img"
               src={require('../../images/slack-map.png')}
               alt="Original Slack sign in flow on web and mobile"
-              style={{ maxWidth: '100%' }}
             />
             <br />
             <br />
-            <p className="block-text">
+            <p className="center-with-margins">
               Then I recruited five people, designed a study plan where they
               joined a workspace I had created, and asked them about their
               experience. I found six areas of improvement.
             </p>
             <br />
             <img
+              className="case-study-img"
               src={require('../../images/slack-effort-value.png')}
               alt="An effort vs value chart ranks each area of improvement"
-              style={{ maxWidth: '100%' }}
             />
             <br />
             <br />
-            <p className="block-text">
+            <p className="center-with-margins">
               For each area of improvement, I created a numerical representation
               for the development effort and how much value it would bring to
               users. I chose this problem because it has the greatest value to
@@ -247,7 +249,7 @@ export default class SlackComponent extends Component {
             </p>
             <br />
             <br />
-            <p className="block-text">
+            <p className="center-with-margins">
               <b>DECIDING BETWEEN TWO POTENTIAL SOLUTIONS</b>
               <br />
               <br />
@@ -263,13 +265,13 @@ export default class SlackComponent extends Component {
               as long as they’re using the link in the invite.
             </p>
             <img
+              className="case-study-img"
               src={require('../../images/slack-two-solutions.png')}
               alt="Wireframes showing each idea"
-              style={{ maxWidth: '100%' }}
             />
             <br />
             <br />
-            <p className="block-text">
+            <p className="center-with-margins">
               To decide between these two options, I wanted to find out which
               option made more sense to users. I set up a quick test using low
               fidelity wireframes, and asked,{' '}
@@ -280,13 +282,13 @@ export default class SlackComponent extends Component {
               Idea 2 would give them that flexibility.
             </p>
             <img
+              className="case-study-img"
               src={require('../../images/slack-lofi-test.png')}
               alt="Low fidelity mockups of each idea"
-              style={{ maxWidth: '100%' }}
             />
             <br />
             <br />
-            <p className="block-text">
+            <p className="center-with-margins">
               After interviewing three people, I learned that everyone wants the
               option to link multiple email addresses to one Slack account. Idea
               2 seems like the obvious choice. However, I still chose Idea 1 in
@@ -310,7 +312,7 @@ export default class SlackComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">What I learned and next steps</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               Gaining experience on a personal project while interning at EA
               helped me learn a lot, fast. Now I know that designers should
               solve for the root of a problem, not treat the symptoms. I
@@ -331,17 +333,21 @@ export default class SlackComponent extends Component {
               having different levels of security for different types of
               workspaces. I’d also look into password-free sign in methods.
             </p>
-            <img
-              className="arrow"
-              src={require('../../images/arrow_upward.svg')}
-              alt="back to top"
-              onClick={() => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }}
-            />
+            <div className="center-with-margins">
+              <img
+                className="arrow"
+                src={require('../../images/arrow_upward.svg')}
+                alt="back to top"
+                onClick={() => {
+                  window.scrollTo({top: 0, behavior: 'smooth'});
+                }}
+              />
+            </div>   
           </div>
         </div>
-        <FooterComponent />
+        <div className="center-with-margins">
+          <FooterComponent />
+        </div>
       </>
     );
   }

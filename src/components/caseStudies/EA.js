@@ -18,10 +18,10 @@ export default class EAComponent extends Component {
           />
         </div>
         <div className="container content">
-          <h1 className="title">EA product design internship</h1>
+          <h1 className="title case-study-title">EA product design internship</h1>
           <div className="container-md block">
             <h2 className="block-title">Overview</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               In Summer 2020, I did a four month remote internship at Electronic
               Arts. I was a product design intern on the EAX team, and I worked
               on the next generation of Origin on web, which is our game
@@ -29,7 +29,7 @@ export default class EAComponent extends Component {
               upcoming social experience product.
             </p>
             <br></br>
-            <div className="row block-text">
+            <div className="row center-with-margins">
               <div className="col-sm mb-4">
                 <b className="text-monospace">TIMELINE</b>
                 <p>May - Aug 2020</p>
@@ -46,7 +46,7 @@ export default class EAComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">Chapter 1 — Stepping into the role</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               I redesigned the footer for the next generation of Origin. It was
               my first time working on a product with millions of users, and I
               was responsible for taking the project from requirement gathering
@@ -54,50 +54,50 @@ export default class EAComponent extends Component {
               different teams affect each other, and that designs need to adapt.
             </p>
             <br></br>
-            <div className="row">
-              <div className="col-lg-3 col-sm-6 mb-3">
+            <div className="row center-with-margins">
+              <div className="col-sm-6 mb-3 pl-0">
                 <img
                   src={require('../../images/ea-1.png')}
                   alt="Notes"
                   style={{ maxWidth: '100%', marginBottom: '1rem' }}
                 />
-                <b className="text-monospace">GATHERING INFO</b>
+                <b className="text-monospace">1. GATHERING INFO</b>
                 <p>
                   I talked to a cross-functional group of stakeholders to
                   develop how I think about organizing each element.
                 </p>
               </div>
-              <div className="col-lg-3 col-sm-6 mb-3">
+              <div className="col-sm-6 mb-3 pl-0">
                 <img
                   src={require('../../images/ea-2.png')}
                   alt="Four footer wireframes"
                   style={{ maxWidth: '100%', marginBottom: '1rem' }}
                 />
-                <b className="text-monospace">WIREFRAMES</b>
+                <b className="text-monospace">2. WIREFRAMES</b>
                 <p>
                   From the chats, I learned to organize elements based on how
                   our players would likely interact with them.
                 </p>
               </div>
-              <div className="col-lg-3 col-sm-6 mb-3">
+              <div className="col-sm-6 mb-3 pl-0">
                 <img
                   src={require('../../images/ea-3.png')}
                   alt="Footer UI, mobile breakpoint"
                   style={{ maxWidth: '100%', marginBottom: '1rem' }}
                 />
-                <b className="text-monospace">HIGH FIDELITY DESIGNS</b>
+                <b className="text-monospace">3. HIGH FIDELITY DESIGNS</b>
                 <p>
                   I designed UI that adheres to our Design System standards of
                   spacing, typography, colours, and components.
                 </p>
               </div>
-              <div className="col-lg-3 col-sm-6 mb-3">
+              <div className="col-sm-6 mb-3 pl-0">
                 <img
                   src={require('../../images/ea-4.png')}
                   alt="Spec file"
                   style={{ maxWidth: '100%', marginBottom: '1rem' }}
                 />
-                <b className="text-monospace">HAND OFF</b>
+                <b className="text-monospace">4. HAND OFF</b>
                 <p>
                   I created a spec file that outlines implementation
                   information. After the code merge, I made sure the site
@@ -106,8 +106,11 @@ export default class EAComponent extends Component {
               </div>
             </div>
             <br></br>
-            <b className="text-monospace">DESIGN DECISIONS</b>
-            <p className="block-text">
+            
+            <p className="center-with-margins">
+              <b className="text-monospace">DESIGN DECISIONS</b>
+              <br></br>
+              <br></br>
               A challenge I faced was how to organize each link and selector. In
               my original approach, I displayed each element in order of
               importance. Then I learned that it’s better to group together
@@ -121,7 +124,7 @@ export default class EAComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">Chapter 2 — Understanding goals</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               One month into my internship, I moved to a new team and onboarded
               onto a new social experience project. I created a documentation
               site and participated in the first design sprint, focusing on the
@@ -129,7 +132,7 @@ export default class EAComponent extends Component {
             </p>
             <br></br>
             <br></br>
-            <p className="block-text">
+            <p className="center-with-margins">
               Before starting the site, I worked with the team to come up with
               overarching goals:
               <br></br>
@@ -144,32 +147,32 @@ export default class EAComponent extends Component {
               <br></br>
               <br></br>
             </p>
-            <div className="row">
-              <div className="col-lg-3 col-sm-6 mb-3">
-                <b className="text-monospace">RESEARCH</b>
+            <div className="row center-with-margins">
+              <div className="col-sm-6 mb-3 pl-0">
+                <b className="text-monospace">1. RESEARCH</b>
                 <p>
                   What does a successful site look like? I interviewed team
                   members both inside and outside of the project to gather their
                   goals and expectations.
                 </p>
               </div>
-              <div className="col-lg-3 col-sm-6 mb-3">
-                <b className="text-monospace">SITE ARCHITECTURE</b>
+              <div className="col-sm-6 mb-3 pl-0">
+                <b className="text-monospace">2. SITE ARCHITECTURE</b>
                 <p>
                   With existing documentation in mind, I worked with my
                   design-leads and manager to organize pages into categories
                   that would most benefit the user.
                 </p>
               </div>
-              <div className="col-lg-3 col-sm-6 mb-3">
-                <b className="text-monospace">PAGE CONTENT HIERARCHY</b>
+              <div className="col-sm-6 mb-3 pl-0">
+                <b className="text-monospace">3. PAGE CONTENT HIERARCHY</b>
                 <p>
                   I created templates for each page type to organize the
                   information.
                 </p>
               </div>
-              <div className="col-lg-3 col-sm-6 mb-3">
-                <b className="text-monospace">VISUALS</b>
+              <div className="col-sm-6 mb-3 pl-0">
+                <b className="text-monospace">4. VISUALS</b>
                 <p>
                   The final site colours match the product’s UI. Our team
                   designed assets, such as cards, that are easily adaptable so
@@ -177,7 +180,7 @@ export default class EAComponent extends Component {
                 </p>
               </div>
             </div>
-            <p className="block-text">
+            <p className="center-with-margins">
               <b className="text-monospace">OVERCOMING HURDLES</b>
               <br></br>
               After conducting research and reading every document we had on the
@@ -197,7 +200,7 @@ export default class EAComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">Chapter 3 — Wrapping it up</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               For the rest of the summer, I worked on hard skills, such as
               visual and interaction design. I practiced product thinking and
               got more familiar with design deliverable expectations.
@@ -215,7 +218,7 @@ export default class EAComponent extends Component {
             <h2 className="block-title">
               Learnings and what I’d do differently
             </h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               Before this internship, I used to think that there’s a perfect
               design somewhere out there, and that it was the designer’s job to
               find it. Now I see that it’s more about{' '}
@@ -250,16 +253,20 @@ export default class EAComponent extends Component {
               </a>
             </p>
           </div>
-          <img
-            className="arrow"
-            src={require('../../images/arrow_upward.svg')}
-            alt="back to top"
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
-          />
+          <div className="center-with-margins">
+            <img
+              className="arrow"
+              src={require('../../images/arrow_upward.svg')}
+              alt="back to top"
+              onClick={() => {
+                window.scrollTo({top: 0, behavior: 'smooth'});
+              }}
+            />
+          </div>
         </div>
-        <FooterComponent />
+        <div className="center-with-margins">
+          <FooterComponent />
+        </div>
       </>
     );
   }

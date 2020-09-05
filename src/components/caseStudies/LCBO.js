@@ -50,10 +50,10 @@ export default class LCBOComponent extends Component {
           />
         </div>
         <div className="container content">
-          <h1 className="title">LCBO UX Design internship</h1>
+          <h1 className="title case-study-title">LCBO UX Design internship</h1>
           <div className="container-md block">
             <h2 className="block-title">Overview</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               LCBO is the world’s largest alcoholic beverage purchaser, and in
               Fall 2019, I interned as the sole UX/UI designer at LCBO’s
               innovation lab. I worked on a team to design a
@@ -63,7 +63,7 @@ export default class LCBOComponent extends Component {
               <b> started our first design system.</b>
             </p>
             <br></br>
-            <div className="row block-text">
+            <div className="row center-with-margins">
               <div className="col-sm mb-4">
                 <b className="text-monospace">TIMELINE</b>
                 <p>Sep - Dec 2019</p>
@@ -82,7 +82,7 @@ export default class LCBOComponent extends Component {
             <h2 className="block-title">
               Designing a product recommendation system for LCBO customers
             </h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               The product recommender helps in-store customers find a beverage
               that fits their requirements and tastes.
               <br />
@@ -151,7 +151,7 @@ export default class LCBOComponent extends Component {
               <br></br>
               <br></br>
             </p>
-            <p className="block-text">
+            <p className="center-with-margins">
               To create a more cohesive look and feel, I kept the theme dark
               throughout. I realized that both the questionnaire and the
               recommendation page were bombarding the user with too many tasks
@@ -160,7 +160,7 @@ export default class LCBOComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">The scope</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               Since this was going to be a one-person journey, I knew I had to
               scope down the project. I focused on a specific use case: a
               returning user who joins a new workspace on Slack’s web app. In
@@ -203,7 +203,7 @@ export default class LCBOComponent extends Component {
           </div>
           <div className="block">
             <h2 className="block-title">Creating our first design system</h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               LCBO’s innovation lab gets a completely new team every four
               months, so each product ends up quite different. In an effort to
               deliver a consistent user experience across all LCBO lab products,
@@ -222,7 +222,7 @@ export default class LCBOComponent extends Component {
             />
             <br></br>
             <br></br>
-            <p className="block-text">
+            <p className="center-with-margins">
               From the interviews, I discovered that the greatest needs are
               having assets, colour schemes, and typography guidelines readily
               available. I started organizing each of these using InVision’s
@@ -233,7 +233,7 @@ export default class LCBOComponent extends Component {
             <h2 className="block-title">
               Learnings and what I’d do differently
             </h2>
-            <p className="block-text">
+            <p className="center-with-margins">
               This was my first design internship, and I was also the sole
               designer. I was in such a rush to hit as many design check boxes
               as I could. I conducted interviews! I made customer journey maps!
@@ -256,17 +256,21 @@ export default class LCBOComponent extends Component {
                 customers.
               </b>
             </p>
-            <img
-              className="arrow"
-              src={require('../../images/arrow_upward.svg')}
-              alt="back to top"
-              onClick={() => {
-                window.scrollTo({top: 0, behavior: 'smooth'});
-              }}
-            />
+            <div className="center-with-margins">
+              <img
+                className="arrow"
+                src={require('../../images/arrow_upward.svg')}
+                alt="back to top"
+                onClick={() => {
+                  window.scrollTo({top: 0, behavior: 'smooth'});
+                }}
+              />
+            </div>
           </div>       
         </div>
-        <FooterComponent />
+        <div className="center-with-margins">
+          <FooterComponent />
+        </div>
       </>
     );
   }
