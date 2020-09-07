@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2884b20188290152bf59",
+    "revision": "323d319a344ff00367e1",
     "url": "/static/css/main.dce7659c.chunk.css"
   },
   {
-    "revision": "2884b20188290152bf59",
-    "url": "/static/js/main.d3a6915f.chunk.js"
+    "revision": "323d319a344ff00367e1",
+    "url": "/static/js/main.81683812.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "73b8ee2ffbb0a0f5769b",
-    "url": "/static/js/2.910de6de.chunk.js"
+    "revision": "ee15956eaf6c1781a924",
+    "url": "/static/js/2.ea1d7eaf.chunk.js"
   },
   {
     "revision": "b24f5d9555eabb613c7cf5c50a7c3857",
@@ -124,8 +124,28 @@ self.__precacheManifest = [
     "url": "/static/media/ea-4.f428465d.png"
   },
   {
+    "revision": "df7d93a9d340605346013eee7cfb756a",
+    "url": "/static/media/ea-footer-breakdown.df7d93a9.png"
+  },
+  {
+    "revision": "aab3d25a1f97cbd17d9eae61c45a5b5b",
+    "url": "/static/media/ea-footer-reqs.aab3d25a.png"
+  },
+  {
     "revision": "4dafeac47e47626e537a6ada3df48094",
     "url": "/static/media/ea-hero.4dafeac4.png"
+  },
+  {
+    "revision": "8314e9e4886a97f6a9f0598feaa24ca3",
+    "url": "/static/media/ea-site-1.8314e9e4.png"
+  },
+  {
+    "revision": "555acfd2f955c97b5694b9ef99b970a3",
+    "url": "/static/media/ea-site-3.555acfd2.png"
+  },
+  {
+    "revision": "ae7745014908df284e2eb60915afe557",
+    "url": "/static/media/ea-site-4.ae774501.png"
   },
   {
     "revision": "e66a31c087046fdd716366dbbf15a796",
@@ -236,7 +256,7 @@ self.__precacheManifest = [
     "url": "/static/media/resume-july-2020.c07839f2.pdf"
   },
   {
-    "revision": "6026345d44206826c3a47633dbbff0b6",
+    "revision": "bb6a6b080a805f42c44b90b10bbe7dd8",
     "url": "/index.html"
   }
 ];
