@@ -27,7 +27,7 @@ export default class HomepageComponent extends Component {
             </h1>
             <p className="text">
               {
-                'Currently studying CS & HCI at the University of Waterloo. I’m a product designer who’s passionate about visual experiences, strategy, and sustainability. Previously, I designed at'
+                'Currently studying CS & HCI at the University of Waterloo. I’m a product designer who’s passionate about visual experiences, strategy, and sustainability. Previously, I designed at '
               }
               <a
                 className="link text-link"
@@ -37,7 +37,7 @@ export default class HomepageComponent extends Component {
               >
                 EA
               </a>
-              {' and'}
+              {' and '}
               <a
                 className="link text-link"
                 href="https://www.lcbonext.com/"
@@ -49,7 +49,7 @@ export default class HomepageComponent extends Component {
               {'.'}
               <br />
               <br />
-              {'Reach me at'}
+              {'Reach me at '}
               <a
                 className="link text-link"
                 href="mailto:ca2li@uwaterloo.ca"
@@ -120,7 +120,7 @@ export default class HomepageComponent extends Component {
         <div className="container text-section outro">
           <h1 className="title">{'Let\'s chat'}</h1>
           <p className="text">
-            {'Email me at'}
+            {'Email me at '}
             <a
               className="link text-link"
               href="mailto:ca2li@uwaterloo.ca"
@@ -129,7 +129,7 @@ export default class HomepageComponent extends Component {
             >
               ca2li@uwaterloo.ca
             </a>
-            {' and let\'s talk about anything! Or, check out my'}
+            {' and let\'s talk about anything! Or, check out my '}
             <a
               className="link text-link"
               href={Pdf}

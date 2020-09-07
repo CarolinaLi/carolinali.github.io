@@ -18,7 +18,9 @@ export default class SlackComponent extends Component {
           />
         </div>
         <div className="container content">
-          <h1 className="title case-study-title">Redesigning Slack’s sign in process</h1>
+          <h1 className="title case-study-title">
+            Redesigning Slack’s sign in process
+          </h1>
           <div className="container-md block">
             <h2 className="block-title">Overview</h2>
             <p className="center-with-margins">
@@ -34,15 +36,15 @@ export default class SlackComponent extends Component {
             </p>
             <br></br>
             <div className="row center-with-margins">
-              <div className="col-sm mb-4">
+              <div className="col-sm mb-4 pl-0">
                 <b className="text-monospace">TIMELINE</b>
                 <p>May - Aug 2020</p>
               </div>
-              <div className="col-sm mb-4">
+              <div className="col-sm mb-4 pl-0">
                 <b className="text-monospace">MY ROLE</b>
                 <p>Research, wireframing, usability testing</p>
               </div>
-              <div className="col-sm mb-4">
+              <div className="col-sm mb-4 pl-0">
                 <b className="text-monospace">DELIVERABLES</b>
                 <p>High fidelity flows, documentation</p>
               </div>
@@ -150,6 +152,14 @@ export default class SlackComponent extends Component {
               </b>{' '}
               From user interviews, I learned that people like to reuse accounts
               because it’s easier to manage.
+              <br></br>
+              <br></br>
+              One potential drawback is that the user can’t set a more secure
+              password for this workspace. It’s a trade-off between convenience
+              and customization. My research shows that users don’t need
+              different passwords, but if there’s a demand, then Slack could
+              save this feature for power users. For example, they can allow
+              users to change workspace passwords through settings.
             </p>
           </div>
           <div className="block">
@@ -158,7 +168,7 @@ export default class SlackComponent extends Component {
               At the start of the project, I conducted research to discover how
               others felt about the sign in process. At the end, I measured
               success by reinterviewing the same people and asking if the
-              changes made a difference. I used the
+              changes made a difference. I used the {' '}
               <a
                 className="link text-link"
                 href="https://www.netpromoter.com/know/"
@@ -339,10 +349,10 @@ export default class SlackComponent extends Component {
                 src={require('../../images/arrow_upward.svg')}
                 alt="back to top"
                 onClick={() => {
-                  window.scrollTo({top: 0, behavior: 'smooth'});
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
               />
-            </div>   
+            </div>
           </div>
         </div>
         <div className="center-with-margins">

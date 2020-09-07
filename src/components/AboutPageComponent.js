@@ -57,7 +57,7 @@ export default class AboutPageComponent extends Component {
                   I started as a software developer and transitioned to product
                   design because I love the human and visual aspect of tech.
                   I’ve been drawing and painting since I was a kid and started
-                  running my
+                  running my {' '}
                   <a
                     className="link text-link"
                     href="https://society6.com/linarts/collection/gallery"
@@ -77,7 +77,7 @@ export default class AboutPageComponent extends Component {
                 </p>
                 <br></br>
                 <p className="about-text" align="left">
-                  In my free time, I design at the
+                  In my free time, I design at the {' '}
                   <a
                     className="link text-link"
                     href="https://thevarsity.ca/2020/07/06/how-a-matchmaking-algorithm-paired-up-thousands-of-hopeless-u-of-t-romantics/"

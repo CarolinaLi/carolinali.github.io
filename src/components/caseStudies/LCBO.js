@@ -64,15 +64,15 @@ export default class LCBOComponent extends Component {
             </p>
             <br></br>
             <div className="row center-with-margins">
-              <div className="col-sm mb-4">
+              <div className="col-sm mb-4 pl-0">
                 <b className="text-monospace">TIMELINE</b>
                 <p>Sep - Dec 2019</p>
               </div>
-              <div className="col-sm mb-4">
+              <div className="col-sm mb-4 pl-0">
                 <b className="text-monospace">MY ROLE</b>
                 <p>Research, prototyping, visual design</p>
               </div>
-              <div className="col-sm mb-4">
+              <div className="col-sm mb-4 pl-0">
                 <b className="text-monospace">DELIVERABLES</b>
                 <p>Two projects, wireframe flows, launched app</p>
               </div>
@@ -95,25 +95,28 @@ export default class LCBOComponent extends Component {
               <br />
               <br />
               <b>Hover over each image to compare the designs</b> before and
-              after the update, and
+              after the update, and view my original {' '}
               <a
                 className="link text-link"
                 href={deck}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                view my original case study deck
+                case study deck
               </a>
               {' for details on my design process.'}
               <br />
               <br />
               <img
+                className="case-study-img"
                 src={this.state.hoverLanding ? landingHover : landing}
                 alt="landing screen"
                 onMouseOver={() => this.hoverHandler('hoverLanding')}
                 onMouseOut={() => this.unhoverHandler('hoverLanding')}
               />
-              <br></br>
+              <p className="text-monospace center-with-margins">
+                <small>The redesign is clearer and loads faster</small>
+              </p>
               <br></br>
               The original design had a video playing in the background, which
               was slow to load. The rotating words were meant to create examples
@@ -147,7 +150,7 @@ export default class LCBOComponent extends Component {
               </div>
             </div>
             <p className="text-monospace">
-              <small>Image source: lcbo.com</small>
+              <small>See the before and after! Image source: lcbo.com</small>
               <br></br>
               <br></br>
             </p>
@@ -156,20 +159,9 @@ export default class LCBOComponent extends Component {
               throughout. I realized that both the questionnaire and the
               recommendation page were bombarding the user with too many tasks
               and options, so I made some changes.
-            </p>
-          </div>
-          <div className="block">
-            <h2 className="block-title">The scope</h2>
-            <p className="center-with-margins">
-              Since this was going to be a one-person journey, I knew I had to
-              scope down the project. I focused on a specific use case: a
-              returning user who joins a new workspace on Slack’s web app. In
-              other words, the user receives an email invitation at an address
-              that they’ve used for Slack before, and joins via the invite
-              button.
               <br></br>
               <br></br>
-              Now, the recommendation page draws the user’s attention to the
+              The recommendation page now draws the user’s attention to the
               best choice, so it’s easier for users to make a decision. People
               use this app when they don’t know what to choose, and the original
               design didn’t make this any easier when it displayed rows of
