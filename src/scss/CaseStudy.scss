@@ -1,3 +1,7 @@
+$slack-highlight: #FEDCFF;
+$lcbo-highlight: #CCF0DD;
+$ea-highlight: #FFDADA;
+
 .content {
   margin: 2rem auto 4rem auto;
 }
@@ -10,6 +14,7 @@
 
 .block {
   margin-top: 2rem;
+  margin-bottom: 6rem;
 }
 
 .center-with-margins {
@@ -18,12 +23,24 @@
   margin-right: auto;
 }
 
-.block-title { // used for subtitles within case study
-    font-size: 1.6rem;
+.text-large {
+    font-size: 1.4rem;
     font-weight: 600;
     max-width: 667px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.slack-highlight {
+  background-color: $slack-highlight;
+}
+
+.lcbo-highlight {
+  background-color: $lcbo-highlight;
+}
+
+.ea-highlight {
+  background-color: $ea-highlight;
 }
 
 .case-study-img {
@@ -48,9 +65,8 @@
       margin-top: 4rem;
     }
 
-    .block-title {
+    .text-large {
       font-size: 2rem;
-      margin-bottom: 1rem;
     }
 
   }
@@ -65,10 +81,6 @@
     margin-top: 5rem;
   }
 
-  .block-title {
-    margin-bottom: 1.25rem;
-  }
-
 }
 
 @media screen and (min-width: 1300px) {
@@ -79,10 +91,7 @@
 
   .block {
     margin-top: 6rem;
-  }
-
-  .block-title {
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
   }
 
 }

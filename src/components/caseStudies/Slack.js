@@ -2,11 +2,41 @@ import React, { Component } from 'react';
 import Header from '../../components/HeaderComponent';
 import '../../css/Global.css';
 import '../../css/CaseStudy.css';
+import problem from '../../images/slack-problem.png';
+import problemHover from '../../images/slack-problem-hover.png';
+import solutionAuto from '../../images/slack-final-2.png';
+import solutionAutoHover from '../../images/slack-final-2-hover.png';
+import solutionName from '../../images/slack-final-3.png';
+import solutionNameHover from '../../images/slack-final-3-hover.png';
 import FooterComponent from '../FooterComponent';
 
 export default class SlackComponent extends Component {
-  render() {
+  constructor(props) {
+    super(props);
+    this.state = {
+      hoverProblem: false,
+      hoverSolutionAuto: false,
+    };
+    this.hoverHandler = this.hoverHandler.bind(this);
+    this.unhoverHandler = this.unhoverHandler.bind(this);
+  }
+
+  hoverHandler(field) {
+    this.setState({
+      [field]: true,
+    });
+  }
+  unhoverHandler(field) {
+    this.setState({
+      [field]: false,
+    });
+  }
+
+  componentDidMount() {
     window.scrollTo(0, 0);
+  }
+
+  render() {
     return (
       <>
         <Header />
@@ -22,17 +52,20 @@ export default class SlackComponent extends Component {
             Redesigning Slack’s sign in process
           </h1>
           <div className="container-md block">
-            <h2 className="block-title">Overview</h2>
             <p className="center-with-margins">
-              I had trouble signing in to Slack, and discovered that I wasn’t
-              the only one. During my Summer 2020 internship, working on how to
-              make signing in easier became my personal side project. The goal
-              was to create an experience that removed any confusion, and with
-              my manager’s guidance,{' '}
-              <b>
-                I created high fidelity designs that demonstrate how Slack’s
-                sign in process can be smarter and more streamlined.
-              </b>
+              <p className="text-large">
+                Motivated by my own experiences and the feedback I gathered from
+                others,{' '}
+                <span className="slack-highlight">
+                  I created a smarter and more streamlined sign in process.
+                </span>
+              </p>
+              <img
+                className="case-study-img"
+                src={require('../../images/slack.gif')}
+                alt="Animated design demonstration"
+                style={{ maxWidth: '100%' }}
+              />
             </p>
             <br></br>
             <div className="row center-with-margins">
@@ -51,124 +84,252 @@ export default class SlackComponent extends Component {
             </div>
           </div>
           <div className="block">
-            <h2 className="block-title">
-              Prologue: How this whole thing started
-            </h2>
             <p className="center-with-margins">
-              It was Spring 2020, and I had just joined a new workspace on the
-              web app and wanted to sign in on my phone. I just couldn’t figure
-              out how to do it! I hit dead ends everywhere and ended up deleting
-              my account and asking my team to send another invite to the email
-              I was using on my phone.
+              <b className="text-monospace">THE PROBLEM</b>
+            </p>
+            <p className="text-large">
+              <span className="slack-highlight">
+                Users must create a new account and password for every new
+                workspace, even if they’ve used Slack before, which is confusing
+                and frustrating.
+              </span>
+            </p>
+            <p className="center-with-margins">
+              People don’t like managing multiple accounts and passwords — they
+              prefer to reuse old accounts.
               <br />
               <br />
-              It was an enormous hassle, and I thought it was just me. After
-              conducting several interviews with other Slack users, I realized
-              others were also unsatisfied with how sign in works.
+              <img
+                className="case-study-img"
+                src={this.state.hoverProblem ? problemHover : problem}
+                alt="Current Slack sign in flow"
+                onMouseOver={() => this.hoverHandler('hoverProblem')}
+                onMouseOut={() => this.unhoverHandler('hoverProblem')}
+              />
+              <p className="text-monospace center-with-margins">
+                <small>Slack’s current flow.</small>
+              </p>
+            </p>
+            <p className="text-large">
+              “For this email, I already used it for another Slack, so{' '}
+              <span className="slack-highlight">
+                I don’t see why I have to create an account.”
+              </span>
             </p>
           </div>
           <div className="block">
-            <h2 className="block-title">The scope</h2>
             <p className="center-with-margins">
-              Since this was going to be a one-person journey, I knew I had to
-              scope down the project. I focused on a specific use case: a
-              returning user who joins a new workspace on Slack’s web app. In
-              other words, the user receives an email invitation at an address
-              that they’ve used for Slack before, and joins via the invite
-              button.
+              <b className="text-monospace">SCOPING IT DOWN</b>
+            </p>
+            <p className="text-large">I focused on a specific use case.</p>
+            <p className="center-with-margins">
+              The user receives an email invitation at an address that they’ve
+              used for Slack before, and joins via the invite button.
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={require('../../images/slack-map.png')}
+                alt="Original Slack sign in flow on web and mobile"
+              />
+              <br></br>I mapped out the flow on two platforms: web and mobile.
+              Then I recruited five people and designed a user study to learn
+              about how they experience the sign in process.
             </p>
           </div>
           <div className="block">
-            <h2 className="block-title">The problem</h2>
             <p className="center-with-margins">
-              Currently, users must create a new account for every workspace,
-              even if they’ve used Slack before. From user interviews, I learned
-              that this is <b>confusing and frustrating.</b> People don’t
-              understand why they must create a new account each time, and they
-              don’t like managing multiple accounts.
+              <b className="text-monospace">FINDING THE RIGHT PROBLEM</b>
             </p>
-            <br></br>
-            <img
-              className="case-study-img"
-              src={require('../../images/slack-problem.png')}
-              alt="Slack's current flow makes users create a new account for each workspace"
-            />
-            <br></br>
-            <br></br>
+            <p className="text-large">
+              <span className="slack-highlight">
+                I discovered that different users have different pain points.
+              </span>
+            </p>
             <p className="center-with-margins">
-              One Slack user said,{' '}
+              From having trouble finding the URL to misremembering their email
+              address, participants brought up a wide range of issues. How do we
+              determine which problem has the greatest impact?
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={require('../../images/slack-areas-opportunity.png')}
+                alt="Chart of areas of opportunity, effort and value"
+              />
+              <br></br>
+              For each area of improvement, I scored the development effort and
+              how much value it would bring to users.
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={require('../../images/slack-graph.png')}
+                alt="Chart of areas of opportunity, effort and value"
+              />
+              <br></br>I chose to focus on the problem with the greatest value
+              to effort ratio, which is how users don’t want to create new
+              accounts for each workspace.
+            </p>
+          </div>
+          <div className="block">
+            <p className="center-with-margins">
+              <b className="text-monospace">IDEATING</b>
+            </p>
+            <p className="text-large">
+              I worked through piles of iterations, eventually finding
+              myself at a crossroads —{' '}
+              <span className="slack-highlight">
+                I had to decide between two solutions.
+              </span>
+            </p>
+            <p className="center-with-margins">
+              Idea 1 ensures that users will join workspaces with the{' '}
+              <b>same</b> email address that they received the invite with.
+              <br></br>
+              <br></br>
+              Idea 2 enables the user to sign in with <b>any</b> email address,
+              as long as they’re using the link in the invite.
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={require('../../images/slack-two-solutions.png')}
+                alt="Rough sketches of each idea"
+              />
+            </p>
+          </div>
+          <div className="block">
+            <p className="center-with-margins">
+              <b className="text-monospace">COMPARE AND CONTRAST</b>
+            </p>
+            <p className="text-large">
+              To decide, I tested both ideas using low fidelity wireframes, and
+              asked participants:{' '}
+              <span className="slack-highlight">
+                How many emails do you want to associate with a Slack account?
+              </span>
+            </p>
+            <p className="center-with-margins">
+              Remember, Slack currently requires creating a new account and
+              password to join a workspace. Both solutions avoid this by
+              allowing people to reuse accounts.
+              <br></br>
+              <br></br>I wanted to find out which option made more sense to
+              users.{' '}
               <b>
-                “For this email, I already used it for another Slack, so I don’t
-                see why I have to create an account.”
+                If users want multiple emails linked to a single account, then
+                Idea 2 would give them that flexibility.
               </b>
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={require('../../images/slack-lofi-test.png')}
+                alt="Low fidelity wireframes of each idea"
+              />
+            </p>
+            <p className="text-large">
+              I learned that people want the ability to link multiple email
+              addresses to one Slack account.
+            </p>
+            <p className="center-with-margins">
+              Idea 2 seems like the obvious choice, but I still chose the Idea 1
+              in the end.
+            </p>
+            <p className="text-large">
+              <span className="slack-highlight">
+                People want to link multiple emails because they think it will
+                give them more agility when switching workspaces. In reality,
+                you don’t need every email under a single account to have all
+                your workspaces available.
+              </span>
+            </p>
+            <p className="center-with-margins">
+              Idea 1 is:<br></br>• Simpler — it has less options so it’s easier
+              for the user to make decisions.<br></br>• More secure — being able
+              to sign in with any address (Idea 2) is too flexible.<br></br>•
+              Equally agile when it comes to switching workspaces, once the
+              user’s signed in.
             </p>
           </div>
           <div className="block">
-            <h2 className="block-title">The solution</h2>
             <p className="center-with-margins">
-              I focused on tackling the biggest hurdle: how can users sign in
-              without creating a new account for each workspace?
+              <b className="text-monospace">THE SOLUTION</b>
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={require('../../images/slack-final-1.png')}
+                alt="Email invitation to join a new workspace"
+              />
+              <img
+                className="case-study-img"
+                src={
+                  this.state.hoverSolutionAuto
+                    ? solutionAutoHover
+                    : solutionAuto
+                }
+                alt="Account information automatically displayed"
+                onMouseOver={() => this.hoverHandler('hoverSolutionAuto')}
+                onMouseOut={() => this.unhoverHandler('hoverSolutionAuto')}
+              />
             </p>
-            <img
-              className="case-study-img"
-              src={require('../../images/slack-brainstorming.png')}
-              alt="A collection of solution iteration sketches"
-            />
             <br></br>
-            <br></br>
+            <p className="text-large">
+              The redesign automatically displays the email address and profile
+              picture.
+            </p>
             <p className="center-with-margins">
-              I generated iterations upon iterations, tested when I needed
-              feedback, and evaluated different possible solutions to create the
-              final design below:
+              Though users just came from their email, they still like to see
+              their address confirmed.
+              <br></br>
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={
+                  this.state.hoverSolutionName
+                    ? solutionNameHover
+                    : solutionName
+                }
+                alt="Users can edit their name"
+                onMouseOver={() => this.hoverHandler('hoverSolutionName')}
+                onMouseOut={() => this.unhoverHandler('hoverSolutionName')}
+              />
+              <br></br>
+              <br></br>
+              Users still have the opportunity to edit their name. People want
+              to have control over how they display personal information, which
+              can change depending on the workspace’s purpose and members.
+              <br></br>
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={require('../../images/slack-final-4.png')}
+                alt="Users enter their password to join the workspace"
+              />
             </p>
             <br></br>
-            <img
-              className="case-study-img"
-              src={require('../../images/slack-solution.png')}
-              alt="The solution flow"
-            />
+            <p className="text-large">
+              The user signs in by entering their password —{' '}
+              <span className="slack-highlight">
+                they don’t have to create and remember a new one.
+              </span>
+            </p>
             <p className="center-with-margins">
-              <br></br>
-              <br></br>
-              Let’s break down each step.
-              <br></br>
-              <br></br>
-              When the user clicks on the join button, they go into the sign in
-              flow, where they can view their email address.{' '}
-              <b>Users like to see their address confirmed,</b> and seeing what
-              other workspaces they’ve used with this address helps them
-              organize workspaces.
-              <br></br>
-              <br></br>
-              Next, they have the opportunity to edit their name. People want to
-              have control over how they display personal information, which can
-              change depending on the workspace’s purpose and who’s in it.
-              <br></br>
-              <br></br>
-              Finally, the user signs in by entering their password.{' '}
-              <b>
-                The key change here as that they don’t have to create and
-                remember a new password.
-              </b>{' '}
-              From user interviews, I learned that people like to reuse accounts
-              because it’s easier to manage.
-              <br></br>
-              <br></br>
-              One potential drawback is that the user can’t set a more secure
-              password for this workspace. It’s a trade-off between convenience
-              and customization. My research shows that users don’t need
-              different passwords, but if there’s a demand, then Slack could
-              save this feature for power users. For example, they can allow
-              users to change workspace passwords through settings.
+              This changes how accounts and workspaces relate to each other.
+              Instead of having one account per workspace, people can have many
+              workspaces under one account.
             </p>
           </div>
           <div className="block">
-            <h2 className="block-title">Impact</h2>
             <p className="center-with-margins">
-              At the start of the project, I conducted research to discover how
-              others felt about the sign in process. At the end, I measured
-              success by reinterviewing the same people and asking if the
-              changes made a difference. I used the {' '}
+              <b className="text-monospace">IMPACT</b>
+            </p>
+            <p className="text-large">
+              I used the{' '}
               <a
                 className="link text-link"
                 href="https://www.netpromoter.com/know/"
@@ -177,171 +338,70 @@ export default class SlackComponent extends Component {
               >
                 Net Promoter Score
               </a>
-              {' in my interviews, asking: '}
-              <br></br>
-              <br></br>
-              Would you recommend Slack to a friend or co-worker? 0 is not
-              likely at all, and 10 is extremely likely.{' '}
+              {' in user interviews, asking: '}
+            </p>
+            <p className="center-with-margins">
+              On a scale of 0 to 10, would you recommend Slack to a friend or
+              co-worker?{' '}
               <b>Would this redesign make a difference in your rating?</b>
               <br></br>
               <br></br>I received the following feedback:
               <br></br>
               <br></br>
-              “I’d give Slack a 7. This change makes a difference with my
-              rating. One of the reasons I don’t like Slack if because the sign
-              in process is terrible.{' '}
-              <b>
-                If this change is implemented, it would become a 9. I see myself
-                using Slack more often if this existed.
-              </b>
-              ”
-            </p>
-            <img
-              className="case-study-img"
-              src={require('../../images/nps.png')}
-              alt="In NPS, 0-6 are detractors, 7-8 are passive, and 9-10 are promoters"
-            />
-            <p className="text-monospace center-with-margins">
-              <small>Source: www.netpromoter.com/know</small>
-            </p>
-            <br></br>
-            <br></br>
-            <p className="center-with-margins">
-              This means the user would go from being passive (7) to becoming a
-              promoter (9).
+              <p className="text-large">
+                “I’d give Slack a 7. One of the reasons I don’t like Slack is
+                because of the sign in process. If this change is implemented,
+                it would become a 9.{' '}
+                <span className="slack-highlight">
+                  I see myself using Slack more often if this existed.
+                </span>
+                ”
+              </p>
               <br></br>
               <br></br>
-              While this is great news, depending on individual interviews for
-              evaluating impact isn’t efficient in the real world. If I had the
-              resources, I would measure success by comparing the sign in
-              completion rate for before and after this change. I’d also measure
-              the number of returning Slack users, and how many subsequent
-              workspaces they join.
+              <img
+                className="case-study-img"
+                src={require('../../images/nps.png')}
+                alt="In NPS, 0-6 are detractors, 7-8 are passive, and 9-10 are promoters"
+              />
+              <p className="text-monospace center-with-margins">
+                <small>Source: www.netpromoter.com/know</small>
+              </p>
+              <p className="text-large">
+                <span className="slack-highlight">
+                  This means the user would go from being passive (7) to
+                  becoming a promoter (9).
+                </span>
+              </p>
+              If I had the resources, I’d also use quantitative data to measure
+              success:<br></br>• Comparing the sign in completion rate before
+              and after this change.<br></br>• Measuring the number of returning
+              Slack users.<br></br>• Measuring how many subsequent workspaces
+              people join.
             </p>
           </div>
           <div className="block">
-            <h2 className="block-title">How I made my design decisions</h2>
             <p className="center-with-margins">
-              <b>CHOOSING A PROBLEM</b>
-              <br />
-              <br />
-              Rethinking mandatory account creation wasn’t the only way to
-              improve the sign in process. After setting the scope, I mapped out
-              the flow on two platforms: web and mobile.
-              <br />
-              <br />
+              <b className="text-monospace">REFLECTION</b>
             </p>
-            <img
-              className="case-study-img"
-              src={require('../../images/slack-map.png')}
-              alt="Original Slack sign in flow on web and mobile"
-            />
-            <br />
-            <br />
-            <p className="center-with-margins">
-              Then I recruited five people, designed a study plan where they
-              joined a workspace I had created, and asked them about their
-              experience. I found six areas of improvement.
+            <p className="text-large">
+              Doing a personal project gave me the opportunity to expand my
+              design experience, with guidance from my mentor.
             </p>
-            <br />
-            <img
-              className="case-study-img"
-              src={require('../../images/slack-effort-value.png')}
-              alt="An effort vs value chart ranks each area of improvement"
-            />
-            <br />
-            <br />
             <p className="center-with-margins">
-              For each area of improvement, I created a numerical representation
-              for the development effort and how much value it would bring to
-              users. I chose this problem because it has the greatest value to
-              effort ratio.
-            </p>
-            <br />
-            <br />
-            <p className="center-with-margins">
-              <b>DECIDING BETWEEN TWO POTENTIAL SOLUTIONS</b>
-              <br />
-              <br />
-              After brainstorming and iterating, I ended up with two possible
-              solutions, and had to make a choice.
-              <br />
-              <br />
-              Idea 1 ensures that users will join workspaces with the{' '}
-              <b>same</b> email address that they received the invite with.
-              <br />
-              <br />
-              Idea 2 enables the user to sign in with <b>any</b> email address,
-              as long as they’re using the link in the invite.
-            </p>
-            <img
-              className="case-study-img"
-              src={require('../../images/slack-two-solutions.png')}
-              alt="Wireframes showing each idea"
-            />
-            <br />
-            <br />
-            <p className="center-with-margins">
-              To decide between these two options, I wanted to find out which
-              option made more sense to users. I set up a quick test using low
-              fidelity wireframes, and asked,{' '}
-              <b>
-                how many emails do you want to associate with a Slack account?
-              </b>{' '}
-              If users want multiple emails linked to a single account, then
-              Idea 2 would give them that flexibility.
-            </p>
-            <img
-              className="case-study-img"
-              src={require('../../images/slack-lofi-test.png')}
-              alt="Low fidelity mockups of each idea"
-            />
-            <br />
-            <br />
-            <p className="center-with-margins">
-              After interviewing three people, I learned that everyone wants the
-              option to link multiple email addresses to one Slack account. Idea
-              2 seems like the obvious choice. However, I still chose Idea 1 in
-              the end, where users can only join with the address that received
-              the invite.
-              <br />
-              <br />
-              Here’s why — the reason everyone wants to link multiple emails is
-              because they want to easily switch between different workspaces.
-              But Slack already does this — you just have to be signed in to
-              each workspace. Users want agility, and they think Idea 2 will
-              give them that, but since it’s already provided in the product,
-              implementing Idea 2 is unnecessary.
-              <br />
-              <br />
-              Furthermore, by choosing Idea 1, we avoid the issues that come
-              with with Idea 2. Allowing users to choose their email address
-              means presenting many options at once, which complicates the UI.
-              From testing, users also perceive it to be less secure.
-            </p>
-          </div>
-          <div className="block">
-            <h2 className="block-title">What I learned and next steps</h2>
-            <p className="center-with-margins">
-              Gaining experience on a personal project while interning at EA
-              helped me learn a lot, fast. Now I know that designers should
-              solve for the root of a problem, not treat the symptoms. I
-              practiced this with Slack — when choosing between two different
-              solutions, I could’ve taken the users’ feedback literally.
-              Instead, I thought about the root cause of why they preferred one
-              option over the other, and made my choice based off of that.
-              <br />
-              <br />
-              I also learned how to scope down a problem and how to say no to
-              less important problems. This project introduced me to Effort vs
-              Value charts and Net Promoter Scores. It taught me the importance
-              of benchmarking and finding out if the new designs made a
-              difference, whether positive or negative.
-              <br />
-              <br />
-              If I had more time, I would explore if Slack could benefit from
-              having different levels of security for different types of
-              workspaces. I’d also look into password-free sign in methods.
+              I learned that:<br></br>• Scoping down a problem and{' '}
+              <b>saying no to less important problems</b> will help you focus.
+              <br></br>• Choosing just one problem was challenging — Effort vs
+              Value charts are helpful with these kinds of decisions.<br></br>•
+              Benchmarking is vital — find out if the new designs made a
+              difference, <b>whether positive or negative.</b>
+              <br></br>• Designers should solve for the root of a problem, not
+              treat the symptoms.<br></br>
+              <br></br>
+              If I had more time...<br></br>• I would explore if Slack could
+              benefit from having different levels of security for different
+              types of workspaces.<br></br>• I’d also look into password-free
+              sign in methods.
             </p>
             <div className="center-with-margins">
               <img

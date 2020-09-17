@@ -2,11 +2,37 @@ import React, { Component } from 'react';
 import Header from '../../components/HeaderComponent';
 import '../../css/Global.css';
 import '../../css/CaseStudy.css';
+import interns from '../../images/ea-interns.png';
+import internsHover from '../../images/ea-interns-hover.png';
 import FooterComponent from '../FooterComponent';
 
 export default class EAComponent extends Component {
-  render() {
+  constructor(props) {
+    super(props);
+    this.state = {
+      hoverProblem: false,
+      hoverSolutionAuto: false,
+    };
+    this.hoverHandler = this.hoverHandler.bind(this);
+    this.unhoverHandler = this.unhoverHandler.bind(this);
+  }
+
+  hoverHandler(field) {
+    this.setState({
+      [field]: true,
+    });
+  }
+  unhoverHandler(field) {
+    this.setState({
+      [field]: false,
+    });
+  }
+
+  componentDidMount() {
     window.scrollTo(0, 0);
+  }
+
+  render() {
     return (
       <>
         <Header />
@@ -22,22 +48,23 @@ export default class EAComponent extends Component {
             EA product design internship
           </h1>
           <div className="container-md block">
-            <h2 className="block-title">Overview</h2>
             <p className="center-with-margins">
-              In Summer 2020, I did a four month remote internship at Electronic
-              Arts. I was a product design intern on the EAX team, and I worked
-              on the next generation of {' '}
-              <a
-                className="link text-link"
-                href="https://www.origin.com/can/en-us/store"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Origin
-              </a>
-              {
-                ' on web, which is our game distribution platform. I also designed and deployed a site for an upcoming social experience product.'
-              }
+              <p className="text-large">
+                I worked on the next generation of{' '}
+                <a
+                  className="link text-link"
+                  href="https://www.origin.com/can/en-us/store"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Origin
+                </a>
+                , which is our game distribution platform.{' '}
+                <span className="ea-highlight">
+                  I also designed and deployed a website for an upcoming social
+                  experience product.
+                </span>
+              </p>
             </p>
             <br></br>
             <div className="row center-with-margins">
@@ -47,22 +74,27 @@ export default class EAComponent extends Component {
               </div>
               <div className="col-sm mb-4 pl-0">
                 <b className="text-monospace">MY ROLE</b>
-                <p>Visual design, information architecture</p>
+                <p>Visual design, component design, information architecture</p>
               </div>
               <div className="col-sm mb-4 pl-0">
                 <b className="text-monospace">DELIVERABLES</b>
-                <p>Four projects, high fidelity mockups, Google site</p>
+                <p>Four projects, high fidelity mockups, one Google site</p>
               </div>
             </div>
           </div>
           <div className="block">
-            <h2 className="block-title">Chapter 1 — Stepping into the role</h2>
             <p className="center-with-margins">
-              I redesigned the footer for the next generation of Origin. It was
-              my first time working on a product with millions of users, and I
-              was responsible for taking the project from requirement gathering
-              to handoff. I learned that assumptions change constantly, how
-              different teams affect each other, and that designs need to adapt.
+              <b className="text-monospace">
+                CHAPTER 1: STEPPING INTO THE ROLE
+              </b>
+            </p>
+            <p className="text-large">
+              I redesigned the footer for the next generation of Origin.
+            </p>
+            <p className="center-with-margins">
+              It was my first time working on a product with millions of users,
+              and I was responsible for taking the project from requirement
+              gathering to handoff.
             </p>
             <br></br>
             <div className="row center-with-margins">
@@ -117,13 +149,15 @@ export default class EAComponent extends Component {
               </div>
             </div>
             <br></br>
-
             <p className="center-with-margins">
-              <b className="text-monospace">DESIGN DECISIONS</b>
-              <br></br>
-              <br></br>A challenge I faced was how to organize each link and
-              selector. In my original approach, I displayed each element in
-              order of importance.
+              <p className="text-large">
+                <span className="ea-highlight">
+                  A challenge I faced was how to organize each link and
+                  selector.
+                </span>
+              </p>
+              In my original approach, I wanted to display elements in order of
+              importance.
               <br></br>
               <br></br>
               <img
@@ -133,45 +167,42 @@ export default class EAComponent extends Component {
                 style={{ maxWidth: '100%' }}
               />
             </p>
-            <br></br>
             <p className="center-with-margins">
-              Then I learned that it’s better to group together elements based
-              on how they’d be used. For example, helpful links are separated
-              from links that are included for legal reasons. Using font
-              colours, spacing, and different backgrounds, I organized the
-              footer so everything has a home. I also kept in mind how the
-              layout would adapt to different breakpoints and regional
-              requirements.
+              Later I realized that it’s better to group together elements based
+              on how they’ll be used.<br></br>• Helpful links are given more
+              prominence than links only included for legal reasons.<br></br>•
+              Using font, spacing, and colours to create a home for each
+              section.<br></br>• The same layout must extend to different
+              breakpoints and regional requirements.
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={require('../../images/ea-footer.png')}
+                alt="Footer UI"
+              />
             </p>
-            <br></br>
-            <img
-              className="case-study-img"
-              src={require('../../images/ea-footer-breakdown.png')}
-              alt="Footer UI showing different sections"
-            />
+            <p className="text-monospace center-with-margins">
+              <small>The footer component, desktop view.</small>
+            </p>
           </div>
           <div className="block">
-            <h2 className="block-title">Chapter 2 — Understanding goals</h2>
             <p className="center-with-margins">
-              One month into my internship, I moved to a new team and onboarded
-              onto a new social experience project. I created a documentation
-              site and participated in the project’s first (virtual) design
-              sprint, focusing on the ‘why’ behind every decision.
+              <b className="text-monospace">CHAPTER 2: UNDERSTANDING GOALS</b>
             </p>
-            <br></br>
-            <br></br>
             <p className="center-with-margins">
+              <p className="text-large">
+                One month into my internship, I onboarded into a new social
+                experience project, where I created a documentation site.
+              </p>
+              <br></br>
               Before starting the site, I worked with the team to come up with
               overarching goals:
               <br></br>
               <br></br>• Pull together and organize all existing documentation
               so a cross-functional group can find the information that’s most
-              relevant to them quickly and easily
-              <br></br>
-              <br></br>• Help new team members onboard onto the project
-              efficiently and without confusion.
-              <br></br>
-              <br></br>
+              relevant to them quickly and easily.
+              <br></br>• Help new team members with project onboarding.
               <br></br>
               <br></br>
             </p>
@@ -234,70 +265,100 @@ export default class EAComponent extends Component {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="block">
             <p className="center-with-margins">
               <b className="text-monospace">OVERCOMING HURDLES</b>
-              <br></br>
-              <br></br>
-              After conducting research and reading every document we had on the
-              project, I tackled the task of organizing the site. From
-              interviews, I learned what people thought the ideal site structure
-              should be, but when I implemented this, I realized it wouldn’t
-              match our existing docs. Working with the team, I pivoted to an
-              architecture that best showcases our current assets, and learned
-              that user interviews only give us information, not instructions.
-              <br></br>
-              <br></br>
-              This site is now being used in EA teams across the world, and
-              helps onboard new members to the project’s ever-growing team.
-              <br></br>
-              <br></br>
+            </p>
+            <p className="text-large">
+              From interviews, I learned my teammates’ expectations for the
+              ideal site structure, but when I started to implement this, I
+              realized it wouldn’t match our existing docs.
+            </p>
+            <p className="center-with-margins">
+              Working collaboratively, I pivoted to an architecture that best
+              showcases our current assets, and learned that{' '}
+              <b>user interviews only give us information, not instructions.</b>
+            </p>
+            <p className="text-large">
+              <span className="ea-highlight">
+                This site is now being used in EA teams across the world,
+              </span>{' '}
+              and helps onboard new members into the project’s ever-growing
+              team.
             </p>
           </div>
           <div className="block">
-            <h2 className="block-title">Chapter 3 — Wrapping it up</h2>
             <p className="center-with-margins">
-              For the rest of the summer, I worked on hard skills, such as
-              visual and interaction design. I practiced product thinking and
-              got more familiar with design deliverable expectations.
-              <br></br>
-              <br></br>I worked with the UX Design Program Manager to bring
-              consistency to a design sprint template, which will help our teams
-              run future sprints.
-              <br></br>
-              <br></br>
-              Finally, I created two new icons for web navigation, gaining
-              newfound appreciation for nuances in iconography.
+              <b className="text-monospace">CHAPTER 3: WRAPPING IT UP</b>
             </p>
-          </div>
-          <div className="block">
-            <h2 className="block-title">
-              Learnings and what I’d do differently
-            </h2>
+            <p className="text-large">
+              For the rest of the summer, I worked on hard skills.
+            </p>
             <p className="center-with-margins">
-              Before this internship, I used to think that there’s a perfect
-              design somewhere out there, and that it was the designer’s job to
-              find it. Now I see that it’s more about{' '}
-              <b>balancing priorities.</b> I also learned that it’s important to
-              be comfortable with ambiguity and making decisions with incomplete
-              information.
+              • Visual and interaction design.<br></br>• Practicing product
+              thinking.<br></br>• Getting more familiar with design deliverable
+              expectations.<br></br>
               <br></br>
-              <br></br>
-              If I could time travel to the start of my internship,{' '}
               <b>
-                I’d focus more on the context of each project and why it’s
-                valuable
+                My final project was creating new icons for web navigation,
+                where I gained newfound appreciation for nuances in iconography.
               </b>
-              , instead of just focusing on the deliverables.
               <br></br>
               <br></br>
+              <img
+                className="case-study-img"
+                src={require('../../images/ea-icons.png')}
+                alt="Icons are protected content"
+              />
+              <p className="text-monospace center-with-margins">
+                <small>Secret icons.</small>
+              </p>
+            </p>
+          </div>
+          <div className="block">
+            <p className="center-with-margins">
+              <b className="text-monospace">
+                LEARNINGS AND WHAT I’D DO DIFFERENTLY
+              </b>
+            </p>
+            <p className="text-large">
+              I used to think that there’s a perfect design somewhere out there,
+              and that it was the designer’s job to find it.{' '}
+              <span className="ea-highlight">
+                Now I see that it’s more about balancing priorities.
+              </span>
+            </p>
+            <p className="center-with-margins">
+              I learned that it’s important to be comfortable with ambiguity and
+              making decisions with incomplete information.
+              <br></br>
+              <br></br>
+              <img
+                className="case-study-img"
+                src={this.state.hoverInterns ? internsHover : interns}
+                alt="Current Slack sign in flow"
+                onMouseOver={() => this.hoverHandler('hoverInterns')}
+                onMouseOut={() => this.unhoverHandler('hoverInterns')}
+              />
+              <p className="text-monospace center-with-margins">
+                <small>{'Intern class of 2020 <3'}</small>
+              </p>
+              <p className="text-large">
+                If I could time travel to the start of my internship,{' '}
+                <span className="ea-highlight">
+                  I’d focus more on the context of each project and why it’s
+                  valuable, instead of just focusing on the deliverables.
+                </span>
+              </p>
               Though overwhelming at times, I rose to the challenge and grew
               personally and professionally through this experience. I learned
               from so many great mentors: about what it means to be a product
               designer, what kind of designer I want to be, how to ask for
-              feedback, and how to present more effectively.
+              feedback, how to present more effectively...
               <br></br>
               <br></br>I could go on for ages, so if you want to learn more
-              about this internship, don’t hesitate to {' '}
+              about this internship, don’t hesitate to{' '}
               <a
                 className="link text-link"
                 href="mailto:ca2li@uwaterloo.ca"
