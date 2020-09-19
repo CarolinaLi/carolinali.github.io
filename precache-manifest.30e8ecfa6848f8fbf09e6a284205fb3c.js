@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "d956c3c19ef33f556f90",
-    "url": "/static/css/main.29ee0c33.chunk.css"
+    "revision": "01c8069868179ed87c74",
+    "url": "/static/css/main.74cab2bf.chunk.css"
   },
   {
-    "revision": "d956c3c19ef33f556f90",
-    "url": "/static/js/main.02ad9c54.chunk.js"
+    "revision": "01c8069868179ed87c74",
+    "url": "/static/js/main.d82e3e2d.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "09cb66444d1b00eee27b",
-    "url": "/static/js/2.31530b59.chunk.js"
-  },
-  {
-    "revision": "b24f5d9555eabb613c7cf5c50a7c3857",
-    "url": "/static/media/resume-2020-aug.b24f5d95.pdf"
+    "revision": "49d9adbe6bc617d9db8d",
+    "url": "/static/js/2.196c6c1e.chunk.js"
   },
   {
     "revision": "58bc3e4b133228e53d2cc28fc1dbbf79",
     "url": "/static/media/arrow_upward.58bc3e4b.svg"
+  },
+  {
+    "revision": "e7949e11046f40750a6afbfb1d8bd8a0",
+    "url": "/static/media/ResumeAug2020XS.e7949e11.pdf"
   },
   {
     "revision": "2c90a6a4604bafa47ce7dcfb64f8327a",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "a4f59503ae2e4ed8207c1a7190fef7ac",
     "url": "/static/media/about2.a4f59503.jpg"
+  },
+  {
+    "revision": "b24f5d9555eabb613c7cf5c50a7c3857",
+    "url": "/static/media/resume-2020-aug.b24f5d95.pdf"
   },
   {
     "revision": "00a9d9f7ab28bd33437be33103466a1d",
@@ -56,8 +60,8 @@ self.__precacheManifest = [
     "url": "/static/media/slack-final-2.53943b73.png"
   },
   {
-    "revision": "3cacb4bf572302891905bf29d3914918",
-    "url": "/static/media/slack-final-3-hover.3cacb4bf.png"
+    "revision": "5ef375c3aab49092cba0262bb3c88d11",
+    "url": "/static/media/slack-final-3-hover.5ef375c3.png"
   },
   {
     "revision": "9abcf5159aa3f7986ddec6c81894d09f",
@@ -280,7 +284,7 @@ self.__precacheManifest = [
     "url": "/static/media/slack-brainstorming.aa4cb23e.png"
   },
   {
-    "revision": "c64423b158eff5585f73422395876be0",
+    "revision": "052f3689217a7f8b57bb7bfb29fda9c7",
     "url": "/index.html"
   }
 ];
