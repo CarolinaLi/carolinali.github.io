@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../../components/HeaderComponent';
+import { motion } from 'framer-motion';
+import { variantsImg, variantsFrame } from '../ImageVariants';
 import '../../css/Global.css';
 import '../../css/CaseStudy.css';
 import problem from '../../images/slack-problem.png';
@@ -16,9 +18,19 @@ export default class SlackComponent extends Component {
     this.state = {
       hoverProblem: false,
       hoverSolutionAuto: false,
+      zoomedProblem: false,
+      zoomedEffort: false,
+      zoomedTwoSols: false,
+      zoomedLofi: false,
+      zoomedFinal1: false,
+      zoomedFinal2: false,
+      zoomedFinal3: false,
+      zoomedFinal4: false,
     };
     this.hoverHandler = this.hoverHandler.bind(this);
     this.unhoverHandler = this.unhoverHandler.bind(this);
+    this.zoomIn = this.zoomIn.bind(this);
+    this.zoomOut = this.zoomOut.bind(this);
   }
 
   hoverHandler(field) {
@@ -27,6 +39,18 @@ export default class SlackComponent extends Component {
     });
   }
   unhoverHandler(field) {
+    this.setState({
+      [field]: false,
+    });
+  }
+
+  zoomIn(field) {
+    this.setState({
+      [field]: true,
+    });
+  }
+
+  zoomOut(field) {
     this.setState({
       [field]: false,
     });
@@ -99,12 +123,33 @@ export default class SlackComponent extends Component {
               prefer to reuse old accounts.
               <br />
               <br />
-              <img
-                className="case-study-img"
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedProblem
+                    ? this.zoomOut('zoomedProblem')
+                    : this.zoomIn('zoomedProblem')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedProblem ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={this.state.hoverProblem ? problemHover : problem}
                 alt="Current Slack sign in flow"
                 onMouseOver={() => this.hoverHandler('hoverProblem')}
                 onMouseOut={() => this.unhoverHandler('hoverProblem')}
+                onClick={() =>
+                  this.state.zoomedProblem
+                    ? this.zoomOut('zoomedProblem')
+                    : this.zoomIn('zoomedProblem')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedProblem ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
               <p className="text-monospace center-with-margins">
                 <small>Slack’s current flow.</small>
@@ -127,10 +172,31 @@ export default class SlackComponent extends Component {
               used for Slack before, and joins via the invite button.
               <br></br>
               <br></br>
-              <img
-                className="case-study-img"
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedMap
+                    ? this.zoomOut('zoomedMap')
+                    : this.zoomIn('zoomedMap')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedMap ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={require('../../images/slack-map.png')}
                 alt="Original Slack sign in flow on web and mobile"
+                onClick={() =>
+                  this.state.zoomedMap
+                    ? this.zoomOut('zoomedMap')
+                    : this.zoomIn('zoomedMap')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedMap ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
               <br></br>I mapped out the flow on two platforms: web and mobile.
               Then I recruited five people and designed a user study to learn
@@ -152,10 +218,31 @@ export default class SlackComponent extends Component {
               determine which problem has the greatest impact?
               <br></br>
               <br></br>
-              <img
-                className="case-study-img"
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedEffort
+                    ? this.zoomOut('zoomedEffort')
+                    : this.zoomIn('zoomedEffort')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedEffort ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={require('../../images/slack-areas-opportunity.png')}
                 alt="Chart of areas of opportunity, effort and value"
+                onClick={() =>
+                  this.state.zoomedEffort
+                    ? this.zoomOut('zoomedEffort')
+                    : this.zoomIn('zoomedEffort')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedEffort ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
               <br></br>
               For each area of improvement, I scored the development effort and
@@ -177,8 +264,8 @@ export default class SlackComponent extends Component {
               <b className="text-monospace">IDEATING</b>
             </p>
             <p className="text-large">
-              I worked through piles of iterations, eventually finding
-              myself at a crossroads —{' '}
+              I worked through piles of iterations, eventually finding myself at
+              a crossroads —{' '}
               <span className="slack-highlight">
                 I had to decide between two solutions.
               </span>
@@ -192,10 +279,31 @@ export default class SlackComponent extends Component {
               as long as they’re using the link in the invite.
               <br></br>
               <br></br>
-              <img
-                className="case-study-img"
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedTwoSols
+                    ? this.zoomOut('zoomedTwoSols')
+                    : this.zoomIn('zoomedTwoSols')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedTwoSols ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={require('../../images/slack-two-solutions.png')}
                 alt="Rough sketches of each idea"
+                onClick={() =>
+                  this.state.zoomedTwoSols
+                    ? this.zoomOut('zoomedTwoSols')
+                    : this.zoomIn('zoomedTwoSols')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedTwoSols ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
             </p>
           </div>
@@ -223,10 +331,31 @@ export default class SlackComponent extends Component {
               </b>
               <br></br>
               <br></br>
-              <img
-                className="case-study-img"
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedLofi
+                    ? this.zoomOut('zoomedLofi')
+                    : this.zoomIn('zoomedLofi')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedLofi ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={require('../../images/slack-lofi-test.png')}
                 alt="Low fidelity wireframes of each idea"
+                onClick={() =>
+                  this.state.zoomedLofi
+                    ? this.zoomOut('zoomedLofi')
+                    : this.zoomIn('zoomedLofi')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedLofi ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
             </p>
             <p className="text-large">
@@ -258,13 +387,46 @@ export default class SlackComponent extends Component {
               <b className="text-monospace">THE SOLUTION</b>
               <br></br>
               <br></br>
-              <img
-                className="case-study-img"
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedFinal1
+                    ? this.zoomOut('zoomedFinal1')
+                    : this.zoomIn('zoomedFinal1')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFinal1 ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={require('../../images/slack-final-1.png')}
                 alt="Email invitation to join a new workspace"
+                onClick={() =>
+                  this.state.zoomedFinal1
+                    ? this.zoomOut('zoomedFinal1')
+                    : this.zoomIn('zoomedFinal1')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFinal1 ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
-              <img
-                className="case-study-img"
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedFinal2
+                    ? this.zoomOut('zoomedFinal2')
+                    : this.zoomIn('zoomedFinal2')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFinal2 ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={
                   this.state.hoverSolutionAuto
                     ? solutionAutoHover
@@ -273,6 +435,15 @@ export default class SlackComponent extends Component {
                 alt="Account information automatically displayed"
                 onMouseOver={() => this.hoverHandler('hoverSolutionAuto')}
                 onMouseOut={() => this.unhoverHandler('hoverSolutionAuto')}
+                onClick={() =>
+                  this.state.zoomedFinal2
+                    ? this.zoomOut('zoomedFinal2')
+                    : this.zoomIn('zoomedFinal2')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFinal2 ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
             </p>
             <br></br>
@@ -286,8 +457,20 @@ export default class SlackComponent extends Component {
               <br></br>
               <br></br>
               <br></br>
-              <img
-                className="case-study-img"
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedFinal3
+                    ? this.zoomOut('zoomedFinal3')
+                    : this.zoomIn('zoomedFinal3')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFinal3 ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={
                   this.state.hoverSolutionName
                     ? solutionNameHover
@@ -296,6 +479,15 @@ export default class SlackComponent extends Component {
                 alt="Users can edit their name"
                 onMouseOver={() => this.hoverHandler('hoverSolutionName')}
                 onMouseOut={() => this.unhoverHandler('hoverSolutionName')}
+                onClick={() =>
+                  this.state.zoomedFinal3
+                    ? this.zoomOut('zoomedFinal3')
+                    : this.zoomIn('zoomedFinal3')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFinal3 ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
               <br></br>
               <br></br>
@@ -305,10 +497,32 @@ export default class SlackComponent extends Component {
               <br></br>
               <br></br>
               <br></br>
-              <img
-                className="case-study-img"
+              <img />
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedFinal4
+                    ? this.zoomOut('zoomedFinal4')
+                    : this.zoomIn('zoomedFinal4')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFinal4 ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={require('../../images/slack-final-4.png')}
                 alt="Users enter their password to join the workspace"
+                onClick={() =>
+                  this.state.zoomedFinal4
+                    ? this.zoomOut('zoomedFinal4')
+                    : this.zoomIn('zoomedFinal4')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFinal4 ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
             </p>
             <br></br>

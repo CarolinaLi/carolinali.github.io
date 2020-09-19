@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../../components/HeaderComponent';
+import { motion } from 'framer-motion';
+import { variantsImg, variantsFrame } from '../ImageVariants';
 import '../../css/Global.css';
 import '../../css/CaseStudy.css';
 import interns from '../../images/ea-interns.png';
@@ -12,9 +14,12 @@ export default class EAComponent extends Component {
     this.state = {
       hoverProblem: false,
       hoverSolutionAuto: false,
+      zoomedFooter: false,
     };
     this.hoverHandler = this.hoverHandler.bind(this);
     this.unhoverHandler = this.unhoverHandler.bind(this);
+    this.zoomIn = this.zoomIn.bind(this);
+    this.zoomOut = this.zoomOut.bind(this);
   }
 
   hoverHandler(field) {
@@ -23,6 +28,18 @@ export default class EAComponent extends Component {
     });
   }
   unhoverHandler(field) {
+    this.setState({
+      [field]: false,
+    });
+  }
+
+  zoomIn(field) {
+    this.setState({
+      [field]: true,
+    });
+  }
+
+  zoomOut(field) {
     this.setState({
       [field]: false,
     });
@@ -176,10 +193,31 @@ export default class EAComponent extends Component {
               breakpoints and regional requirements.
               <br></br>
               <br></br>
-              <img
-                className="case-study-img"
+              <motion.div
+                className="frame"
+                onClick={() =>
+                  this.state.zoomedFooter
+                    ? this.zoomOut('zoomedFooter')
+                    : this.zoomIn('zoomedFooter')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFooter ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsFrame}
+                transition={{ duration: 0.3 }}
+              ></motion.div>
+              <motion.img
+                className="case-study-img clickable"
                 src={require('../../images/ea-footer.png')}
                 alt="Footer UI"
+                onClick={() =>
+                  this.state.zoomedFooter
+                    ? this.zoomOut('zoomedFooter')
+                    : this.zoomIn('zoomedFooter')
+                }
+                initial="zoomedOut"
+                animate={this.state.zoomedFooter ? 'zoomedIn' : 'zoomedOut'}
+                variants={variantsImg}
+                transition={{ duration: 0 }}
               />
             </p>
             <p className="text-monospace center-with-margins">

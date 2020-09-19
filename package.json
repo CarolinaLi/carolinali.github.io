@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "connect-history-api-fallback": "^1.6.0",
+    "framer-motion": "^2.6.15",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",
     "react": "^16.8.4",
