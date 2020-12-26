@@ -80,9 +80,9 @@ export default class HomepageComponent extends Component {
                   image={'slack-hero.png'}
                   title={'Redesigning Slack’s sign in process'}
                   description={
-                    'Personal project exploring ways to improve Slack’s sign in process and how to increase user satisfaction'
+                    'Case study exploring ways to improve Slack’s sign in process and how to increase user satisfaction'
                   }
-                  buttonText={'View case study'}
+                  buttonText={'Read more'}
                   buttonColor={'#4D1D52'}
                 />
               </NavLink>
@@ -110,7 +110,7 @@ export default class HomepageComponent extends Component {
                   description={
                     'Designed and deployed an in-store beverage recommendation app and started our first design system'
                   }
-                  buttonText={'View work'}
+                  buttonText={'Read more'}
                   buttonColor={'#01B456'}
                 />
               </NavLink>
