@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "01c8069868179ed87c74",
+    "revision": "fed322c94f6dd913c17f",
     "url": "/static/css/main.74cab2bf.chunk.css"
   },
   {
-    "revision": "01c8069868179ed87c74",
-    "url": "/static/js/main.d82e3e2d.chunk.js"
+    "revision": "fed322c94f6dd913c17f",
+    "url": "/static/js/main.e9a15253.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "49d9adbe6bc617d9db8d",
-    "url": "/static/js/2.196c6c1e.chunk.js"
+    "revision": "cdbe8d45e6a810e32bd8",
+    "url": "/static/js/2.edbafff2.chunk.js"
   },
   {
     "revision": "58bc3e4b133228e53d2cc28fc1dbbf79",
@@ -224,8 +224,8 @@ self.__precacheManifest = [
     "url": "/static/media/slack-hero.f9f90a57.png"
   },
   {
-    "revision": "c31b72250fecc9353c45f20fbc2946df",
-    "url": "/static/media/slack-lofi-test.c31b7225.png"
+    "revision": "cbf0f22720557e66c704844ae7fac57e",
+    "url": "/static/media/slack-lofi-test.cbf0f227.png"
   },
   {
     "revision": "1a605fc97cbbe796b6034062b4591775",
@@ -280,11 +280,31 @@ self.__precacheManifest = [
     "url": "/static/media/new-art.b08feb63.jpg"
   },
   {
+    "revision": "bbf2e367b1167c6bcc7e4bc0836e8035",
+    "url": "/static/media/resume-2020-oct-12.bbf2e367.pdf"
+  },
+  {
+    "revision": "a77458642205ecb0aa5db35cd10c8542",
+    "url": "/static/media/resume-2020-oct-20-min.a7745864.pdf"
+  },
+  {
+    "revision": "2e7f5ebaf3903026f9c385d756d9fc63",
+    "url": "/static/media/resume-2020-oct-20-min_compressed.2e7f5eba.pdf"
+  },
+  {
+    "revision": "a90eda14d5067b532b767a3057f4b390",
+    "url": "/static/media/resume-2020-oct-20.a90eda14.pdf"
+  },
+  {
     "revision": "aa4cb23e8878b571abb5055d67d02411",
     "url": "/static/media/slack-brainstorming.aa4cb23e.png"
   },
   {
-    "revision": "052f3689217a7f8b57bb7bfb29fda9c7",
+    "revision": "58395139826503983aa5d9918a06b85f",
+    "url": "/static/media/slack-problem-explanation.58395139.png"
+  },
+  {
+    "revision": "8dec229c05f4d2b3e5c58e0a7a5d1e7f",
     "url": "/index.html"
   }
 ];
