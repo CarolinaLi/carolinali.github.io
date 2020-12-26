@@ -38,7 +38,7 @@ export default class LCBOComponent extends Component {
         <div className="container-fluid container-hero">
           <img
             className="hero"
-            src={require('../../images/lcbo-hero.png')}
+            src={require('../../images/lcbo-hero.jpg')}
             alt="LCBO iPad mockup on a desk"
           />
         </div>

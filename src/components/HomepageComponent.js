@@ -80,7 +80,7 @@ export default class HomepageComponent extends Component {
                   image={'slack-hero.png'}
                   title={'Redesigning Slack’s sign in process'}
                   description={
-                    'Case study exploring ways to improve Slack’s sign in process and how to increase user satisfaction'
+                    'Case study exploring ways to improve Slack’s sign in process and increase user satisfaction'
                   }
                   buttonText={'Read more'}
                   buttonColor={'#4D1D52'}
@@ -105,7 +105,7 @@ export default class HomepageComponent extends Component {
             <div className="col-md-6 pl-0 pr-3">
               <NavLink to="/lcbo">
                 <TileComponent
-                  image={'lcbo-hero.png'}
+                  image={'lcbo-hero.jpg'}
                   title={'LCBO internship'}
                   description={
                     'Designed and deployed an in-store beverage recommendation app and started our first design system'
