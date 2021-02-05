@@ -4,7 +4,7 @@ import Header from './HeaderComponent';
 import '../css/Global.css';
 import '../css/HomepageComponent.css';
 import FooterComponent from './FooterComponent';
-import Pdf from '../images/resume-2020-aug.pdf';
+import Pdf from '../images/resume-2021-feb-3.pdf';
 import TileComponent from './TileComponent';
 
 export default class HomepageComponent extends Component {
@@ -27,26 +27,17 @@ export default class HomepageComponent extends Component {
             </h1>
             <p className="text">
               {
-                'Currently studying CS & HCI at the University of Waterloo. I’m a product designer who’s passionate about visual experiences, strategy, and sustainability. Previously, I designed at '
+                'Currently studying CS & HCI at the University of Waterloo. I’m a product designer who’s passionate about strategy, sustainability, and accessibility. Currently designing at '
               }
               <a
                 className="link text-link"
-                href="https://www.ea.com/en-ca/about"
+                href="https://arcticwolf.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                EA
+                Arctic Wolf 🐺
               </a>
-              {' and '}
-              <a
-                className="link text-link"
-                href="https://www.lcbonext.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LCBO
-              </a>
-              {'.'}
+              {''}
               <br />
               <br />
               {'Reach me at '}
@@ -58,7 +49,7 @@ export default class HomepageComponent extends Component {
               >
                 ca2li@uwaterloo.ca
               </a>
-              {' or discover my works below'}
+              {' or discover my work below.'}
             </p>
             <img
               className="arrow"
@@ -75,40 +66,53 @@ export default class HomepageComponent extends Component {
         <div className="container text-section" ref={this.projectRef}>
           <div className="row">
             <div className="col-md-6 pl-0 pr-3 pb-5">
+              <a href='https://www.notion.so/230ab95c1afd45c89755c2e98370b0ef?v=c4abdf3a8b5649b5845013eb9fd3ca0a' rel="noopener noreferrer" target='_blank'>
+                <TileComponent
+                  image={'daily-design-hero.png'}
+                  title={'Daily design challenge'}
+                  description={
+                    'Starting in Dec 2020, I challenged myself to practice design and learn something new every day. Updates posted daily!'
+                  }
+                  buttonText={'Read more'}
+                  buttonColor={'#3430B9'}
+                />
+              </a>
+            </div> 
+            <div className="col-md-6 pl-0 pr-3 pb-5">
               <NavLink to="/slack">
                 <TileComponent
                   image={'slack-hero.png'}
                   title={'Redesigning Slack’s sign in process'}
                   description={
-                    'Case study exploring ways to improve Slack’s sign in process and increase user satisfaction'
+                    'Case study exploring ways to improve Slack’s sign in process, resulting in increased user satisfaction.'
                   }
                   buttonText={'Read more'}
                   buttonColor={'#4D1D52'}
                 />
               </NavLink>
-            </div>
+            </div>  
+          </div>
+          <div className="row">
             <div className="col-md-6 pl-0 pr-3 pb-5">
               <NavLink to="/ea">
                 <TileComponent
                   image={'ea-card.png'}
                   title={'Electronic Arts internship'}
                   description={
-                    'Worked on products that enhance how players experience the EA community and how they connect with games'
+                    'Designed products that enhance how players experience the EA community and how they connect with games.'
                   }
                   buttonText={'Read more'}
                   buttonColor={'#121142'}
                 />
               </NavLink>
             </div>
-          </div>
-          <div className="row">
             <div className="col-md-6 pl-0 pr-3">
               <NavLink to="/lcbo">
                 <TileComponent
                   image={'lcbo-hero.jpg'}
                   title={'LCBO internship'}
                   description={
-                    'Designed and deployed an in-store beverage recommendation app and started our first design system'
+                    'Designed and deployed an in-store beverage recommendation app and started our first design system.'
                   }
                   buttonText={'Read more'}
                   buttonColor={'#01B456'}
