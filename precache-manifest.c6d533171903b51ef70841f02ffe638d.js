@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "65e01fd3b67de43873b0",
-    "url": "/static/css/main.74cab2bf.chunk.css"
+    "revision": "92ab540fc4ea32ee6a9e",
+    "url": "/static/css/main.beda4237.chunk.css"
   },
   {
-    "revision": "65e01fd3b67de43873b0",
-    "url": "/static/js/main.f72cd88a.chunk.js"
+    "revision": "92ab540fc4ea32ee6a9e",
+    "url": "/static/js/main.efbdd7b8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "aef3c998b9631c6b97ef",
-    "url": "/static/js/2.10eb89d0.chunk.js"
+    "revision": "39265741b1f6d9d11193",
+    "url": "/static/js/2.4848fc0c.chunk.js"
   },
   {
     "revision": "5b7012be06aa8c68585c6916ef1b34e1",
@@ -236,6 +236,14 @@ self.__precacheManifest = [
     "url": "/static/media/slack.436ac2f9.gif"
   },
   {
+    "revision": "f809e87aaa2c627482386fe13386cba2",
+    "url": "/static/media/CarolinaLiResumeFeb14.f809e87a.pdf"
+  },
+  {
+    "revision": "53ed4325cb1fdd6141438a8cb4871d86",
+    "url": "/static/media/CarolinaLiResumeMar5.53ed4325.pdf"
+  },
+  {
     "revision": "88e9e977eb202eab51c11446ccf1b87a",
     "url": "/static/media/ciroc-hover.88e9e977.jpg"
   },
@@ -284,6 +292,10 @@ self.__precacheManifest = [
     "url": "/static/media/new-art.b08feb63.jpg"
   },
   {
+    "revision": "6871d3b2869b84489bdf5937564f3e03",
+    "url": "/static/media/resume-2021-feb-14.6871d3b2.pdf"
+  },
+  {
     "revision": "aa4cb23e8878b571abb5055d67d02411",
     "url": "/static/media/slack-brainstorming.aa4cb23e.png"
   },
@@ -292,7 +304,7 @@ self.__precacheManifest = [
     "url": "/static/media/slack-problem-explanation.58395139.png"
   },
   {
-    "revision": "e88efc380807eb05381f59e3b56eca2f",
+    "revision": "d96edbcba99e77203af32fe88b44ae98",
     "url": "/index.html"
   }
 ];
