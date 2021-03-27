@@ -27,7 +27,7 @@ export default class HomepageComponent extends Component {
             </h1>
             <p className="text">
               {
-                'Currently studying CS & HCI at the University of Waterloo. I’m a product designer who’s passionate about strategy, sustainability, and accessibility. Currently designing at '
+                'Studying HCI & CS at the University of Waterloo. I’m a product designer who’s passionate about strategy, sustainability, and accessibility. Currently designing at '
               }
               <a
                 className="link text-link"

@@ -1,9 +1,15 @@
+@import url(//db.onlinewebfonts.com/c/38d41072aa88a50711d4d50dd0d50f6b?family=Neue+Machina);
+@font-face {
+  font-family: "neue-machina";
+  src: url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.eot");
+  src: url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.woff") format("woff"), url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.svg#Neue Machina") format("svg"); }
+
 html {
   scroll-behavior: smooth; }
 
 body {
   text-align: left;
-  font-family: "Avenir", sans-serif;
+  font-family: "neue-haas-unica", sans-serif;
   color: #3e3e3e; }
 
 p {
@@ -13,6 +19,7 @@ a:hover {
   text-decoration: none; }
 
 .title {
+  font-family: "neue-machina", sans-serif;
   font-size: 3.5rem; }
 
 .link {
@@ -24,6 +31,7 @@ a:hover {
   color: #4305f2; }
 
 .text-link {
+  display: inline-block;
   color: #4305f2;
   font-weight: 600;
   transition: color;
