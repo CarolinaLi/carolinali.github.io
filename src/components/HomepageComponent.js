@@ -71,7 +71,7 @@ export default class HomepageComponent extends Component {
                   image={'daily-design-hero.png'}
                   title={'100 day design challenge'}
                   description={
-                    'I learned about UI, typography, motion, and product thinking every day for 100 days. Click to see the gallery.'
+                    'I learned about design topics like UI, motion, and product thinking every day for 100 days. See the gallery!'
                   }
                   buttonText={'Read more'}
                   buttonColor={'#3430B9'}
