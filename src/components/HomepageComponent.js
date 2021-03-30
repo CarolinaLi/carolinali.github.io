@@ -69,9 +69,9 @@ export default class HomepageComponent extends Component {
               <a href='https://www.notion.so/230ab95c1afd45c89755c2e98370b0ef?v=c4abdf3a8b5649b5845013eb9fd3ca0a' rel="noopener noreferrer" target='_blank'>
                 <TileComponent
                   image={'daily-design-hero.png'}
-                  title={'Daily design challenge'}
+                  title={'100 day design challenge'}
                   description={
-                    'Starting in Dec 2020, I challenged myself to practice design and learn something new every day. Updates posted daily!'
+                    'I learned about UI, typography, motion, and product thinking every day for 100 days. Click to see the gallery.'
                   }
                   buttonText={'Read more'}
                   buttonColor={'#3430B9'}
@@ -140,7 +140,7 @@ export default class HomepageComponent extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              résumé
+              résumé.
             </a>
           </p>
         </div>
