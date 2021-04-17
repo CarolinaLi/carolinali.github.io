@@ -4,8 +4,7 @@
 .about-title {
   font-family: "neue-machina", sans-serif;
   font-weight: 800;
-  font-size: 3rem;
-  margin: 2rem 0rem 1rem 0rem; }
+  font-size: 3rem; }
 
 .about-text {
   margin: 0;
@@ -17,7 +16,7 @@
 
 @media screen and (min-width: 576px) {
   .about-title {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
   .about-text {
     margin-left: 0rem; } }
 
@@ -27,9 +26,3 @@
     font-size: 1.25; }
   .text-link-about {
     font-size: 1.25rem; } }
-
-@media screen and (min-width: 992px) {
-  .about-text {
-    margin: 2rem 0rem 1rem 3rem; }
-  .about-title {
-    margin: 2rem 0rem 1rem 3rem; } }

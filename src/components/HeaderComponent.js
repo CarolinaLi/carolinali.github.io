@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import Pdf from '../images/resume-2021-feb-3.pdf';
+import Pdf from '../images/CarolinaLiResume.pdf';
 import '../css/Global.css';
 import '../css/HeaderComponent.css';
 
