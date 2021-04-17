@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "584a82d88c4f23128518",
+    "revision": "363065fd177e41273234",
     "url": "/static/css/main.decf7066.chunk.css"
   },
   {
-    "revision": "584a82d88c4f23128518",
-    "url": "/static/js/main.655da46e.chunk.js"
+    "revision": "363065fd177e41273234",
+    "url": "/static/js/main.8a4470df.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "dd9471d5012422fc2158",
-    "url": "/static/js/2.d807a972.chunk.js"
+    "revision": "9f19edc857d3ad09ae95",
+    "url": "/static/js/2.4bf69dc5.chunk.js"
   },
   {
-    "revision": "5b7012be06aa8c68585c6916ef1b34e1",
-    "url": "/static/media/resume-2021-feb-3.5b7012be.pdf"
+    "revision": "b5109978dc05494685a34a40e0eddf04",
+    "url": "/static/media/CarolinaLiResume.b5109978.pdf"
   },
   {
     "revision": "58bc3e4b133228e53d2cc28fc1dbbf79",
@@ -272,30 +272,6 @@ self.__precacheManifest = [
     "url": "/static/media/slack.436ac2f9.gif"
   },
   {
-    "revision": "695f89afbdd8d580a1432caafc31ae8c",
-    "url": "/static/media/CarolinaLiCoverOpenRaven.695f89af.pdf"
-  },
-  {
-    "revision": "b5109978dc05494685a34a40e0eddf04",
-    "url": "/static/media/CarolinaLiResume.b5109978.pdf"
-  },
-  {
-    "revision": "9a07380382699a20191e17ccd3279641",
-    "url": "/static/media/CarolinaLiResumeApr11.9a073803.pdf"
-  },
-  {
-    "revision": "675cca864886e33a4e66db6a257f850b",
-    "url": "/static/media/CarolinaLiResumeApr12.675cca86.pdf"
-  },
-  {
-    "revision": "f809e87aaa2c627482386fe13386cba2",
-    "url": "/static/media/CarolinaLiResumeFeb14.f809e87a.pdf"
-  },
-  {
-    "revision": "53ed4325cb1fdd6141438a8cb4871d86",
-    "url": "/static/media/CarolinaLiResumeMar5.53ed4325.pdf"
-  },
-  {
     "revision": "88e9e977eb202eab51c11446ccf1b87a",
     "url": "/static/media/ciroc-hover.88e9e977.jpg"
   },
@@ -348,6 +324,10 @@ self.__precacheManifest = [
     "url": "/static/media/resume-2021-feb-14.6871d3b2.pdf"
   },
   {
+    "revision": "5b7012be06aa8c68585c6916ef1b34e1",
+    "url": "/static/media/resume-2021-feb-3.5b7012be.pdf"
+  },
+  {
     "revision": "aa4cb23e8878b571abb5055d67d02411",
     "url": "/static/media/slack-brainstorming.aa4cb23e.png"
   },
@@ -356,7 +336,7 @@ self.__precacheManifest = [
     "url": "/static/media/slack-problem-explanation.58395139.png"
   },
   {
-    "revision": "b866c1f70c24988412eeb29d06165cac",
+    "revision": "507ddcb84a1af8867435c497ce0b0e5c",
     "url": "/index.html"
   }
 ];
