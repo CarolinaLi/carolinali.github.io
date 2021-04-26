@@ -127,7 +127,7 @@ export default class AboutPageComponent extends Component {
                 Artwork
               </h1>
               <p className="about-text" align="left">
-                I like watercolours, digital art, and painting outdoors. I’m
+                I like watercolours, digital art, and painting outdoors. Currently
                 pursuing a minor in Fine Arts and want to learn character art /
                 caricatures.
               </p>
