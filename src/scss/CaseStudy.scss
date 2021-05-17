@@ -1,6 +1,7 @@
 $slack-highlight: #FEDCFF;
 $lcbo-highlight: #CCF0DD;
 $ea-highlight: #FFDFCD;
+$ap-highlight: #FFBDDE;
 
 .content {
   margin: 2rem auto 4rem auto;
@@ -43,11 +44,25 @@ $ea-highlight: #FFDFCD;
   background-color: $ea-highlight;
 }
 
+.ap-highlight {
+  background-color: $ap-highlight;
+}
+
 .case-study-img {
     max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.black-box {
+  border: 4px solid black;
+}
+
+.black-box:hover {
+  box-shadow: 8px 8px black;
+  transform: translate(-8px, -8px);
+  transition-duration: 0.5s;
 }
 
 .clickable {

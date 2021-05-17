@@ -27,17 +27,35 @@ export default class HomepageComponent extends Component {
             </h1>
             <p className="text">
               {
-                'Studying HCI & CS at the University of Waterloo. I’m a product designer who’s passionate about strategy, sustainability, and accessibility. Currently designing at '
+                'Studying HCI & CS at the University of Waterloo. I’m a product designer who’s passionate about strategy, sustainability and accessibility. Previously designed at '
               }
+              <a
+                className="link text-link"
+                href="https://www.ea.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Electronic Arts
+              </a>
+              {', '}
               <a
                 className="link text-link"
                 href="https://arcticwolf.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Arctic Wolf 🐺
+                Arctic Wolf
               </a>
-              {''}
+              {' and '}
+              <a
+                className="link text-link"
+                href="https://www.lcbonext.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LCBO
+              </a>
+              {'.'}
               <br />
               <br />
               {'Reach me at '}
@@ -66,33 +84,18 @@ export default class HomepageComponent extends Component {
         <div className="container text-section" ref={this.projectRef}>
           <div className="row">
             <div className="col-md-6 pl-0 pr-3 pb-5">
-              <a href='https://www.notion.so/230ab95c1afd45c89755c2e98370b0ef?v=c4abdf3a8b5649b5845013eb9fd3ca0a' rel="noopener noreferrer" target='_blank'>
+              <NavLink to="/aphrodite">
                 <TileComponent
-                  image={'daily-design-hero.png'}
-                  title={'100 day design challenge'}
+                  image={'ap-card.jpg'}
+                  title={'The Aphrodite Project'}
                   description={
-                    'I learned about design topics like UI, motion, and product thinking every day for 100 days. See the gallery!'
+                    'I designed our first website and onboarding flow, successfully authenticating 11k+ students for Valentine’s 2021.'
                   }
                   buttonText={'Read more'}
-                  buttonColor={'#3430B9'}
-                />
-              </a>
-            </div> 
-            <div className="col-md-6 pl-0 pr-3 pb-5">
-              <NavLink to="/slack">
-                <TileComponent
-                  image={'slack-hero.png'}
-                  title={'Redesigning Slack’s sign in process'}
-                  description={
-                    'Case study exploring ways to improve Slack’s sign in process, resulting in increased user satisfaction.'
-                  }
-                  buttonText={'Read more'}
-                  buttonColor={'#4D1D52'}
+                  buttonColor={'#F31F52'}
                 />
               </NavLink>
-            </div>  
-          </div>
-          <div className="row">
+            </div>
             <div className="col-md-6 pl-0 pr-3 pb-5">
               <NavLink to="/ea">
                 <TileComponent
@@ -106,6 +109,40 @@ export default class HomepageComponent extends Component {
                 />
               </NavLink>
             </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 pl-0 pr-3 pb-5">
+              <NavLink to="/slack">
+                <TileComponent
+                  image={'slack-hero.png'}
+                  title={'Redesigning Slack’s sign in process'}
+                  description={
+                    'Case study exploring ways to improve Slack’s sign in process, resulting in increased user satisfaction.'
+                  }
+                  buttonText={'Read more'}
+                  buttonColor={'#4D1D52'}
+                />
+              </NavLink>
+            </div>
+            <div className="col-md-6 pl-0 pr-3 pb-5">
+              <a
+                href="https://www.notion.so/230ab95c1afd45c89755c2e98370b0ef?v=c4abdf3a8b5649b5845013eb9fd3ca0a"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <TileComponent
+                  image={'daily-design-hero.jpg'}
+                  title={'100 day design challenge'}
+                  description={
+                    'I learned about design topics like UI, motion, and product thinking every day for 100 days. See the gallery!'
+                  }
+                  buttonText={'Read more'}
+                  buttonColor={'#3430B9'}
+                />
+              </a>
+            </div>
+          </div>
+          <div className="row">
             <div className="col-md-6 pl-0 pr-3">
               <NavLink to="/lcbo">
                 <TileComponent
