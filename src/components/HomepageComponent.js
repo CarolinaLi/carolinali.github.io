@@ -4,7 +4,7 @@ import Header from './HeaderComponent';
 import '../css/Global.css';
 import '../css/HomepageComponent.css';
 import FooterComponent from './FooterComponent';
-import Pdf from '../images/CarolinaLiResumeMay9.pdf';
+import Pdf from '../images/CarolinaLiResumeMay17.pdf';
 import TileComponent from './TileComponent';
 
 export default class HomepageComponent extends Component {
