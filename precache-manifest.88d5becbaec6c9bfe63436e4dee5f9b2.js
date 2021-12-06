@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "314647f53c8bc03f6bc8",
-    "url": "/static/css/main.65659e2c.chunk.css"
+    "revision": "8ba84eaa3ae5bc3e4be4",
+    "url": "/static/css/main.97359c9a.chunk.css"
   },
   {
-    "revision": "314647f53c8bc03f6bc8",
-    "url": "/static/js/main.81dae1df.chunk.js"
+    "revision": "8ba84eaa3ae5bc3e4be4",
+    "url": "/static/js/main.5c983c30.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "10e8938866696a136d7f",
-    "url": "/static/js/2.e297cebe.chunk.js"
+    "revision": "c90168e76e28c4798d95",
+    "url": "/static/js/2.a189b047.chunk.js"
   },
   {
     "revision": "58bc3e4b133228e53d2cc28fc1dbbf79",
     "url": "/static/media/arrow_upward.58bc3e4b.svg"
   },
   {
-    "revision": "e4558687180eba0f10bf78673cc16f8f",
-    "url": "/static/media/CarolinaLiResumeOct10.e4558687.pdf"
+    "revision": "0e036ef62bcb7b4f9a3ccd7a49af3d7c",
+    "url": "/static/media/CarolinaLiResumeDec5.0e036ef6.pdf"
   },
   {
     "revision": "1bf5237509190f0fb7b53411cf35abb3",
@@ -220,6 +220,42 @@ self.__precacheManifest = [
     "url": "/static/media/ciroc-header.a6d4019f.jpg"
   },
   {
+    "revision": "91a2460f3818e048e8debd14a1ec353b",
+    "url": "/static/media/coda-chart.91a2460f.png"
+  },
+  {
+    "revision": "2caa76bf1e924b49c51d37e5509d02b8",
+    "url": "/static/media/coda-explore-idea-1.2caa76bf.png"
+  },
+  {
+    "revision": "4fb7c190196b217263c06f3e3c88a374",
+    "url": "/static/media/coda-explore-idea-2.4fb7c190.png"
+  },
+  {
+    "revision": "bb81bf43ec4e48a3717208f9e35160c3",
+    "url": "/static/media/coda-explore-idea-3.bb81bf43.png"
+  },
+  {
+    "revision": "6f0d6e2ce18f2476054c409ca181edf7",
+    "url": "/static/media/coda-explore-launched.6f0d6e2c.png"
+  },
+  {
+    "revision": "5b563432af128d30a9a2647d42212b2f",
+    "url": "/static/media/coda-hero.5b563432.png"
+  },
+  {
+    "revision": "cff118738e64126a376aba6c6b1c3e85",
+    "url": "/static/media/coda-vid-explore.cff11873.mp4"
+  },
+  {
+    "revision": "8259fa032b85482221dbfcbea6c90bc3",
+    "url": "/static/media/coda-vid-new-table.8259fa03.mp4"
+  },
+  {
+    "revision": "4675ac1ac8c9d45ac29192dd0f772be9",
+    "url": "/static/media/coda-vid-table.4675ac1a.mp4"
+  },
+  {
     "revision": "334d28dcb39bea945bc6b68c8ee1e77c",
     "url": "/static/media/design-system-header.334d28dc.jpg"
   },
@@ -352,6 +388,10 @@ self.__precacheManifest = [
     "url": "/static/media/CarolinaLiResumeMay17UWUX.6803eb9e.pdf"
   },
   {
+    "revision": "e4558687180eba0f10bf78673cc16f8f",
+    "url": "/static/media/CarolinaLiResumeOct10.e4558687.pdf"
+  },
+  {
     "revision": "ded82ca17d61f5aaeaaaab1ecc876ccb",
     "url": "/static/media/ap-card.ded82ca1.jpg"
   },
@@ -362,6 +402,14 @@ self.__precacheManifest = [
   {
     "revision": "ad38859865de4c53245438a16b7ab3be",
     "url": "/static/media/ciroc.ad388598.jpg"
+  },
+  {
+    "revision": "c4ad0ae25e17c277efbe3a4d16703c0e",
+    "url": "/static/media/coda-card-2.c4ad0ae2.png"
+  },
+  {
+    "revision": "182ddb7ce2b44eb4b1d5d895f71b75aa",
+    "url": "/static/media/coda-card.182ddb7c.png"
   },
   {
     "revision": "e0f1f9569b704a3a7d112c0e0dd4d22d",
@@ -408,7 +456,7 @@ self.__precacheManifest = [
     "url": "/static/media/slack-problem-explanation.58395139.png"
   },
   {
-    "revision": "781b68e6b1c899ef00dc61734e954429",
+    "revision": "fc233a12d86b04853a13e39b729068ad",
     "url": "/index.html"
   }
 ];
