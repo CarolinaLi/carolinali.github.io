@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import Header from '../../components/HeaderComponent';
-import { motion } from 'framer-motion';
-import { variantsImg, variantsFrame } from '../ImageVariants';
-import '../../css/Global.css';
-import '../../css/CaseStudy.css';
-import FooterComponent from '../FooterComponent';
+import React, { Component } from "react";
+import Header from "../../components/HeaderComponent";
+import { motion } from "framer-motion";
+import { variantsImg, variantsFrame } from "../ImageVariants";
+import "../../css/Global.css";
+import "../../css/CaseStudy.css";
+import FooterComponent from "../FooterComponent";
 
 export default class CodaComponent extends Component {
   constructor(props) {
@@ -44,16 +44,18 @@ export default class CodaComponent extends Component {
         <div className="container-fluid container-hero">
           <img
             className="hero"
-            src={require('../../images/coda-hero.png')}
+            src={require("../../images/coda-hero.png")}
             alt="Coda new table UI mockup"
           />
         </div>
         <div className="container content">
-          <h1 className="title case-study-title">Coda product design internship</h1>
+          <h1 className="title case-study-title">
+            Coda product design internship
+          </h1>
           <div className="container-md block">
             <p className="center-with-margins">
               <p className="text-large">
-              I researched how new users experience{' '}
+                I researched how new users experience{" "}
                 <a
                   className="link text-link"
                   href="https://coda.io/welcome/"
@@ -61,41 +63,43 @@ export default class CodaComponent extends Component {
                   rel="noopener noreferrer"
                 >
                   Coda
-                </a>{' '}
-                and tackled the most common friction points, including shipping a new UI for creating tables.
+                </a>{" "}
+                and tackled the most common friction points, including shipping
+                a new UI for creating tables.
               </p>
               <p className="center-with-margins">
-              Coda is an all-in-one document editor. As an intern on the Document Experience team, my goal was to flatten the learning curve and increase user retention. 
+                Coda is an all-in-one document editor. As an intern on the
+                Document Experience team, my goal was to flatten the learning
+                curve and increase user retention.
                 <br></br>
-                <br></br>To help make Coda a mainstream product, I discovered over 40 friction points and worked closely with a cross-functional team to prioritize them. I designed and shipped a number of fixes, from new table UIs to making the Explore panel more discoverable.
+                <br></br>To help make Coda a mainstream product, I discovered
+                over 40 friction points and worked closely with a
+                cross-functional team to prioritize them. I designed and shipped
+                a number of fixes, from new table UIs to making the Explore
+                panel more discoverable.
               </p>
               <br></br>
               <div className="row mt-5 mb-5 center-with-margins">
                 <div className="col-sm mb-4 pl-0">
                   <b className="text-monospace">TIMELINE</b>
-                  <p>Jun - Sep 2021,<br></br>12 weeks</p>
+                  <p>
+                    Jun - Sep 2021,<br></br>12 weeks
+                  </p>
                 </div>
                 <div className="col-sm mb-4 pl-0">
                   <b className="text-monospace">WHAT I DID</b>
-                  <p>Research, UX design, visual design, A/B testing, icon design</p>
+                  <p>
+                    Research, UX design, visual design, A/B testing, icon design
+                  </p>
                 </div>
                 <div className="col-sm mb-4 pl-0">
                   <b className="text-monospace">DELIVERABLES</b>
                   <p>
-                  Prioritized list of friction points, shipped feature, A/B test variants
+                    Prioritized list of friction points, shipped feature, A/B
+                    test variants
                   </p>
                 </div>
               </div>
-              <video width="100%" height="100%" controls>
-                <source
-                  src={require('../../images/ap-demo.mp4')}
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <p className="text-monospace center-with-margins">
-                <small>Video demo: Onboarding flow</small>
-              </p>
             </p>
           </div>
           <div className="block">
@@ -103,581 +107,199 @@ export default class CodaComponent extends Component {
               <b className="text-monospace">FRICTION POINT 1</b>
             </p>
             <p className="center-with-margins text-large">
-              People {' '}
-              <span className="coda-highlight">
-                accidentally create views
-              </span>
+              People{" "}
+              <span className="coda-highlight">accidentally create views</span>{" "}
+              when trying to create a new table.
             </p>
-          </div>
-          <div className="block">
-            <p className="center-with-margins">
-              <b className="text-monospace">USER NEEDS</b>
-            </p>
-            <p className="text-large">
-              In a previous launch, we noticed that people{' '}
-              <span className="ap-highlight">
-                were concerned that we’d sell their data.
-              </span>
-            </p>
-            <p className="center-with-margins">
-              Students are <b>wary of participating</b> because they’re
-              submitting sensitive personal information about their demographics
-              and dealbreakers.
-            </p>
-          </div>
-          <div className="block">
-            <p className="center-with-margins">
-              <b className="text-monospace">THE OPPORTUNITY</b>
-            </p>
-            <p className="text-large">
-              How might we{' '}
-              <span className="ap-highlight">
-                create a sense of trust and safety
-              </span>{' '}
-              in the project?
-            </p>
-            <p className="center-with-margins">
-              I kicked off the project by leading a team-wide brainstorming
-              session to find out what we want to include in our site — we
-              emphasized security.
-              <br></br>
-              <br></br>
-              <motion.div
-                className="frame"
-                onClick={() =>
-                  this.state.zoomedReqGath
-                    ? this.zoomOut('zoomedReqGath')
-                    : this.zoomIn('zoomedReqGath')
-                }
-                initial="zoomedOut"
-                animate={this.state.zoomedReqGath ? 'zoomedIn' : 'zoomedOut'}
-                variants={variantsFrame}
-                transition={{ duration: 0.3 }}
-              ></motion.div>
-              <motion.img
-                className="case-study-img clickable"
-                src={require('../../images/ap-req-gath.jpg')}
-                alt="Requirement gathering brainstorming"
-                onClick={() =>
-                  this.state.zoomedReqGath
-                    ? this.zoomOut('zoomedReqGath')
-                    : this.zoomIn('zoomedReqGath')
-                }
-                initial="zoomedOut"
-                animate={this.state.zoomedReqGath ? 'zoomedIn' : 'zoomedOut'}
-                variants={variantsImg}
-                transition={{ duration: 0 }}
-              />
-            </p>
+            <br></br>
+            <br></br>
             <p className="text-monospace center-with-margins">
               <small>
-                Brainstorm → Vote → Cluster into themes → Prioritize
+                <video width="100%" height="100%" controls>
+                  <source
+                    src={require("../../images/coda-vid-table.mp4")}
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                Research clip: User attempts to create a new table but
+                accidentally creates a view
               </small>
             </p>
             <br></br>
             <p className="center-with-margins">
-              <br></br>
-              <motion.div
-                className="frame"
-                onClick={() =>
-                  this.state.zoomedTaskFlow
-                    ? this.zoomOut('zoomedTaskFlow')
-                    : this.zoomIn('zoomedTaskFlow')
-                }
-                initial="zoomedOut"
-                animate={this.state.zoomedTaskFlow ? 'zoomedIn' : 'zoomedOut'}
-                variants={variantsFrame}
-                transition={{ duration: 0.3 }}
-              ></motion.div>
-              <motion.img
-                className="case-study-img clickable"
-                src={require('../../images/ap-task-flow.jpg')}
-                alt="Task flow diagram"
-                onClick={() =>
-                  this.state.zoomedTaskFlow
-                    ? this.zoomOut('zoomedTaskFlow')
-                    : this.zoomIn('zoomedTaskFlow')
-                }
-                initial="zoomedOut"
-                animate={this.state.zoomedTaskFlow ? 'zoomedIn' : 'zoomedOut'}
-                variants={variantsImg}
-                transition={{ duration: 0 }}
-              />
+              In Coda, <i>views</i> are another way to see table data, but new
+              users don’t know what they are. In the current UI for creating tables, too much
+              thinking goes into choosing an option.
+            </p>
+            <br></br>
+            <p className="center-with-margins text-large">
+              I created a new UI that{" "}
+              <span className="coda-highlight">creates distinction</span>{" "}
+              between blank tables and views, and uses copy to{" "}
+              <span className="coda-highlight">teach users about views</span>.
+            </p>
+            <p className="center-with-margins">
+              I also added a pop up that displays table info, which solves an
+              additional problem people have trouble identifying the listed
+              tables.
             </p>
             <p className="text-monospace center-with-margins">
-              <small>Initial task flow</small>
-            </p>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <p className="text-large">Solving for trust</p>
-            <br></br>
-            <p className="center-with-margins">
-              If we only needed to fulfill the business goal, I’d make signing
-              up as easy as clicking a button. However, to make the project
-              successful, it was necessary to design for the people’s need for
-              trust.
-              <br></br>
-              <br></br>
-              <motion.div
-                className="frame"
-                onClick={() =>
-                  this.state.zoomedTrustSolutions
-                    ? this.zoomOut('zoomedTrustSolutions')
-                    : this.zoomIn('zoomedTrustSolutions')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedTrustSolutions ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsFrame}
-                transition={{ duration: 0.3 }}
-              ></motion.div>
-              <motion.img
-                className="case-study-img clickable"
-                src={require('../../images/ap-trust-solutions.jpg')}
-                alt="Three ideas for creating trust"
-                onClick={() =>
-                  this.state.zoomedTrustSolutions
-                    ? this.zoomOut('zoomedTrustSolutions')
-                    : this.zoomIn('zoomedTrustSolutions')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedTrustSolutions ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsImg}
-                transition={{ duration: 0 }}
-              />
-              <br></br>
-            </p>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <p className="text-large">
-              We decided to pursue{' '}
-              <span className="ap-highlight">authentication</span> as the main
-              solution.
-            </p>
-            <p className="center-with-margins">
-              This also solves the side problem of students signing up for their
-              friends, or signing up under a fake name.
-              <br></br>
-              <img
-                className="case-study-img"
-                src={require('../../images/ap-auth.jpg')}
-                alt="Authenticate by entering a four-digit code"
-              />
-            </p>
-            <br></br>
-            <p className="center-with-margins">
-              Using a one-time password (OTP), we ensured that everyone gets
-              safe matches. We also considered magic links and central
-              authentication via schools, but OTPs were the most viable option,
-              given our resources.<br></br>
-              <br></br>Design-wise, there were no usability issues with OTPs.
-            </p>
-          </div>
-          <div className="block">
-            <p className="center-with-margins">
-              <b className="text-monospace">CURVEBALL: SCOPE CHANGE</b>
-            </p>
-            <p className="text-large">
-              Halfway through the design process, we expanded from two schools
-              to seven schools, so I adapted the design.
-            </p>
-            <p className="center-with-margins">
-              Originally I displayed email addresses as text, but this didn’t
-              scale well. It’s hard to scan and takes too long to figure out
-              what to do. Instead, I redesigned the UI to display schools in
-              cards.
-              <br></br>
-              <br></br>
-              <motion.div
-                className="frame"
-                onClick={() =>
-                  this.state.zoomedSchoolUIChange
-                    ? this.zoomOut('zoomedSchoolUIChange')
-                    : this.zoomIn('zoomedSchoolUIChange')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedSchoolUIChange ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsFrame}
-                transition={{ duration: 0.3 }}
-              ></motion.div>
-              <motion.img
-                className="case-study-img clickable"
-                src={require('../../images/ap-school-ui-change.jpg')}
-                alt="Chose cards instead of text"
-                onClick={() =>
-                  this.state.zoomedSchoolUIChange
-                    ? this.zoomOut('zoomedSchoolUIChange')
-                    : this.zoomIn('zoomedSchoolUIChange')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedSchoolUIChange ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsImg}
-                transition={{ duration: 0 }}
-              />
-            </p>
-            <br></br>
-            <br></br>
-            <p className="center-with-margins">
-              <p className="text-large">
-                Bringing attention to all participating schools also helps build
-                trust.
-              </p>
-              Especially for new participants, seeing the Aphrodite Project
-              launch across the world makes it more credible.
-            </p>
-          </div>
-          <div className="block">
-            <p className="center-with-margins">
-              <b className="text-monospace">VISUAL DESIGN DECISIONS</b>
-              <p className="text-large">
-                The school selection screen was an opportunity to express each
-                university’s individuality.
-              </p>
-              <br></br>
-              <motion.div
-                className="frame"
-                onClick={() =>
-                  this.state.zoomedSchoolCards
-                    ? this.zoomOut('zoomedSchoolCards')
-                    : this.zoomIn('zoomedSchoolCards')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedSchoolCards ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsFrame}
-                transition={{ duration: 0.3 }}
-              ></motion.div>
-              <motion.img
-                className="case-study-img clickable"
-                src={require('../../images/ap-school-cards.jpg')}
-                alt="Four visual design explorations for selecting the school"
-                onClick={() =>
-                  this.state.zoomedSchoolCards
-                    ? this.zoomOut('zoomedSchoolCards')
-                    : this.zoomIn('zoomedSchoolCards')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedSchoolCards ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsImg}
-                transition={{ duration: 0 }}
-              />
-              <br></br>
-              <br></br>
-              <br></br>
-              <b className="text-monospace">THE DECISION</b>
-            </p>
-            <p className="center-with-margins">
-              Between Idea 3 & 4, getting feedback from the team helped me
-              realize that Idea 3 was the best choice, since{' '}
-              <b>school colours are only recognizable at full opacity.</b>
-              <br></br>
-              <br></br>
-              Compared to the original design with text emails, this layout has
-              better interaction capabilities, which lowers the cognitive load.
-              <br></br>
-              <br></br>
-              <img
-                className="case-study-img"
-                src={require('../../images/ap-cards-analysis.jpg')}
-                alt="Card UI has better scannability and is easier to tap"
-              />
+              <small>
+                <video width="100%" height="100%" controls>
+                  <source
+                    src={require("../../images/coda-vid-new-table.mp4")}
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                Demo of the newly launched interface
+              </small>
             </p>
           </div>
 
           <div className="block">
             <p className="center-with-margins">
-              <b className="text-monospace">PERSONALIZED FOR EACH UNIVERSITY</b>
-              <p className="text-large">
-                Adding the school selection screen also meant we could{' '}
-                <span className="ap-highlight">
-                  customize the onboarding flow
-                </span>{' '}
-                for each of the seven schools.
-              </p>
-              <img
-                className="case-study-img"
-                src={require('../../images/ap-individualized.gif')}
-                alt="After selecting your school, the rest of onboarding is specific to your school"
-              />
+              <b className="text-monospace">FRICTION POINT 2</b>
+            </p>
+            <p className="text-large">
+              <span className="coda-highlight">
+                People have trouble finding the Explore panel.
+              </span>
+            </p>
+            <p className="center-with-margins">
+              This is the main panel, where users access tools to build their
+              document. However, users don’t notice the Explore button, or they
+              don’t expect it to be a way to access these tools.
+            </p>
+
+            <p className="text-monospace center-with-margins">
+              <small>
+                <video width="100%" height="100%" controls>
+                  <source
+                    src={require("../../images/coda-vid-explore.mp4")}
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                Research clip: User struggles to re-open the Explore panel
+              </small>
             </p>
           </div>
           <div className="block">
-            <p className="center-with-margins">
-              <b className="text-monospace">BRAND EVOLUTION</b>
-              <p className="text-large">
-                Initially I styled the website to be consistent with our
-                existing marketing, but the branding couldn’t scale. To fix
-                this, I led a brand redesign.
-              </p>
-              <motion.div
-                className="frame"
-                onClick={() =>
-                  this.state.zoomedBrandEvolution
-                    ? this.zoomOut('zoomedBrandEvolution')
-                    : this.zoomIn('zoomedBrandEvolution')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedBrandEvolution ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsFrame}
-                transition={{ duration: 0.3 }}
-              ></motion.div>
-              <motion.img
-                className="case-study-img clickable"
-                src={require('../../images/ap-brand-evolution.jpg')}
-                alt="Branding evolved from bright red to softer pink"
-                onClick={() =>
-                  this.state.zoomedBrandEvolution
-                    ? this.zoomOut('zoomedBrandEvolution')
-                    : this.zoomIn('zoomedBrandEvolution')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedBrandEvolution ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsImg}
-                transition={{ duration: 0 }}
-              />
-              <br></br>
-              <br></br>I created new guidelines that impacted everything from
-              our{' '}
-              <a
-                className="link text-link"
-                href="https://www.instagram.com/aphroditeprojectofficial/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram
-              </a>{' '}
-              page to our email themes.
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <motion.div
-                className="frame"
-                onClick={() =>
-                  this.state.zoomedStyleSheet
-                    ? this.zoomOut('zoomedStyleSheet')
-                    : this.zoomIn('zoomedStyleSheet')
-                }
-                initial="zoomedOut"
-                animate={this.state.zoomedStyleSheet ? 'zoomedIn' : 'zoomedOut'}
-                variants={variantsFrame}
-                transition={{ duration: 0.3 }}
-              ></motion.div>
-              <motion.img
-                className="case-study-img clickable"
-                src={require('../../images/ap-style-sheet.jpg')}
-                alt="Style sheet: colour, typography, visual motifs"
-                onClick={() =>
-                  this.state.zoomedStyleSheet
-                    ? this.zoomOut('zoomedStyleSheet')
-                    : this.zoomIn('zoomedStyleSheet')
-                }
-                initial="zoomedOut"
-                animate={this.state.zoomedStyleSheet ? 'zoomedIn' : 'zoomedOut'}
-                variants={variantsImg}
-                transition={{ duration: 0 }}
-              />
+            <p className="text-large">
+              How might we help people access the Explore panel?
             </p>
-          </div>
-          <div className="block">
-            <p className="center-with-margins">
-              <b className="text-monospace">HAND-OFF & LAUNCH</b>
-              <p className="text-large">
-                Most students open the questionnaire on their phones and
-                complete it on their desktop, so it was important to design for
-                all screen sizes.
-              </p>
-              I covered how the design changes at breakpoints, then worked with
-              engineers to launch the site on time.
-              <br></br>
-              <br></br>
-              <motion.div
-                className="frame"
-                onClick={() =>
-                  this.state.zoomedBreakpoints
-                    ? this.zoomOut('zoomedBreakpoints')
-                    : this.zoomIn('zoomedBreakpoints')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedBreakpoints ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsFrame}
-                transition={{ duration: 0.3 }}
-              ></motion.div>
-              <motion.img
-                className="case-study-img clickable"
-                src={require('../../images/ap-breakpoints.jpg')}
-                alt="I designed for the breakpoint edges"
-                onClick={() =>
-                  this.state.zoomedBreakpoints
-                    ? this.zoomOut('zoomedBreakpoints')
-                    : this.zoomIn('zoomedBreakpoints')
-                }
-                initial="zoomedOut"
-                animate={
-                  this.state.zoomedBreakpoints ? 'zoomedIn' : 'zoomedOut'
-                }
-                variants={variantsImg}
-                transition={{ duration: 0 }}
-              />
-              <p className="text-monospace center-with-margins">
-                <small>
-                  The design changes at 680px to adapt to mobile and desktop
-                  users
-                </small>
-              </p>
-            </p>
-          </div>
-          <div className="block">
-            <p className="center-with-margins">
-              <b className="text-monospace">IMPACT</b>
-              <p className="text-large">
-                We created 11k matches for Valentine’s 2021!
-              </p>
-              This is the fourth time we ran the Aphrodite Project, and so far
-              we’ve created 31k matches. Based on follow-up questionnaires,
-              we’ve helped over 100 people start romantic relationships, and
-              created countless new friendships.
-            </p>
-          </div>
-          <div className="block">
-            <p className="center-with-margins">
-              <b className="text-monospace">LEARNINGS</b>
-              <p className="text-large">
-                I learned the importance of using real copy.
-              </p>
-              I previously heard that copy problems reveal design problems. This
-              project strengthened that idea because I wouldn’t have discovered
-              scaling problems if I hadn’t used real content.
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <p className="text-large">
-                Involve others early and often in the design process.
-              </p>
-              I sometimes hesitate to reach out because everyone’s so busy, but
-              the pros of meshing together everyone’s diverse ideas far outweigh
-              any cons. Our brand wouldn’t have grown to where it is today
-              without every team member’s input.
-            </p>
-          </div>
-          <div className="block">
-            <p className="center-with-margins">
-              <b className="text-monospace">IN THE PRESS</b>
-              <div className="row ml-0 mt-4">
-                <div className="col-6 col-md-4 pl-0 pr-3 pb-3">
-                  <a
-                    href="https://kitchener.ctvnews.ca/dating-app-matches-uw-students-through-algorithm-1.5292874?cache="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="black-box"
-                      src={require('../../images/ap-press-ctv.png')}
-                      alt="Link to CTV"
-                      width="100%"
-                    />
-                  </a>
-                </div>
-                <div className="col-6 col-md-4 pl-0 pr-3 pb-3">
-                  <a
-                    href="https://www.thecrimson.com/article/2021/2/11/project-aphrodite-2021/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="black-box"
-                      src={require('../../images/ap-press-theharvardcrimson.png')}
-                      alt="Link to The Harvard Crimson"
-                      width="100%"
-                    />
-                  </a>
-                </div>
-                <div className="col-6 col-md-4 pl-0 pr-3 pb-3">
-                  <a
-                    href="https://www.therecord.com/news/waterloo-region/2020/08/09/how-an-algorithmic-dating-service-matched-up-4000-university-of-waterloo-students.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="black-box"
-                      src={require('../../images/ap-press-therecord.png')}
-                      alt="Link to The Record"
-                      width="100%"
-                    />
-                  </a>
-                </div>
-                <div className="col-6 col-md-4 pl-0 pr-3 pb-3">
-                  <a
-                    href="https://theoctant.org/edition/issue/allposts/features/from-arrow-to-algorithm-the-aphrodite-project-could-find-you-true-love/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="black-box"
-                      src={require('../../images/ap-press-theoctant.png')}
-                      alt="Link to The Octant"
-                      width="100%"
-                    />
-                  </a>
-                </div>
-                <div className="col-6 col-md-4 pl-0 pr-3 pb-3">
-                  <a
-                    href="http://soapbox.sg/2021/01/10/playing-cupid-aphrodite-project-founder-on-rapid-growth-covid-19-and-2021/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="black-box"
-                      src={require('../../images/ap-press-soapbox.png')}
-                      alt="Link to Soapbox"
-                      width="100%"
-                    />
-                  </a>
-                </div>
-                <div className="col-6 col-md-4 pl-0 pr-3 pb-3">
-                  <a
-                    href="https://thestrand.ca/aphrodites-algorithm-students-reflect-on-matchmaking-with-ai/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="black-box"
-                      src={require('../../images/ap-press-thestrand.png')}
-                      alt="Link to The Strand"
-                      width="100%"
-                    />
-                  </a>
-                </div>
+            <div className="row mt-5 mb-5 center-with-margins">
+              <div className="col-sm mb-4 pl-0">
+                <img
+                  className="case-study-img"
+                  src={require("../../images/coda-explore-idea-1.png")}
+                  alt="Explore button variants"
+                />
+
+                <p>
+                  <small>
+                    Replace "Explore" with a more building-oriented word and/or
+                    add an icon to make it more noticeable
+                  </small>
+                </p>
               </div>
+              <div className="col-sm mb-4 pl-0">
+                <img
+                  className="case-study-img"
+                  src={require("../../images/coda-explore-idea-2.png")}
+                  alt="Pop up indicating how to access the Explore panel"
+                />
+
+                <p>
+                  <small>
+                    Show where to find the panel the first time it closes{" "}
+                  </small>
+                </p>
+              </div>
+              <div className="col-sm mb-4 pl-0">
+                <img
+                  className="case-study-img"
+                  src={require("../../images/coda-explore-idea-3.png")}
+                  alt="Link to Explore panel via Table Options"
+                />
+
+                <p>
+                  <small>
+                    Create another entry point to the Explore panel through
+                    Table Options, which users easily discover
+                  </small>
+                </p>
+              </div>
+            </div>
+            <p className="center-with-margins">
+              We went with the first option: redesigning the button so people
+              will use it when building their document. This option required the
+              lowest effort to implement, but had a high potential impact.
             </p>
+          </div>
+          <div className="block">
+            <p className="text-large">
+            <span className="coda-highlight">Launched:</span> the new Explore button has an icon.
+            </p>
+            <p className="center-with-margins">
+            After running A/B tests on different button variants, the Explore button now has an icon that represents building blocks.
+              <br></br>
+              <br></br>
+              <img
+                  className="case-study-img"
+                  src={require("../../images/coda-explore-launched.png")}
+                  alt="New button with a building blocks icon"
+                />
+            </p>
+          </div>
+          <div className="block">
+            <p className="center-with-margins">
+              <b className="text-monospace">WHY SOLVE THESE PROBLEMS?</b>
+              <p className="text-large">
+              I worked with a team of designers and PMs to prioritize the friction points.
+              </p>
+              We chose friction points that created the most impact within a limited timeline.
+              <br></br>
+              <br></br>
+              
+
+              <img
+                  className="case-study-img"
+                  src={require("../../images/coda-chart.png")}
+                  alt="Simplicity vs impact chart of friction points"
+                />
+            </p>
+           
+              
+            
+          </div>
+
+          <div className="block">
+            <p className="center-with-margins">
+              <p className="text-large">
+                
+                <a
+                  className="link text-link"
+                  href="mailto:carolina.aoke.li@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Email me
+                </a>{" "}
+                if you have questions!
+              </p>
+              This was only a preview — I’d love to take you through the full details of the extensive research process, design iterations and trade-offs.
+            </p>
+         
             <div className="center-with-margins">
               <img
                 className="arrow"
-                src={require('../../images/arrow_upward.svg')}
+                src={require("../../images/arrow_upward.svg")}
                 alt="back to top"
                 onClick={() => {
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
               />
             </div>
