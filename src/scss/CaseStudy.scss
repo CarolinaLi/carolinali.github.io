@@ -2,6 +2,7 @@ $slack-highlight: #FEDCFF;
 $lcbo-highlight: #CCF0DD;
 $ea-highlight: #FFDFCD;
 $ap-highlight: #FFBDDE;
+$coda-highlight: #FFD2B8;
 
 .content {
   margin: 2rem auto 4rem auto;
@@ -46,6 +47,10 @@ $ap-highlight: #FFBDDE;
 
 .ap-highlight {
   background-color: $ap-highlight;
+}
+
+.coda-highlight {
+  background-color: $coda-highlight;
 }
 
 .case-study-img {

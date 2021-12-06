@@ -12,6 +12,7 @@ import Slack from './components/caseStudies/Slack';
 import EA from './components/caseStudies/EA';
 import LCBO from './components/caseStudies/LCBO';
 import Aphrodite from './components/caseStudies/Aphrodite';
+import Coda from './components/caseStudies/Coda';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -27,6 +28,7 @@ ReactDOM.render(
       <Route path = "/ea" component = {EA} />
       <Route path = "/lcbo" component = {LCBO} />
       <Route path = "/aphrodite" component = {Aphrodite} />
+      <Route path = "/coda" component = {Coda} />
       <Redirect from='*' to='/' />
     </Switch>
   </HashRouter>, document.getElementById('root')

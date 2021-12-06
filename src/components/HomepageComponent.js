@@ -4,7 +4,7 @@ import Header from './HeaderComponent';
 import '../css/Global.css';
 import '../css/HomepageComponent.css';
 import FooterComponent from './FooterComponent';
-import Pdf from '../images/CarolinaLiResumeMay17.pdf';
+import Pdf from '../images/CarolinaLiResumeDec5.pdf';
 import TileComponent from './TileComponent';
 
 export default class HomepageComponent extends Component {
@@ -27,33 +27,24 @@ export default class HomepageComponent extends Component {
             </h1>
             <p className="text">
               {
-                'Studying HCI & CS at the University of Waterloo. I’m a product designer who’s passionate about strategy, sustainability and accessibility. Previously designed at '
+                'I’m a product designer currently studying CS, HCI & Fine Arts at the University of Waterloo. Previously, I researched and designed for new users at '
               }
               <a
                 className="link text-link"
-                href="https://www.ea.com/"
+                href="https://coda.io/welcome"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Electronic Arts
+                Coda
               </a>
-              {', '}
+              {' as a '}
               <a
                 className="link text-link"
-                href="https://arcticwolf.com/"
+                href="https://fellows.kleinerperkins.com/meet-the-fellows/2021/design/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Arctic Wolf
-              </a>
-              {' and '}
-              <a
-                className="link text-link"
-                href="https://www.lcbonext.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LCBO
+                Kleiner Perkins Fellow
               </a>
               {'.'}
               <br />
@@ -61,11 +52,11 @@ export default class HomepageComponent extends Component {
               {'Reach me at '}
               <a
                 className="link text-link"
-                href="mailto:ca2li@uwaterloo.ca"
+                href="mailto:carolina.aoke.li@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ca2li@uwaterloo.ca
+                carolina.aoke.li@gmail.com
               </a>
               {' or discover my work below.'}
             </p>
@@ -83,6 +74,19 @@ export default class HomepageComponent extends Component {
         </div>
         <div className="container text-section" ref={this.projectRef}>
           <div className="row">
+          <div className="col-md-6 pl-0 pr-3 pb-5">
+              <NavLink to="/coda">
+                <TileComponent
+                  image={'coda-card-2.png'}
+                  title={'Coda internship'}
+                  description={
+                    'Researched how new users experience Coda’s document editor and designed solutions to friction points.'
+                  }
+                  buttonText={'Read more'}
+                  buttonColor={'#FF7453'}
+                />
+              </NavLink>
+            </div>
             <div className="col-md-6 pl-0 pr-3 pb-5">
               <NavLink to="/aphrodite">
                 <TileComponent
@@ -96,19 +100,7 @@ export default class HomepageComponent extends Component {
                 />
               </NavLink>
             </div>
-            <div className="col-md-6 pl-0 pr-3 pb-5">
-              <NavLink to="/ea">
-                <TileComponent
-                  image={'ea-card.png'}
-                  title={'Electronic Arts internship'}
-                  description={
-                    'Designed products that enhance how players experience the EA community and how they connect with games.'
-                  }
-                  buttonText={'Read more'}
-                  buttonColor={'#121142'}
-                />
-              </NavLink>
-            </div>
+            
           </div>
           <div className="row">
             <div className="col-md-6 pl-0 pr-3 pb-5">
@@ -143,6 +135,19 @@ export default class HomepageComponent extends Component {
             </div>
           </div>
           <div className="row">
+          <div className="col-md-6 pl-0 pr-3 pb-5">
+              <NavLink to="/ea">
+                <TileComponent
+                  image={'ea-card.png'}
+                  title={'Electronic Arts internship'}
+                  description={
+                    'Designed products that enhance how players experience the EA community and how they connect with games.'
+                  }
+                  buttonText={'Read more'}
+                  buttonColor={'#121142'}
+                />
+              </NavLink>
+            </div>
             <div className="col-md-6 pl-0 pr-3">
               <NavLink to="/lcbo">
                 <TileComponent
@@ -164,11 +169,11 @@ export default class HomepageComponent extends Component {
             {'Email me at '}
             <a
               className="link text-link"
-              href="mailto:ca2li@uwaterloo.ca"
+              href="mailto:carolina.aoke.li@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              ca2li@uwaterloo.ca
+              carolina.aoke.li@gmail.com
             </a>
             {' and let\'s talk about anything! Or, check out my '}
             <a

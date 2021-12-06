@@ -285,7 +285,7 @@ export default class EAComponent extends Component {
               </div>
               <div className="col-sm-6 mb-3 pl-0">
                 <a
-                  href="mailto:ca2li@uwaterloo.ca"
+                  href="mailto:carolina.aoke.li@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -399,7 +399,7 @@ export default class EAComponent extends Component {
               about this internship, don’t hesitate to{' '}
               <a
                 className="link text-link"
-                href="mailto:ca2li@uwaterloo.ca"
+                href="mailto:carolina.aoke.li@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

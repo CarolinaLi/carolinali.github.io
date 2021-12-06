@@ -98,14 +98,14 @@ export default class AboutPageComponent extends Component {
                   >
                     music
                   </a>
-                  . I’m also designing at{' '}
+                  . I’m also a part of{' '}
                   <a
                     className="link text-link"
-                    href="https://loolabs.org/"
+                    href="uwux.ca"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    LooLabs
+                    UWaterloo's UX club
                   </a>{' '}
                   and learning guitar 🎸
                 </p>
@@ -128,7 +128,7 @@ export default class AboutPageComponent extends Component {
               </h1>
               <p className="about-text" align="left">
                 I like watercolours, digital art, and painting outdoors. Currently
-                pursuing a minor in Fine Arts and want to learn character art /
+                pursuing a minor in Fine Arts and interested in learning character art /
                 caricatures.
               </p>
             </div>
