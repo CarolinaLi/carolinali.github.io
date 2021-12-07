@@ -66,8 +66,8 @@ export default class AboutPageComponent extends Component {
                 </p>
                 <br></br>
                 <p className="about-text" align="left">
-                  Current obsessions: <br></br>· Copy — words are fascinating{' '}
-                  <br></br>· Systems thinking <br></br>· Product thinking
+                  Current obsessions: <br></br>· Research<br></br>· Copy — words are fascinating{' '}
+                  <br></br>· Systems thinking 
                 </p>
                 <br></br>
                 <p className="about-text" align="left">
