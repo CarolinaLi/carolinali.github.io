@@ -4,8 +4,8 @@ import FooterComponent from './FooterComponent';
 import '../css/Global.css';
 import '../css/AboutPageComponent.css';
 import '../css/HomepageComponent.css';
-import firstPic from '../images/about1.jpg';
-import secondPic from '../images/about2.jpg';
+import firstPic from '../images/about2021.jpg';
+import secondPic from '../images/about2021.jpg';
 import artWatercolour from '../images/art-watercolour64.gif';
 import artWalkcycle from '../images/art-tigerwalk.gif';
 import artAcrylic from '../images/art-acrylic.png';
@@ -110,8 +110,9 @@ export default class AboutPageComponent extends Component {
                   and learning guitar 🎸
                 </p>
                 <br></br>
+                <br></br>
                 <p className="about-text" align="left">
-                  Thanks for stopping by!
+                  I'm currently looking for full-time Product Design opportunities.
                 </p>
                 <br></br>
               </div>
