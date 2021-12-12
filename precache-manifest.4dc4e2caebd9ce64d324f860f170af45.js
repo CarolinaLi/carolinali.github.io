@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b380e96fae11e3679679",
-    "url": "/static/css/main.97359c9a.chunk.css"
+    "revision": "d1972c9e000826501d62",
+    "url": "/static/css/main.2d09eca1.chunk.css"
   },
   {
-    "revision": "b380e96fae11e3679679",
-    "url": "/static/js/main.ee6d464f.chunk.js"
+    "revision": "d1972c9e000826501d62",
+    "url": "/static/js/main.ea48c2f0.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "153ab6fa770b032df15e",
-    "url": "/static/js/2.f015a394.chunk.js"
+    "revision": "92291d136b698551fd5f",
+    "url": "/static/js/2.f4bcd3ac.chunk.js"
   },
   {
     "revision": "58bc3e4b133228e53d2cc28fc1dbbf79",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "1bf5237509190f0fb7b53411cf35abb3",
     "url": "/static/media/icon-external-link.1bf52375.svg"
+  },
+  {
+    "revision": "ade9eb7a3011da0f3851a721d58ee990",
+    "url": "/static/media/arrow_downward.ade9eb7a.svg"
   },
   {
     "revision": "e471a471873d0adecf91a48c65a9bda0",
@@ -102,6 +106,10 @@ self.__precacheManifest = [
   {
     "revision": "0653b7e6d5b3aa5a358bee79452cf651",
     "url": "/static/media/slack-problem.0653b7e6.png"
+  },
+  {
+    "revision": "c437085b9b92b0f9b24b940b0809dee1",
+    "url": "/static/media/arrow-forward.c437085b.svg"
   },
   {
     "revision": "5463955a972bb83ec5262797bc9d736f",
@@ -206,10 +214,6 @@ self.__precacheManifest = [
   {
     "revision": "6e3ef1a090df1cec7618306e0b37a51a",
     "url": "/static/media/ap-trust-solutions.6e3ef1a0.jpg"
-  },
-  {
-    "revision": "ade9eb7a3011da0f3851a721d58ee990",
-    "url": "/static/media/arrow_downward.ade9eb7a.svg"
   },
   {
     "revision": "a6d4019f5d1dfc7a3ed5d8143f11dfc7",
@@ -400,6 +404,10 @@ self.__precacheManifest = [
     "url": "/static/media/ap-card.ded82ca1.jpg"
   },
   {
+    "revision": "f74c3009a1b45d027dc9caa033ad24c2",
+    "url": "/static/media/arrow-diag.f74c3009.svg"
+  },
+  {
     "revision": "88e9e977eb202eab51c11446ccf1b87a",
     "url": "/static/media/ciroc-hover.88e9e977.jpg"
   },
@@ -460,7 +468,7 @@ self.__precacheManifest = [
     "url": "/static/media/slack-problem-explanation.58395139.png"
   },
   {
-    "revision": "d1a8bf79dcf85cd9a7dede70e882f699",
+    "revision": "c7f81b0d9fc666fab1f8cadbce89e91d",
     "url": "/index.html"
   }
 ];
