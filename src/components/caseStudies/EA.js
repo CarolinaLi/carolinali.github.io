@@ -409,7 +409,7 @@ export default class EAComponent extends Component {
           </div>
           <div className="center-with-margins">
             <img
-              className="arrow"
+              className="moving-arrow"
               src={require('../../images/arrow_upward.svg')}
               alt="back to top"
               onClick={() => {

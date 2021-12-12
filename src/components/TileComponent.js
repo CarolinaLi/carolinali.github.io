@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Button } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
+import arrowForward from '../images/arrow-forward.svg'
 import '../css/Global.css';
 import '../css/Tile.css';
 
@@ -23,6 +24,11 @@ export default class TileComponent extends Component {
               className="tile-button"
             >
               {this.props.buttonText}
+              <img
+                    className="button-arrow"
+                    src={require('../images/' + this.props.buttonIcon)}
+                    alt="go to project"
+                  />
             </Button>
           </Card.Body>
         </Card>
@@ -37,4 +43,5 @@ TileComponent.propTypes = {
   description: PropTypes.string,
   buttonText: PropTypes.string,
   buttonColor: PropTypes.string,
+  buttonIcon: PropTypes.string,
 };

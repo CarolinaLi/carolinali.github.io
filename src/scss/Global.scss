@@ -118,13 +118,17 @@ a:hover {
   padding: 0;
 }
 
-.arrow {
+.moving-arrow {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
   height: 2rem;
   margin: 2rem 0rem;
   cursor: pointer;
+}
+
+.button-arrow {
+  height: 1rem;
 }
 
 @media screen and (min-width: 576px) {

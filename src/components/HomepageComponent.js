@@ -6,6 +6,7 @@ import '../css/HomepageComponent.css';
 import FooterComponent from './FooterComponent';
 import Pdf from '../images/CarolinaLiResumeDec5.pdf';
 import TileComponent from './TileComponent';
+import ArrowForward from '../images/arrow_downward.svg';
 
 export default class HomepageComponent extends Component {
   constructor(props) {
@@ -61,7 +62,7 @@ export default class HomepageComponent extends Component {
               {' or discover my work below.'}
             </p>
             <img
-              className="arrow"
+              className="moving-arrow"
               src={require('../images/arrow_downward.svg')}
               alt="scroll down"
               onClick={() => {
@@ -82,8 +83,9 @@ export default class HomepageComponent extends Component {
                   description={
                     'Researched how new users experience Coda’s document editor and designed solutions to friction points.'
                   }
-                  buttonText={'Read more'}
+                  buttonText={'Read more '}
                   buttonColor={'#FF7453'}
+                  buttonIcon={'arrow-forward.svg'}
                 />
               </NavLink>
             </div>
@@ -95,8 +97,9 @@ export default class HomepageComponent extends Component {
                   description={
                     'Designed our first website and onboarding flow, successfully authenticating 11k+ students for Valentine’s 2021.'
                   }
-                  buttonText={'Read more'}
+                  buttonText={'Read more '}
                   buttonColor={'#F31F52'}
+                  buttonIcon={'arrow-forward.svg'}
                 />
               </NavLink>
             </div>
@@ -111,8 +114,9 @@ export default class HomepageComponent extends Component {
                   description={
                     'Case study exploring ways to improve Slack’s sign in process, resulting in increased user satisfaction.'
                   }
-                  buttonText={'Read more'}
+                  buttonText={'Read more '}
                   buttonColor={'#4D1D52'}
+                  buttonIcon={'arrow-forward.svg'}
                 />
               </NavLink>
             </div>
@@ -128,8 +132,9 @@ export default class HomepageComponent extends Component {
                   description={
                     'Learned about design topics like UI, motion and product thinking every day for 100 days. See the gallery!'
                   }
-                  buttonText={'Read more'}
+                  buttonText={'Read more '}
                   buttonColor={'#3430B9'}
+                  buttonIcon={'arrow-diag.svg'}
                 />
               </a>
             </div>
@@ -143,8 +148,9 @@ export default class HomepageComponent extends Component {
                   description={
                     'Designed products that enhance how players experience the EA community and how they connect with games.'
                   }
-                  buttonText={'Read more'}
+                  buttonText={'Read more '}
                   buttonColor={'#121142'}
+                  buttonIcon={'arrow-forward.svg'}
                 />
               </NavLink>
             </div>
@@ -156,8 +162,9 @@ export default class HomepageComponent extends Component {
                   description={
                     'Designed and deployed an in-store beverage recommendation app and started our first design system.'
                   }
-                  buttonText={'Read more'}
+                  buttonText={'Read more '}
                   buttonColor={'#01B456'}
+                  buttonIcon={'arrow-forward.svg'}
                 />
               </NavLink>
             </div>
