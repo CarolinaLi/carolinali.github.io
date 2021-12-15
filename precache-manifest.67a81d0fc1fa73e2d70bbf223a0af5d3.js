@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "d1972c9e000826501d62",
+    "revision": "e9852087a83f25e6d5bb",
     "url": "/static/css/main.2d09eca1.chunk.css"
   },
   {
-    "revision": "d1972c9e000826501d62",
-    "url": "/static/js/main.ea48c2f0.chunk.js"
+    "revision": "e9852087a83f25e6d5bb",
+    "url": "/static/js/main.3cf6959b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "92291d136b698551fd5f",
-    "url": "/static/js/2.f4bcd3ac.chunk.js"
+    "revision": "706390c4e4a67a08cacf",
+    "url": "/static/js/2.fb8c85a2.chunk.js"
   },
   {
     "revision": "58bc3e4b133228e53d2cc28fc1dbbf79",
     "url": "/static/media/arrow_upward.58bc3e4b.svg"
   },
   {
-    "revision": "0e036ef62bcb7b4f9a3ccd7a49af3d7c",
-    "url": "/static/media/CarolinaLiResumeDec5.0e036ef6.pdf"
+    "revision": "d139b83b19ac54f1fb75c67502fce321",
+    "url": "/static/media/CarolinaLiResumeDec15.d139b83b.pdf"
   },
   {
     "revision": "5bc3a40dd002b82a584c020728f28708",
@@ -380,16 +380,8 @@ self.__precacheManifest = [
     "url": "/static/media/slack.436ac2f9.gif"
   },
   {
-    "revision": "e17b3f37d274d677938f68bd1f889392",
-    "url": "/static/media/CarolinaLiResumeMay17.e17b3f37.pdf"
-  },
-  {
-    "revision": "6803eb9e337d78e599c4ef6b788e5f44",
-    "url": "/static/media/CarolinaLiResumeMay17UWUX.6803eb9e.pdf"
-  },
-  {
-    "revision": "e4558687180eba0f10bf78673cc16f8f",
-    "url": "/static/media/CarolinaLiResumeOct10.e4558687.pdf"
+    "revision": "0e036ef62bcb7b4f9a3ccd7a49af3d7c",
+    "url": "/static/media/CarolinaLiResumeDec5.0e036ef6.pdf"
   },
   {
     "revision": "2c90a6a4604bafa47ce7dcfb64f8327a",
@@ -468,7 +460,7 @@ self.__precacheManifest = [
     "url": "/static/media/slack-problem-explanation.58395139.png"
   },
   {
-    "revision": "c7f81b0d9fc666fab1f8cadbce89e91d",
+    "revision": "3e1a9d4d9650662586a899aedd37fdce",
     "url": "/index.html"
   }
 ];
