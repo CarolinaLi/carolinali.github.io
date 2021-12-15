@@ -4,7 +4,7 @@ import Header from './HeaderComponent';
 import '../css/Global.css';
 import '../css/HomepageComponent.css';
 import FooterComponent from './FooterComponent';
-import Pdf from '../images/CarolinaLiResumeDec5.pdf';
+import Pdf from '../images/CarolinaLiResumeDec15.pdf';
 import TileComponent from './TileComponent';
 import ArrowForward from '../images/arrow_downward.svg';
 
