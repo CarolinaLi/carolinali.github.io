@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f56890ebb42772a85379",
+    "revision": "f7059c2f6080c020b699",
     "url": "/static/css/main.2d09eca1.chunk.css"
   },
   {
-    "revision": "f56890ebb42772a85379",
-    "url": "/static/js/main.c748eb91.chunk.js"
+    "revision": "f7059c2f6080c020b699",
+    "url": "/static/js/main.21dfdc9f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -460,7 +460,7 @@ self.__precacheManifest = [
     "url": "/static/media/slack-problem-explanation.58395139.png"
   },
   {
-    "revision": "8d6bf5cae6a7b7b6c786215b72a87b70",
+    "revision": "96395baaebe4abe4ed741131a4965b0f",
     "url": "/index.html"
   }
 ];
