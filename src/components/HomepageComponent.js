@@ -28,7 +28,7 @@ export default class HomepageComponent extends Component {
             </h1>
             <p className="text">
               {
-                'I’m a product designer currently studying CS, HCI & Fine Arts at the University of Waterloo. Previously, I researched and designed for new users at '
+                'I’m a product designer studying computer science at the University of Waterloo. Recently, I designed for new users at '
               }
               <a
                 className="link text-link"
@@ -41,12 +41,22 @@ export default class HomepageComponent extends Component {
               {' as a '}
               <a
                 className="link text-link"
-                href="https://fellows.kleinerperkins.com/meet-the-fellows/2021/design/"
+                href="https://fellows.kleinerperkins.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Kleiner Perkins Fellow
               </a>
+              {' and researched wearables at '}
+              <a
+                className="link text-link"
+                href="https://consumer.huawei.com/ca/wearables/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Huawei
+              </a>
+              
               {'.'}
               <br />
               <br />

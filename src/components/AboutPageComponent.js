@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
-import Header from '../components/HeaderComponent';
-import FooterComponent from './FooterComponent';
-import '../css/Global.css';
-import '../css/AboutPageComponent.css';
-import '../css/HomepageComponent.css';
-import firstPic from '../images/about2021.jpg';
-import secondPic from '../images/about2021.jpg';
-import artWatercolour from '../images/art-watercolour64.gif';
-import artWalkcycle from '../images/art-tigerwalk.gif';
-import artAcrylic from '../images/art-acrylic.png';
-import artAcrylicAnimate from '../images/art-acrylic-animate.gif';
-import bookUniversal from '../images/book-universal.png';
-import bookStoneAngel from '../images/book-stoneangel.png';
-import bookBraveNewWorld from '../images/book-bravenewworld.png';
-import bookDune from '../images/book-dune.png';
-import iconExternalLink from '../images/icon-external-link.svg';
+import React, { Component } from "react";
+import Header from "../components/HeaderComponent";
+import FooterComponent from "./FooterComponent";
+import "../css/Global.css";
+import "../css/AboutPageComponent.css";
+import "../css/HomepageComponent.css";
+import firstPic from "../images/about1.png";
+import secondPic from "../images/about2.png";
+import artWatercolour from "../images/art-watercolour64.gif";
+import artWalkcycle from "../images/art-tigerwalk.gif";
+import artAcrylic from "../images/art-acrylic.png";
+import artAcrylicAnimate from "../images/art-acrylic-animate.gif";
+import bookUniversal from "../images/book-universal.png";
+import bookStoneAngel from "../images/book-stoneangel.png";
+import bookBraveNewWorld from "../images/book-bravenewworld.png";
+import bookDune from "../images/book-dune.png";
+import iconExternalLink from "../images/icon-external-link.svg";
 
 export default class AboutPageComponent extends Component {
   constructor(props) {
@@ -49,8 +49,8 @@ export default class AboutPageComponent extends Component {
                   className="img-fluid"
                   src={this.state.hover ? secondPic : firstPic}
                   alt="portrait"
-                  onMouseOver={() => this.hoverHandler('hover')}
-                  onMouseOut={() => this.unhoverHandler('hover')}
+                  onMouseOver={() => this.hoverHandler("hover")}
+                  onMouseOut={() => this.unhoverHandler("hover")}
                 />
               </div>
               <div className="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
@@ -59,28 +59,74 @@ export default class AboutPageComponent extends Component {
                 </h1>
                 <br></br>
                 <p className="about-text" align="left">
-                  I’m a product designer with a background in computer science.
-                  My favourite parts of the design process are the beginning
-                  (research) and the end (hand-off), because that’s where teams
-                  intersect and collaborate the most.
+                  I study computer science at the University of Waterloo, with a
+                  specialization in HCI. Previously, I designed at{" "}
+                  <a
+                    className="link text-link"
+                    href="https://coda.io/welcome"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Coda
+                  </a>
+                  ,{" "}
+                  <a
+                    className="link text-link"
+                    href="https://arcticwolf.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Arctic Wolf
+                  </a>{" "}
+                  and{" "}
+                  <a
+                    className="link text-link"
+                    href="https://www.ea.com/ea-app-beta"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Electronic Arts
+                  </a>
+                  .
                 </p>
                 <br></br>
                 <p className="about-text" align="left">
-                  Current obsessions: <br></br>· Research<br></br>· Copy — words are fascinating{' '}
-                  <br></br>· Systems thinking 
-                </p>
-                <br></br>
-                <p className="about-text" align="left">
-                  Outside of design I like creating{' '}
+                  Ever since I was a kid, I’ve been interested in design. In
+                  highschool, I ran an{" "}
                   <a
                     className="link text-link"
                     href="https://society6.com/linarts/collection/gallery"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    art
+                    art store
                   </a>
-                  , reading{' '}
+                  , and in university, I discovered the tech world. As a product
+                  designer, I get to bridge these different interests and solve
+                  problems.
+                </p>
+                <br></br>
+                <p className="about-text" align="left">
+                  I love documenting what I'm learning — check out my
+                  100 day{" "}
+                  <a
+                    className="link text-link"
+                    href="https://www.notion.so/230ab95c1afd45c89755c2e98370b0ef?v=c4abdf3a8b5649b5845013eb9fd3ca0a"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    design
+                  </a>{" "}
+                  challenge and 30 day{" "}
+                  <a
+                    className="link text-link"
+                    href="https://reading.supply/@carolinali"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    writing 
+                  </a>{" "}
+                  challenge. Outside of design, I spend my time reading{" "}
                   <a
                     className="link text-link"
                     href="https://www.goodreads.com/carolina-li"
@@ -89,7 +135,7 @@ export default class AboutPageComponent extends Component {
                   >
                     books
                   </a>
-                  , and discovering new{' '}
+                  , discovering new{" "}
                   <a
                     className="link text-link"
                     href="https://open.spotify.com/playlist/5UevL1bTnQltqNFw1iMA12"
@@ -97,22 +143,28 @@ export default class AboutPageComponent extends Component {
                     rel="noopener noreferrer"
                   >
                     music
-                  </a>
-                  . I’m also a part of{' '}
+                  </a>{" "}
+                  and creating{" "}
                   <a
                     className="link text-link"
-                    href="uwux.ca"
+                    href="https://www.behance.net/carolinali1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    UWaterloo's UX club
-                  </a>{' '}
-                  and learning guitar 🎸
+                    art
+                  </a>
+                  .
                 </p>
                 <br></br>
+                <p className="about-text" align="left">
+                  Some of my current obsessions: <br></br>· Writing<br></br>·
+                  Evergreen notes & zettelkasten <br></br>· Fluffy Japanese
+                  cheesecakes!
+                </p>
                 <br></br>
                 <p className="about-text" align="left">
-                  I'm currently looking for full-time Product Design opportunities.
+                  I'm looking for full-time Product Design
+                  opportunities for 2022.
                 </p>
                 <br></br>
               </div>
@@ -128,9 +180,8 @@ export default class AboutPageComponent extends Component {
                 Artwork
               </h1>
               <p className="about-text" align="left">
-                I like watercolours, digital art, and painting outdoors. Currently
-                pursuing a minor in Fine Arts and interested in learning character art /
-                caricatures.
+                I like watercolours, digital art, and painting outdoors. I’m
+                also minoring in Fine Arts.
               </p>
             </div>
           </div>
@@ -160,8 +211,8 @@ export default class AboutPageComponent extends Component {
                 className="img-fluid"
                 src={this.state.hover ? artAcrylicAnimate : artAcrylic}
                 alt="portrait"
-                onMouseOver={() => this.hoverHandler('hover')}
-                onMouseOut={() => this.unhoverHandler('hover')}
+                onMouseOver={() => this.hoverHandler("hover")}
+                onMouseOut={() => this.unhoverHandler("hover")}
               />
               <p>
                 <br></br>Acrylic painting
@@ -172,11 +223,11 @@ export default class AboutPageComponent extends Component {
             <div className="col text-right">
               <a
                 className="link text-link"
-                href="https://society6.com/linarts/collection/gallery"
+                href="https://www.behance.net/carolinali1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Art store{' '}
+                Behance{" "}
               </a>
               <img
                 className="img-fluid"
@@ -188,20 +239,16 @@ export default class AboutPageComponent extends Component {
         </div>
 
         <div className="container text-section pt-5 pb-5">
-
-
           <div className="row">
             <div className="col-lg-7 mb-4">
               <h1 className="title" align="left">
                 Books
               </h1>
               <p className="about-text" align="left">
-                Old and new favourites.
+                Here are some books that I keep thinking about over the years.
               </p>
             </div>
           </div>
-
-
 
           <div className="row gx-5 about-row">
             <div className="col-sm-6 col-lg-3 pl-0 pr-0 pb-5">
@@ -241,7 +288,7 @@ export default class AboutPageComponent extends Component {
               </div>
             </div>
           </div>
-          
+
           {/* attempt to align the right */}
           {/* <div className="row d-flex justify-content-lg-between gx-5 about-row">
             <div className="col-sm-6 col-lg-3 pb-5">
@@ -274,8 +321,6 @@ export default class AboutPageComponent extends Component {
             </div>
           </div> */}
 
-
-
           <div className="row gx-5 about-row">
             <div className="col text-right">
               <a
@@ -284,7 +329,7 @@ export default class AboutPageComponent extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Goodreads{' '}
+                Goodreads{" "}
               </a>
               <img
                 className="img-fluid"
